@@ -1,0 +1,180 @@
+<header class="main-header">
+            <div class="header-top">
+                <div class="auto-container">
+                    <div class="top-outer clearfix">
+                        <div class="top-left">
+                            <ul class="links clearfix">
+                                <li><a href="javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="javascript:void(0)"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="top-right clearfix">
+                            <ul class="clearfix">
+                                <li><a href="#">BSE India : Konstelec Engineers Limited</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-box">
+                <div class="auto-container second-option">
+                    <div class="outer-container clearfix">
+                        <div class="logo-box">
+                            <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+                        </div>
+                        <div class="navbar-content">
+                            <div class="email-number">
+                                <ul class="links clearfix">
+                                    <li><a href="#"><span class="icon fa fa-phone"></span>+0 625-07520-6644</a></li>
+                                    <li><a href="#"><span class="icon fa fa-envelope-o"></span>Mailus@Metroindustry.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                            <input type="checkbox" id="myInput">
+                            <label for="myInput">
+                                <span class="bar top"></span>
+                                <span class="bar middle"></span>
+                                <span class="bar bottom"></span>
+                            </label>
+                            <aside>
+                                <div class="aside-section aside-left">
+                                <div class="aside-content">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <div class="img_overlay"></div>
+                                                <img src="images/menu1.jpg" alt="">
+                                                <h3>Engineering Design & Drawings</h3>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <div class="img_overlay"></div>
+                                                <img src="images/menu2.jpg" alt="">
+                                                <h3>Procurement</h3>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <div class="img_overlay"></div>
+                                                <img src="images/menu3.jpg" alt="">
+                                                <h3>Operations & Maintenance</h3>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <div class="img_overlay"></div>
+                                                <img src="images/menu4.jpg" alt="">
+                                                <h3>Project Management </h3>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <div class="img_overlay"></div>
+                                                <img src="images/menu5.jpg" alt="">
+                                                <h3>Construction & Commissioning</h3>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <div class="img_overlay"></div>
+                                                <img src="images/menu6.jpg" alt="">
+                                                <h3>Training & Skill Development </h3>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                </div>
+                                <div class="aside-section aside-right">
+                                <a href="javascript:void(0)"><img src="images/logo.png" alt=""></a>
+                                <ul class="aside-list mt-5">
+                                    <li class="dropdown">
+                                        <a href="javascript:void(0)" class="aside-anchor dropdowns">About Us
+                                            <span><img src="svg/plus.svg" alt=""></span> 
+                                          </a>
+                                          <ul class="dropdowns-menu" style="display: none;">
+                                            <li><a href="javascript:void(0)">Vision / Mission / Values</a></li>
+                                            <li><a href="javascript:void(0)">Managing Director</a></li>
+                                            <li><a href="javascript:void(0)">Quality Policy</a></li>
+                                            <li><a href="javascript:void(0)">HR Policies</a></li>
+                                            <li><a href="javascript:void(0)">Achievements</a></li>
+                                            <li><a href="javascript:void(0)">CSR</a></li>
+                                          </ul>
+                                      </li>
+                                    <li class="dropdown">
+                                        <a href="javascript:void(0)" class="aside-anchor dropdowns">Services
+                                            <span><img src="svg/plus.svg" alt=""></span> 
+                                          </a>
+                                          <ul class="dropdowns-menu" style="display: none;">
+                                            <li><a href="javascript:void(0)">Engineering Design</a></li>
+                                            <li><a href="javascript:void(0)">Engineering Project</a></li>
+                                            <li><a href="javascript:void(0)">Procurement</a></li>
+                                            <li><a href="javascript:void(0)">Operation & Maintenance</a></li>
+                                            <li><a href="javascript:void(0)">Project Management</a></li>
+                                            <li><a href="javascript:void(0)">Construction & Commissioning</a></li>
+                                          </ul>
+                                      </li>
+                                      <li class="dropdown">
+                                        <a href="javascript:void(0)" class="aside-anchor one">Our Expertise</a>
+                                      </li>
+                                      <li class="dropdown">
+                                        <a href="javascript:void(0)" class="aside-anchor dropdowns">Projects
+                                            <span><img src="svg/plus.svg" alt=""></span> 
+                                          </a>
+                                          <ul class="dropdowns-menu" style="display: none;">
+                                            <li><a href="javascript:void(0)">Hydrocarbon / Oil & Gas</a></li>
+                                            <li><a href="javascript:void(0)">Power</a></li>
+                                            <li><a href="javascript:void(0)">Solar</a></li>
+                                            <li><a href="javascript:void(0)">Steel & Cement</a></li>
+                                            <li><a href="javascript:void(0)">Substation/Switch yard</a></li>
+                                            <li><a href="javascript:void(0)">Port / Pharmaceutical / Textiles / Commercial Complex</a></li>
+                                            <li><a href="javascript:void(0)">International Projects</a></li>
+                                          </ul>
+                                      </li>
+                                    <li class="dropdown">
+                                      <a href="training.php" class="aside-anchor one">Clients</a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="product-finder.php" class="aside-anchor one">Resources</a>
+                                      </li>
+                                    <li class="dropdown">
+                                      <a href="product-finder.php" class="aside-anchor one">Career</a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="javascript:void(0)" class="aside-anchor dropdowns">Investors
+                                            <span><img src="svg/plus.svg" alt=""></span> 
+                                          </a>
+                                          <ul class="dropdowns-menu" style="display: none;">
+                                            <li><a href="javascript:void(0)">Financial Information</a></li>
+                                            <li><a href="javascript:void(0)">AGM Related Information</a></li>
+                                            <li><a href="javascript:void(0)">Letter To Shareholders</a></li>
+                                            <li><a href="javascript:void(0)">Notice To Member</a></li>
+                                            <li><a href="javascript:void(0)">Corporate Announcement</a></li>
+                                            <li><a href="javascript:void(0)">Corporate Governance</a></li>
+                                            <li><a href="javascript:void(0)">Shareholding Pattern</a></li>
+                                            <li><a href="javascript:void(0)">Investors Information</a></li>
+                                          </ul>
+                                      </li>
+                                      <li class="dropdown">
+                                        <a href="javascript:void(0)" class="aside-anchor dropdowns">Contact Us
+                                            <span><img src="svg/plus.svg" alt=""></span> 
+                                          </a>
+                                          <ul class="dropdowns-menu" style="display: none;">
+                                            <li><a href="javascript:void(0)">Contact US</a></li>
+                                            <li><a href="javascript:void(0)">Vendor Registration Form</a></li>
+                                            <li><a href="javascript:void(0)">Contractor Registration Form</a></li>
+                                          </ul>
+                                      </li>
+                                  </ul>
+                                </div>
+                            </aside>
+                    </div>
+                </div>
+            </div>
+        </header>
