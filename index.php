@@ -12,7 +12,7 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
-          <img src="images/Home-Hero-Slider-One.jpg" class="d-block w-100" alt="home slider 1">
+          <img src="images/Home-Hero-Slider-One.png" class="d-block w-100" alt="home slider 1">
           <div class="carousel-caption d-none" >
             <h5 class="animated fadeInUp">An Integrated <br> <span>SOLUTION PROVIDER</span></h5>
             <p class="common-para text-start text-white mt-3 mb-3 animated fadeInUp" style="animation-delay: 2s">Established in 1995, Konstelec Engineers Limited (KEL) is a leading <br> engineering, procurement, and construction/commissioning contractor <br> in India.  we specialize in offering integrated services for electrical.</p>
@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-        <img src="images/Home-Hero-Slider-Two.jpg" class="d-block w-100" alt="home slider 2">
+        <img src="images/Home-Hero-Slider-Two.png" class="d-block w-100" alt="home slider 2">
           <div class="carousel-caption d-none">
             <h5 class="animated fadeInUp">Over Two Decades <br><span>of EPC EXCELLENCE</span></h5>
             <p class="common-para text-start text-white mt-3 mb-3 animated fadeInUp" style="animation-delay: 2s">Established in 1995, Konstelec Engineers Limited (KEL) is a leading <br> engineering, procurement, and construction/commissioning contractor <br> in India.  we specialize in offering integrated services for electrical.</p>
@@ -36,7 +36,7 @@
           </div>
         </div>
         <div class="carousel-item">
-        <img src="images/Home-Hero-Slider-Three.jpg" class="d-block w-100" alt="home slider 3">
+        <img src="images/Home-Hero-Slider-Three.png" class="d-block w-100" alt="home slider 3">
           <div class="carousel-caption d-none">
             <h5 class="animated fadeInUp">Sustainable Solutions <br> <span>for the FUTURE</span></h5>
             <p class="common-para text-start text-white mt-3 mb-3 animated fadeInUp" style="animation-delay: 2s">Established in 1995, Konstelec Engineers Limited (KEL) is a leading <br> engineering, procurement, and construction/commissioning contractor <br> in India.  we specialize in offering integrated services for electrical.</p>
@@ -63,22 +63,22 @@
             <h1 class="common-heading" data-aos="fade-up" data-aos-duration="1000">Konstelec Engineers Limited (KEL) offers <br>a full-range of Engineering</h1>
             <div class="usps-main mt-5">
                 <div class="usp-content" data-aos="fade-up">
-                    <img src="svg/creative.svg" alt="">
+                    <img src="svg/silhouette.svg" alt="">
                     <span class="mt-3 mb-2">45 Years Experience</span>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
                 <div class="usp-content" data-aos="fade-up" data-aos-duration="500">
-                    <img src="svg/delivery.svg" alt="">
+                    <img src="svg/leadership.svg" alt="">
                     <span class="mt-3 mb-2">Best Team Member</span>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
                 <div class="usp-content" data-aos="fade-up" data-aos-duration="1000">
-                    <img src="svg/factory.svg" alt="">
+                    <img src="svg/services.svg" alt="">
                     <span class="mt-3 mb-2">The Best Services</span>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
                 <div class="usp-content" data-aos="fade-up" data-aos-duration="1500">
-                    <img src="svg/safety.svg" alt="">
+                    <img src="svg/silhouette.svg" alt="">
                     <span class="mt-3 mb-2">Unique Technology</span>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>

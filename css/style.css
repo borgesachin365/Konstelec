@@ -1,40 +1,9 @@
-/* The Metron - Industry and Factory HTML Template */
 
-/************ TABLE OF CONTENTS ***************
-1. Fonts
-2. Reset
-3. Global
-4. Main Header / Style Two / Style Three
-5. Main Slider
-6. Services Section
-7. Score Section
-8. Features Section
-9. Marketing Section
-10. Case Section
-11. Testimonial Section
-12. Pricing Section
-13. Partners Section
-14. Main Footer
-15. Page Title
-16. Accordian Section
-17. Sidebar Widgets
-18. Quote Form Section
-19. About Section
-20. Team Section
-21. Clients Section
-22. Seo Section
-23. Error Section
-24. Comming Soon Section
-25. Pricing Section
-26. Contact Form Section
-
-**********************************************/
 
 @import url('https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 
-/*font-family: 'Rubik', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Hind', sans-serif;*/
 
 @import url('font-awesome.css');
 @import url('flaticon.css');
@@ -66,7 +35,10 @@ font-family: 'Hind', sans-serif;*/
 ====================================================================
 
  ***/
-
+:root{
+	--heading-font: 'Montserrat', sans-serif;
+	--paragraph-font: 'Roboto', sans-serif;
+}
 body {
 	font-size:15px;
 	color:#777777;
@@ -76,6 +48,8 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
 	font-family: 'Rubik', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 a{

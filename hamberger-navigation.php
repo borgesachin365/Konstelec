@@ -31,8 +31,8 @@
                         <div class="navbar-content">
                             <div class="email-number">
                                 <ul class="links clearfix">
-                                    <li><a href="#"><span class="icon fa fa-phone"></span>+0 625-07520-6644</a></li>
-                                    <li><a href="#"><span class="icon fa fa-envelope-o"></span>Mailus@Metroindustry.com</a></li>
+                                    <li><a href="tel:+91-22-4342 1500"><span class="icon fa fa-phone"></span>+91-22-4342 1500</a></li>
+                                    <li><a href="mailto:kepl@konstelec.com"><span class="icon fa fa-envelope-o"></span>kepl@konstelec.com</a></li>
                                 </ul>
                             </div>
                         </div>

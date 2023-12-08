@@ -53,7 +53,7 @@ $('li.dropdown > a').on('click',function(event){
 // our client slider
 $("#client-slider").owlCarousel({
   loop:true,
-  autoplay: true,
+  autoplay: false,
   margin: 20,
   responsiveClass: true,
   autoHeight: true,
