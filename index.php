@@ -15,7 +15,6 @@
           <img src="images/Home-Hero-Slider-One.png" class="d-block w-100" alt="home slider 1">
           <div class="carousel-caption d-none" >
             <h5 class="animated fadeInUp">An Integrated <br> <span>SOLUTION PROVIDER</span></h5>
-            <p class="common-para text-start text-white mt-3 mb-3 animated fadeInUp" style="animation-delay: 2s">Established in 1995, Konstelec Engineers Limited (KEL) is a leading <br> engineering, procurement, and construction/commissioning contractor <br> in India.  we specialize in offering integrated services for electrical.</p>
             <button class="cta-btn mt-4 animated fadeInUp" style="animation-delay: 2s">
                 <a href="javascript:vooid(0)">
                     Know More
@@ -27,7 +26,6 @@
         <img src="images/Home-Hero-Slider-Two.png" class="d-block w-100" alt="home slider 2">
           <div class="carousel-caption d-none">
             <h5 class="animated fadeInUp">Over Two Decades <br><span>of EPC EXCELLENCE</span></h5>
-            <p class="common-para text-start text-white mt-3 mb-3 animated fadeInUp" style="animation-delay: 2s">Established in 1995, Konstelec Engineers Limited (KEL) is a leading <br> engineering, procurement, and construction/commissioning contractor <br> in India.  we specialize in offering integrated services for electrical.</p>
             <button class="cta-btn mt-4 animated fadeInUp" style="animation-delay: 2s">
                 <a href="javascript:vooid(0)">
                     Know More
@@ -39,7 +37,6 @@
         <img src="images/Home-Hero-Slider-Three.png" class="d-block w-100" alt="home slider 3">
           <div class="carousel-caption d-none">
             <h5 class="animated fadeInUp">Sustainable Solutions <br> <span>for the FUTURE</span></h5>
-            <p class="common-para text-start text-white mt-3 mb-3 animated fadeInUp" style="animation-delay: 2s">Established in 1995, Konstelec Engineers Limited (KEL) is a leading <br> engineering, procurement, and construction/commissioning contractor <br> in India.  we specialize in offering integrated services for electrical.</p>
             <button class="cta-btn mt-4 animated fadeInUp" style="animation-delay: 2s">
                 <a href="javascript:vooid(0)">
                     Know More
@@ -60,7 +57,7 @@
     <!--our USP section start-->
     <section class="home-our-usps common-padding">
         <div class="auto-container">
-            <h1 class="common-heading" data-aos="fade-up" data-aos-duration="1000">Konstelec Engineers Limited (KEL) offers <br>a full-range of Engineering</h1>
+            <h1 class="common-heading text-center" data-aos="fade-up" data-aos-duration="1000">Konstelec Engineers Limited (KEL) offers <br>a full-range of Engineering</h1>
             <div class="usps-main mt-5">
                 <div class="usp-content" data-aos="fade-up">
                     <img src="svg/silhouette.svg" alt="">
@@ -89,7 +86,7 @@
     <!--about us section start-->
     <section class="about-us common-padding">
         <div class="auto-container">
-            <h1 class="common-heading" style="color:#245690;"  data-aos="fade-down" data-aos-duration="500">Konstelec Engineers Limited (KEL) offers <br>a full-range of Engineering</h1>
+            <h1 class="common-heading text-center" style="color:#245690;"  data-aos="fade-down" data-aos-duration="500">Konstelec Engineers Limited (KEL) offers <br>a full-range of Engineering</h1>
             <div class="row mt-5">
                 <div class="col-sm-12 col-md-12 col-lg-4">
                   <div class="about__text mt-30">
@@ -159,7 +156,7 @@
                         <div class="icon-box">
                         	<span class="icon flaticon-conveyor"></span>
                         </div>
-                        <a href="javascript:void(0)" class="view_all">Go Through <span class="icon flaticon-right-arrow-1"></span></a>
+                        <a href="javascript:void(0)" class="view_all">Know More <span class="icon flaticon-right-arrow-1"></span></a>
                     </div>
                 </div>
                 <div class="market-block m-block col-lg-4 col-md-6 col-sm-6 col-xs-12">
@@ -169,7 +166,7 @@
                         <div class="icon-box">
                         	<span class="icon flaticon-demolishing"></span>
                         </div>
-                        <a href="javascript:void(0)" class="view_all">Go Through <span class="icon flaticon-right-arrow-1"></span></a>
+                        <a href="javascript:void(0)" class="view_all">Know More <span class="icon flaticon-right-arrow-1"></span></a>
                     </div>
                 </div>
                 <div class="market-block m-block col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-0">
@@ -179,7 +176,7 @@
                         <div class="icon-box">
                         	<span class="icon flaticon-valve"></span>
                         </div>
-                        <a href="javascript:void(0)" class="view_all">Go Through <span class="icon flaticon-right-arrow-1"></span></a>
+                        <a href="javascript:void(0)" class="view_all">Know More <span class="icon flaticon-right-arrow-1"></span></a>
                     </div>
                 </div>
                 <div class="market-block m-block col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-0">
@@ -189,7 +186,7 @@
                         <div class="icon-box">
                         	<span class="icon flaticon-boat"></span>
                         </div>
-                        <a href="javascript:void(0)" class="view_all">Go Through <span class="icon flaticon-right-arrow-1"></span></a>
+                        <a href="javascript:void(0)" class="view_all">Know More <span class="icon flaticon-right-arrow-1"></span></a>
                     </div>
                 </div>
                 <div class="market-block m-block col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-0">
@@ -199,7 +196,7 @@
                         <div class="icon-box">
                         	<span class="icon flaticon-flasks"></span>
                         </div>
-                        <a href="javascript:void(0)" class="view_all">Go Through <span class="icon flaticon-right-arrow-1"></span></a>
+                        <a href="javascript:void(0)" class="view_all">Know More <span class="icon flaticon-right-arrow-1"></span></a>
                     </div>
                 </div>
             </div>

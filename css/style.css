@@ -696,7 +696,7 @@ img{
 .main-header .header-top .top-left .links li a{
 	position:relative;
 	line-height:22px;
-	color:#245690;
+	color:#0f3693;
 	font-size:16px;
 	font-weight:400;
 	-moz-transition:all 500ms ease;
@@ -735,14 +735,16 @@ img{
 }
 
 .main-header .header-top .top-right ul li a{
-	position:relative;
-	color:#020e28;
-	font-size:16px;
-	-moz-transition:all 500ms ease;
-	-webkit-transition:all 500ms ease;
-	-ms-transition:all 500ms ease;
-	-o-transition:all 500ms ease;
-	transition:all 500ms ease;
+    position: relative;
+    color: #0f3693;
+    font-size: 15px;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    font-weight: 600;
+	font-family: var(--heading-font);
 }
 
 .header-style-two .header-top .top-right ul li a,
@@ -1116,7 +1118,7 @@ img{
 	-moz-transition:all 300ms ease;
 	transition:all 300ms ease;
 	padding: 12px 0px;
-	background-color: #245690de;
+	background-color: #0f3693;
 	float: left;
 }
 

@@ -19,12 +19,13 @@
     line-height: 22px;
     color: #e3e3e3;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     -moz-transition: all 500ms ease;
     -webkit-transition: all 500ms ease;
     -ms-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
+    font-family: var(--heading-font);
 }
 .email-number .links li:after {
     content: '';
@@ -41,7 +42,7 @@
 .email-number .links li .icon {
     position: relative;
     top: 0px;
-    color: #5ca3fb;
+    color: #fff;
     font-size: 18px;
     line-height: 24px;
     margin-right: 10px;
@@ -79,7 +80,7 @@
   .aside-right {
     width: 100%;
     right: 0;
-    background-color: #2e75c7;
+    background-color: #0f3693;
     -webkit-transform: translateX(100%);
     -moz-transform: translateX(100%);
     -ms-transform: translateX(100%);
@@ -165,7 +166,8 @@
   bottom: 0;
   right: 0;
   top: 0;
-  background: linear-gradient(90deg, rgb(23 106 202) 0%, rgb(92 163 251 / 48%) 100%, rgb(5 104 184 / 90%) 47%, rgb(0 91 197 / 91%) 0%);
+  /* background: linear-gradient(90deg, rgb(23 106 202) 0%, rgb(92 163 251 / 48%) 100%, rgb(5 104 184 / 90%) 47%, rgb(0 91 197 / 91%) 0%); */
+  background: linear-gradient(90deg, rgb(15 54 147) 0%, rgb(135 135 135 / 43%) 100%, rgb(15 54 147) 47%, rgb(15 54 147) 0%);
 }
 .aside-left .aside-content ul li:hover .img_overlay {
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(92 163 251 / 48%) 100%, rgb(5 104 184 / 90%) 47%, rgb(0 91 197 / 91%) 0%);
@@ -176,12 +178,14 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 21px;
+  font-size: 24px;
   color: #fff;
   z-index: 2;
   transition: all 0.5s;
   font-weight: 500;
   text-align: center;
+  font-family: var(--heading-font);
+  line-height: 36px;
 }
   .aside-left .aside-content {
     text-align: left;
