@@ -86,7 +86,7 @@
     <!--about us section start-->
     <section class="about-us common-padding">
         <div class="auto-container">
-            <h1 class="common-heading text-center" style="color:#245690;"  data-aos="fade-down" data-aos-duration="500">Konstelec Engineers Limited (KEL) offers <br>a full-range of Engineering</h1>
+            <h1 class="common-heading text-center" style="color:#245690;"  data-aos="fade-down" data-aos-duration="500">About Us</h1>
             <div class="row mt-5">
                 <div class="col-sm-12 col-md-12 col-lg-4">
                   <div class="about__text mt-30">

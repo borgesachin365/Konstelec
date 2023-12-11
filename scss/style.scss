@@ -1,76 +1,9 @@
-$color_1: #777777;
-$color_2: #ababab;
-$color_3: #f55b14;
-$color_4: #0f3693;
-$color_5: #ffffff;
-$color_6: #5ca3fb;
-$color_7: #808080;
-$color_8: #5c657a;
-$color_9: #c1c1c1;
-$color_10: rgba(255,255,255,1);
-$color_11: #020e28;
-$color_12: #444444;
-$color_13: #848484;
-$color_14: #fff;
-$color_15: #c4c4c4;
-$color_16: #245690;
-$font-family_1: 'Rubik', sans-serif;
-$font-family_2: 'Roboto', sans-serif;
-$font-family_3: 'Montserrat', sans-serif;
-$font-family_4: var(--heading-font);
-$font-family_5: 'Poppins', sans-serif;
-$font-family_6: var(--paragraph-font);
-$background-color_1: #d0d0d0;
-$background-color_2: #ffffff;
-$background-color_3: rgba(255,255,255,0.20);
-$background-color_4: #020e28;
-$background-color_5: #f55b14;
-$background-color_6: #222222;
-$background-color_7: #0f3693;
-$background-color_8: rgba(230,230,230,1);
-$background-color_9: #e6e6e6;
-$background-color_10: rgba(2,14,40,0.96);
-$background-color_11: #fff;
-$background-color_12: #5ca3fb;
-$background-color_13: #245690;
-$background-color_14: #0b0b0b;
-$border-color_1: rgba(255,255,255,0.15);
-$border-color_2: #e6e6e6;
-$border-color_3: #f55b14;
-$border-color_4: #245690;
+
+@import 'reset';
+@import 'variables';
+@import 'hamberger-nav';
 
 
-
-
-$primary-color:#0f3693;
-$secondary-color:#fff;
-$heading-font:'Montserrat', sans-serif;
-$paragraph-font:'Roboto', sans-serif;
-$text-color:#404041;
-$nav-dropdown-color:#97c7ff;
-$bg-gray: #f4f4f4;
-$black-color:#000;
-
-
-* {
-	margin: 0px;
-	padding: 0px;
-	border: none;
-	outline: none;
-}
-a {
-	text-decoration: none;
-}
-ul {
-	list-style: none;
-	padding: 0px;
-	margin: 0px;
-}
-li {
-	list-style: none;
-	padding: 0px;
-	margin: 0px;
-}
 body {
 	font-size: 15px;
 	line-height: 1.8em;
@@ -400,7 +333,7 @@ body {
 				position: relative;
 				font-size: 14px;
 				font-weight: 700;
-				color: $color_5;
+				color: $primary-color;
 				float: left;
 				letter-spacing: 1px;
 				text-transform: uppercase;
@@ -549,7 +482,7 @@ body {
 		width: 100%;
 		height: 100%;
 		display: block;
-		background-color: $background-color_10;
+		background-color: #020e28;
 	}
 	.row {
 		margin: 0px -30px;
@@ -564,7 +497,7 @@ body {
 						left: -30px;
 						bottom: 30px;
 						top: 0px;
-						border-left: 1px solid #fff;
+						border-left: 1px solid $secondary-color;
 					}
 				}
 			}
@@ -576,7 +509,7 @@ body {
 						left: -30px;
 						bottom: 30px;
 						top: 0px;
-						border-left: 1px solid #fff;
+						border-left: 1px solid $secondary-color;
 					}
 				}
 			}
@@ -588,7 +521,7 @@ body {
 						left: -30px;
 						bottom: 30px;
 						top: 0px;
-						border-left: 1px solid #fff;
+						border-left: 1px solid $secondary-color;
 					}
 					border-bottom: none;
 				}
@@ -601,7 +534,7 @@ body {
 						left: -30px;
 						bottom: 30px;
 						top: 0px;
-						border-left: 1px solid #fff;
+						border-left: 1px solid $secondary-color;
 					}
 					border-bottom: none;
 				}
@@ -618,10 +551,10 @@ body {
 		.inner-column {
 			position: relative;
 			padding-bottom: 40px;
-			border-bottom: 1px solid #fff;
+			border-bottom: 1px solid $secondary-color;
 			.text {
 				position: relative;
-				color: $color_15;
+				color: $bg-gray;
 				font-size: 16px;
 				font-weight: 400;
 				line-height: 1.8em;
@@ -643,7 +576,6 @@ body {
 				bottom: -1px;
 				opacity: 0;
 				visibility: hidden;
-				background-color: $background-color_13;
 				content: '';
 				position: absolute;
 				left: -30px;
@@ -652,7 +584,7 @@ body {
 				bottom: -1px;
 				opacity: 0;
 				visibility: hidden;
-				background-color: $background-color_13;
+				background-color: #245690;
 			}
 			&:hover {
 				&:before {
@@ -670,7 +602,7 @@ body {
 		position: relative;
 		font-size: 30px;
 		font-weight: 500;
-		color: $color_11;
+		color: $primary-color;
 		line-height: 1.2em;
 		padding: 0px 0px 24px;
 		display: inline-block;
@@ -685,7 +617,7 @@ body {
 			bottom: 0px;
 			width: 75px;
 			height: 2px;
-			background-color: $background-color_11;
+			background-color: $secondary-color;
 		}
 		&:after {
 			position: absolute;
@@ -694,13 +626,13 @@ body {
 			bottom: 2px;
 			width: 25px;
 			height: 4px;
-			background-color: $background-color_12;
+			background-color: #5ca3fb;
 		}
 	}
 }
 .sec-title.light {
 	h2 {
-		color: $color_5;
+		color: $secondary-color;
 	}
 }
 .market-block {
@@ -715,10 +647,10 @@ body {
 			margin-bottom: 15px;
 			a {
 				&:hover {
-					color: $color_14;
+					color: $secondary-color;
 				}
 				position: relative;
-				color: $color_6;
+				color: #5ca3fb;
 				transition: all 300ms ease;
 				-moz-transition: all 300ms ease;
 				-webkit-transition: all 300ms ease;
@@ -730,7 +662,7 @@ body {
 			}
 		}
 		&:hover {
-			border-color: $border-color_4;
+			border-color: #245690;
 			.text {
 				opacity: 1;
 				visibility: visible;
@@ -747,7 +679,7 @@ body {
 		-webkit-transition: all 300ms ease;
 		-ms-transition: all 300ms ease;
 		-o-transition: all 300ms ease;
-		border-bottom: 1px solid #fff;
+		border-bottom: 1px solid $secondary-color;
 		position: relative;
 		padding: 30px 0px;
 		transition: all 300ms ease;
@@ -755,10 +687,10 @@ body {
 		-webkit-transition: all 300ms ease;
 		-ms-transition: all 300ms ease;
 		-o-transition: all 300ms ease;
-		border-bottom: 1px solid #fff;
+		border-bottom: 1px solid $secondary-color;
 		.text {
 			position: relative;
-			color: $color_5;
+			color: $bg-gray;
 			font-size: 15px;
 			line-height: 1.8em;
 			font-weight: 400;
@@ -777,7 +709,7 @@ body {
 			bottom: 30px;
 			font-size: 14px;
 			font-weight: 500;
-			color: $color_5;
+			color: #245690;
 			letter-spacing: 1px;
 			opacity: 0;
 			visibility: hidden;
@@ -787,7 +719,7 @@ body {
 			-ms-transition: all 300ms ease;
 			-o-transition: all 300ms ease;
 			text-transform: uppercase;
-			font-family: $font-family_5;
+			font-family: $paragraph-font;
 		}
 	}
 }
@@ -795,7 +727,7 @@ body {
 	position: relative;
 	.inner-box {
 		position: relative;
-		background-color: $background-color_2;
+		background-color: $secondary-color;
 		transition: all 500ms ease;
 		-moz-transition: all 500ms ease;
 		-webkit-transition: all 500ms ease;
@@ -803,7 +735,6 @@ body {
 		-o-transition: all 500ms ease;
 		.image {
 			position: relative;
-			background-color: $background-color_14;
 			transition: all 500ms ease;
 			-moz-transition: all 500ms ease;
 			-webkit-transition: all 500ms ease;
@@ -830,14 +761,14 @@ body {
 			border: 1px solid #ddd;
 			h3 {
 				position: relative;
-				color: $color_11;
+				color: $primary-color;
 				font-size: 20px;
 				font-weight: 600;
 				line-height: 1.5em;
 				padding-bottom: 15px;
 				a {
 					position: relative;
-					color: $color_16;
+					color: $primary-color;
 					transition: all 500ms ease;
 					-moz-transition: all 500ms ease;
 					-webkit-transition: all 500ms ease;
@@ -847,30 +778,29 @@ body {
 			}
 			.post-date {
 				position: relative;
-				color: $color_11;
+				color: $text-color;
 				font-size: 15px;
 				font-weight: 600;
 				margin-bottom: 12px;
 			}
 			.text {
 				position: relative;
-				color: $color_11;
+				color: $text-color;
 				font-size: 16px;
 				line-height: 1.8em;
 				margin-bottom: 18px;
 			}
 			.read-more {
 				position: relative;
-				color: $color_11;
+				color: $primary-color;
 				font-size: 14px;
 				font-weight: 600;
-				text-transform: uppercase;
 				transition: all 500ms ease;
 				-moz-transition: all 500ms ease;
 				-webkit-transition: all 500ms ease;
 				-ms-transition: all 500ms ease;
 				-o-transition: all 500ms ease;
-				font-family: $font-family_6;
+				font-family: $paragraph-font;
 			}
 		}
 	}
