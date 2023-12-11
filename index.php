@@ -57,7 +57,7 @@
     <!--our USP section start-->
     <section class="home-our-usps common-padding">
         <div class="auto-container">
-            <h1 class="common-heading text-center" data-aos="fade-up" data-aos-duration="1000">Konstelec Engineers Limited (KEL) offers <br>a full-range of Engineering</h1>
+            <h1 class="common-heading text-center" data-aos="fade-up" data-aos-duration="1000">Our Services</h1>
             <div class="usps-main mt-5">
                 <div class="usp-content" data-aos="fade-up">
                     <img src="svg/silhouette.svg" alt="">
@@ -100,7 +100,7 @@
                 </div>
                 <div class="col-sm-12 col-md-8 col-lg-5" data-aos="flip-left" data-aos-duration="1000">
                   <div class="about__img animated-img" id="lightgallery">
-                    <img src="images/3.jpg" alt="about" class="img-fluid">
+                    <img src="images/home-video-bg.jpg" alt="about" class="img-fluid">
                     <a href="https://www.youtube.com/watch?4=&amp;v=TKnufs85hXk" class="btn btn__primary popup-youtube" alt="home video bg">
                       <i class="fa fa-play-circle" aria-hidden="true"></i><span>Watch Video!</span>
                     </a>
@@ -171,7 +171,7 @@
                 </div>
                 <div class="market-block m-block col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-0">
                 	<div class="inner-box">
-                    	<h3><a href="javascript:void(0)">Operation & Maintenance</a></h3>
+                    	<h3><a href="javascript:void(0)">Operation &amp; Maintenance</a></h3>
                         <div class="text">Denouncing pleasure and praising pain was born  give you a complete...</div>
                         <div class="icon-box">
                         	<span class="icon flaticon-valve"></span>
@@ -181,7 +181,7 @@
                 </div>
                 <div class="market-block m-block col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-0">
                 	<div class="inner-box">
-                    	<h3><a href="javascript:void(0)">Construction & Comisisonning</a></h3>
+                    	<h3><a href="javascript:void(0)">Construction &amp; Comisisonning</a></h3>
                         <div class="text">Denouncing pleasure and praising pain was born  give you a complete...</div>
                         <div class="icon-box">
                         	<span class="icon flaticon-boat"></span>
@@ -343,7 +343,7 @@
     <!--precess section start-->
     <section class="know_the_process common-padding">
       <div class="auto-container">
-        <h2 class="common-heading mb-5" style="color:#245690">Know The <span>Process</span></h2>
+        <h2 class="common-heading mb-5">Know The <span>Process</span></h2>
         <div class="row">
           <div class="col-md-7">
             <div class="row">
@@ -351,7 +351,7 @@
                 <div class="process-2">
                   <div class="process-box">
                     <div class="clearfix">
-                      <div class="iconset"> <img src="svg/planning.svg"> </div>
+                      <div class="iconset"> <img src="svg/custom_made.svg"> </div>
                       <div class="processB-content">
                         <h4>PLANNING</h4>
                         <p>A lot of planning goes into shaping impeccable range of kitchen solutions to ideally meet varying needs.</p>
@@ -360,7 +360,7 @@
                   </div>
                   <div class="process-box">
                     <div class="clearfix">
-                      <div class="iconset"> <img src="svg/installation.svg">  </div>
+                      <div class="iconset"> <img src="svg/custom_made.svg">  </div>
                       <div class="processB-content">
                         <h4>INSTALLATION</h4>
                         <p>Regalo Kitchens deals in precision and exactness to deliver solutions that meet varied dimensions.</p>
@@ -369,7 +369,7 @@
                   </div>
                   <div class="process-box">
                     <div class="clearfix">
-                      <div class="iconset"> <img src="svg/mesurement.svg">  </div>
+                      <div class="iconset"> <img src="svg/custom_made.svg">  </div>
                       <div class="processB-content">
                         <h4> MADE TO MEASURE</h4>
                         <p>Installation of kitchen solutions is one of vital stages to follow right after clients have already selected.</p>
@@ -391,7 +391,7 @@
                   </div>
                   <div class="process-box">
                     <div class="clearfix">
-                      <div class="iconset"> <img src="svg/designing.svg">  </div>
+                      <div class="iconset"> <img src="svg/custom_made.svg">  </div>
                       <div class="processB-content">
                         <h4>DESIGNING</h4>
                         <p>Regalo Kitchens deals in precision and exactness to deliver solutions that meet varied dimensions.</p>
@@ -400,7 +400,7 @@
                   </div>
                   <div class="process-box">
                     <div class="clearfix">
-                      <div class="iconset"> <img src="svg/warrenty.svg">  </div>
+                      <div class="iconset"> <img src="svg/custom_made.svg">  </div>
                       <div class="processB-content">
                         <h4>LIFE TIME WARRENTY</h4>
                         <p>Installation of kitchen solutions is one of vital stages to follow right after clients have already selected.</p>
@@ -419,7 +419,7 @@
     </section>
     <!--precess section end-->
     <!--contact strip start-->
-    <div class="eltd-call-to-action normal" style="background-color: #245690;">
+    <div class="eltd-call-to-action normal">
       <div class="auto-container text-center">
         <div class="eltd-call-to-action-row-75-25 clearfix">
           <div class="eltd-text-wrapper eltd-call-to-action-column1 eltd-call-to-action-cell">
@@ -440,16 +440,16 @@
     <!--our blogs section start-->
     <section class="home-blog-section common-padding">
       <div class="auto-container">
-        <h1 class="common-heading mb-5" style="color:#245690;">Our Blogs</h1>
+        <h1 class="common-heading mb-5 text-center" style="color:#245690;">Our Blogs</h1>
         <div class="row clearfix">
           <div class="news-block-two col-md-4 col-sm-6 col-xs-12">
             <div class="inner-box">
                 <div class="image">
-                    <a href="blog-detail.html"><img src="images/resource/news-4.jpg" alt=""></a>
+                    <a href="blog-detail.html"><img src="images/blogs/news-3.jpg" alt=""></a>
                   </div>
                   <div class="lower-content">
                     <h3><a href="blog-detail.html">We are best for any industrial &amp; business solution.</a></h3>
-                      <div class="post-date">By Fernando, On 13th August 2017</div>
+                      <div class="post-date">13th August 2017</div>
                       <div class="text">Rationally encounter consequences seds ut that are extremely painful...</div>
                       <a href="blog-detail.html" class="read-more">Read More <span class="icon flaticon-arrow-pointing-to-right"></span></a>
                   </div>
@@ -458,11 +458,11 @@
           <div class="news-block-two col-md-4 col-sm-6 col-xs-12">
             <div class="inner-box">
                 <div class="image">
-                    <a href="blog-detail.html"><img src="images/resource/news-5.jpg" alt=""></a>
+                    <a href="blog-detail.html"><img src="images/blogs/news-3.jpg" alt=""></a>
                   </div>
                   <div class="lower-content">
                     <h3><a href="blog-detail.html">10 reason why should choose our industry.</a></h3>
-                      <div class="post-date">By Fernando, On 13th August 2017</div>
+                      <div class="post-date">13th August 2017</div>
                       <div class="text">Great explorer of the truth, that master builder of human happiness...</div>
                       <a href="blog-detail.html" class="read-more">Read More <span class="icon flaticon-arrow-pointing-to-right"></span></a>
                   </div>
@@ -471,11 +471,11 @@
           <div class="news-block-two col-md-4 col-sm-6 col-xs-12">
             <div class="inner-box">
                 <div class="image">
-                    <a href="blog-detail.html"><img src="images/resource/news-3.jpg" alt=""></a>
+                    <a href="blog-detail.html"><img src="images/blogs/news-3.jpg" alt=""></a>
                   </div>
                   <div class="lower-content">
                     <h3><a href="blog-detail.html">We won best factory award of the year 2015 &amp; 16.</a></h3>
-                      <div class="post-date">By Richardson, On 05th July 2017</div>
+                      <div class="post-date">05th July 2017</div>
                       <div class="text">To take a trivial example, which of us ever undertakes laborious physical...</div>
                       <a href="blog-detail.html" class="read-more">Read More <span class="icon flaticon-arrow-pointing-to-right"></span></a>
                   </div>
