@@ -470,7 +470,7 @@ label {
   text-align: center;
   padding: 35px;
   background: transparent;
-  background-image: url("../images/hexagon-shape.png");
+  background-image: url("../svg/hexagon-shape.svg");
   background-size: 100%;
   background-repeat: no-repeat;
   height: 253px;
@@ -695,7 +695,7 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../images/slide-bg.png");
+  background-image: url("../svg/slide-bg.svg");
   color: #fff;
   text-transform: uppercase;
   flex-wrap: wrap;
@@ -712,7 +712,7 @@ label {
   background-position: center;
 }
 #owl-example-projects li a:hover {
-  background-image: url("../images/acvite-slide-bg.png");
+  background-image: url("../svg/acvite-slide-bg.svg");
   color: #0f3693;
   transition: all 0.5s ease;
 }
@@ -1119,7 +1119,7 @@ footer h5 {
   margin-bottom: 28px;
   position: relative;
   color: #0f3693;
-  line-height: 70px;
+  line-height: 60px;
 }
 
 .more_category {
@@ -1137,7 +1137,7 @@ footer h5 {
   transition: all 0.5s;
 }
 .more_category:hover {
-  color: #000;
+  color: #fff;
 }
 
 .main-box.shrink {
@@ -1643,7 +1643,7 @@ body {
   color: #f4f4f4;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.8em;
+  line-height: 28px;
   margin-bottom: 25px;
 }
 .market-section .title-column .sec-title {

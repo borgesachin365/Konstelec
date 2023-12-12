@@ -60,7 +60,7 @@
             <h1 class="text-center" data-aos="fade-up" data-aos-duration="1000">Konstelec Engineers Pvt. Ltd (KEPL) is an all-inclusive engineering service provider</h1>
             <div class="usps-main mt-5">
                 <div class="usp-content" data-aos="fade-up">
-                <img src="svg/silhouette.svg" alt="">
+                  <img src="svg/silhouette.svg" alt="">
                     <span class="mt-2 mb-2">27+ years of <br> experience</span>
                     <p>Expertise through decades of successfully delivering <br> complex projects</p>
                 </div>
