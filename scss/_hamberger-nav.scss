@@ -412,38 +412,44 @@ label {
 	h1{
 		@include common-heading;
 	}
+	&::before{
+		position: absolute;
+		content: url(../images/hexagon-vectors.png);
+		left: -45px;
+		top: -15px;
+		transform: scale(0.7);
+	}
+	&::after{
+		position: absolute;
+		content: url(../images/hexagon-vectors.png);
+		right: -60px;
+		bottom: 10px;
+		transform: rotate(180deg) scale(0.7);
+	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 .usps-main {
 	display: grid;
 	grid-auto-rows: auto;
-	grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 .usp-content {
-	text-align: left;
-	background: $secondary-color;
-	padding: 25px;
+	text-align: center;
+	padding: 35px;
 	background: transparent;
-	border: 1px solid $primary-color;
+	background-image: url("../images/hexagon-shape.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 253px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 	img {
-		width: 30%;
+		width: 25%;
 	}
 	span {
 		display: block;
-		font-size: 20px;
+		font-size: 18px;
 		font-weight: 700;
 		color: $primary-color;
 		font-family: $heading-font;
@@ -451,8 +457,20 @@ label {
 	p {
 		margin: 0;
 		color: $text-color;
-		font-size: 16px;
+		font-size: 15px;
 		font-family: $paragraph-font;
+		line-height: 24px;
+	}
+	svg{
+		position: relative;
+    stroke-width: 12px;
+    fill: transparent;
+    stroke: #5fcac7;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
 	}
 }
 .about-us {
@@ -470,7 +488,7 @@ label {
 	font-size: 16px;
 	color: $text-color;
 	line-height: 28px;
-	font-weight: 300;
+	font-weight: 400;
 	margin: 0;
 	font-family: $paragraph-font;
 }
@@ -489,8 +507,9 @@ label {
 			color: $primary-color;
 			font-size: 18px !important;
 			font-size: 26px;
-			font-weight: 500;
+			font-weight: 600;
 			margin-bottom: 28px;
+			font-family: $heading-font;
 		}
 	}
 }
@@ -609,14 +628,14 @@ label {
 		-o-transition: color .3s ease;
 		transition: color .3s ease;
 		color: $primary-color;
-		font-weight: 500;
+		font-weight: 600;
 		font-family: $heading-font;
 	}
 }
 .features-list-layout1 {
 	.feature__content {
 		&:before {
-			top: 7px;
+			top: 8px;
 			width: 8px;
 			height: 8px;
 			@include border-radius(50%);
@@ -637,8 +656,8 @@ label {
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			background-color: $secondary-color;
-			color: $black-color;
+			background-image: url("../images/slide-bg.png");
+			color: $secondary-color;
 			text-transform: uppercase;
 			flex-wrap: wrap;
 			text-align: center;
@@ -648,19 +667,21 @@ label {
 			padding: 17px;
 			font-family: $heading-font;
 			transition: all 0.5s ease;
-			height: 85px;
+			height: 90px;
 			line-height: 22px;
+			background-size: cover;
+			background-position: center;
 			&:hover {
-				background-color: $primary-color;
-				color: $secondary-color;
+				background-image: url("../images/acvite-slide-bg.png");
+				color: $primary-color;
 				transition: all 0.5s ease;
 			}
 		}
 	}
 	li.active {
 		a {
-			background-color: $primary-color;
-			color: $secondary-color;
+			background-image: url("../images/acvite-slide-bg.png");
+			color: $primary-color;
 		}
 	}
 	button.owl-prev {
@@ -715,6 +736,7 @@ label {
 .know_the_process {
 	width: 100%;
 	position: relative;
+	background-color: $bg-gray;
 	@include common-padding;
 	h1{
 		@include common-heading;
@@ -749,16 +771,16 @@ label {
 				width: 75%;
 				h4 {
 					color: $primary-color;
-					font-size: 18px;
+					font-size: 20px;
 					letter-spacing: 0;
-					line-height: 22px;
+					line-height: 30px;
 					margin: 0 0 10px;
 					font-weight: 600;
 					transition: all 0.5s;
+					font-family: $heading-font;
 				}
 				p {
-					color: $text-color;
-					line-height: 24px;
+					@include common-paragraph;
 				}
 			}
 		}
@@ -774,7 +796,7 @@ label {
 	}
 }
 .our-clients {
-	background-color: $bg-gray;
+	background-color: $secondary-color;
 	@include common-padding;
 	h1{
 		@include common-heading;
@@ -921,10 +943,11 @@ footer {
 	}
 }
 .footer-title {
-	font-size: 21px;
+	font-size: 19px;
 	color: $secondary-color;
 	font-weight: 500;
 	margin-bottom: 10px;
+	font-family: $heading-font;
 }
 .footer-links {
 	li {

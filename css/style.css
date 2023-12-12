@@ -445,27 +445,46 @@ label {
   line-height: 45px;
   font-family: "Montserrat", sans-serif;
 }
+.home-our-usps::before {
+  position: absolute;
+  content: url(../images/hexagon-vectors.png);
+  left: -45px;
+  top: -15px;
+  transform: scale(0.7);
+}
+.home-our-usps::after {
+  position: absolute;
+  content: url(../images/hexagon-vectors.png);
+  right: -60px;
+  bottom: 10px;
+  transform: rotate(180deg) scale(0.7);
+}
 
 .usps-main {
   display: grid;
   grid-auto-rows: auto;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
 .usp-content {
-  text-align: left;
-  background: #fff;
-  padding: 25px;
+  text-align: center;
+  padding: 35px;
   background: transparent;
-  border: 1px solid #0f3693;
+  background-image: url("../images/hexagon-shape.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 253px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .usp-content img {
-  width: 30%;
+  width: 25%;
 }
 .usp-content span {
   display: block;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: #0f3693;
   font-family: "Montserrat", sans-serif;
@@ -473,8 +492,20 @@ label {
 .usp-content p {
   margin: 0;
   color: #404041;
-  font-size: 16px;
+  font-size: 15px;
   font-family: "Roboto", sans-serif;
+  line-height: 24px;
+}
+.usp-content svg {
+  position: relative;
+  stroke-width: 12px;
+  fill: transparent;
+  stroke: #5fcac7;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
 .about-us {
@@ -490,7 +521,7 @@ label {
   font-size: 16px;
   color: #404041;
   line-height: 28px;
-  font-weight: 300;
+  font-weight: 400;
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
@@ -510,8 +541,9 @@ label {
   color: #0f3693;
   font-size: 18px !important;
   font-size: 26px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 28px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .about-2 .about__img.animated-img {
@@ -633,12 +665,12 @@ label {
   -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
   color: #0f3693;
-  font-weight: 500;
+  font-weight: 600;
   font-family: "Montserrat", sans-serif;
 }
 
 .features-list-layout1 .feature__content:before {
-  top: 7px;
+  top: 8px;
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -663,8 +695,8 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
-  color: #000;
+  background-image: url("../images/slide-bg.png");
+  color: #fff;
   text-transform: uppercase;
   flex-wrap: wrap;
   text-align: center;
@@ -674,17 +706,19 @@ label {
   padding: 17px;
   font-family: "Montserrat", sans-serif;
   transition: all 0.5s ease;
-  height: 85px;
+  height: 90px;
   line-height: 22px;
+  background-size: cover;
+  background-position: center;
 }
 #owl-example-projects li a:hover {
-  background-color: #0f3693;
-  color: #fff;
+  background-image: url("../images/acvite-slide-bg.png");
+  color: #0f3693;
   transition: all 0.5s ease;
 }
 #owl-example-projects li.active a {
-  background-color: #0f3693;
-  color: #fff;
+  background-image: url("../images/acvite-slide-bg.png");
+  color: #0f3693;
 }
 #owl-example-projects button.owl-prev {
   position: absolute;
@@ -742,6 +776,7 @@ label {
 .know_the_process {
   width: 100%;
   position: relative;
+  background-color: #f4f4f4;
   padding: 4% 0;
 }
 .know_the_process h1 {
@@ -780,16 +815,19 @@ label {
 }
 .know_the_process .process-2 .process-box .processB-content h4 {
   color: #0f3693;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 0;
-  line-height: 22px;
+  line-height: 30px;
   margin: 0 0 10px;
   font-weight: 600;
   transition: all 0.5s;
+  font-family: "Montserrat", sans-serif;
 }
 .know_the_process .process-2 .process-box .processB-content p {
+  font-family: "Roboto", sans-serif;
   color: #404041;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 28px;
 }
 .know_the_process .process_right {
   position: absolute;
@@ -802,7 +840,7 @@ label {
 }
 
 .our-clients {
-  background-color: #f4f4f4;
+  background-color: #fff;
   padding: 4% 0;
 }
 .our-clients h1 {
@@ -966,10 +1004,11 @@ footer h5 {
 }
 
 .footer-title {
-  font-size: 21px;
+  font-size: 19px;
   color: #fff;
   font-weight: 500;
   margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .footer-links li a {
@@ -1531,20 +1570,17 @@ body {
 
 .market-section {
   position: relative;
-  padding: 80px 0px;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.market-section:before {
-  position: absolute;
-  content: "";
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  display: block;
+  padding: 4% 0;
   background-color: #020e28;
+}
+.market-section h1 {
+  font-size: 32px;
+  color: #0f3693;
+  font-weight: 600;
+  line-height: 45px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  margin-bottom: 100px;
 }
 .market-section .row {
   margin: 0px -30px;
@@ -1608,7 +1644,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.8em;
-  margin-bottom: 27px;
+  margin-bottom: 25px;
 }
 .market-section .title-column .sec-title {
   margin-bottom: 40px;
@@ -1636,6 +1672,21 @@ body {
   opacity: 1;
   visibility: visible;
 }
+.market-section .market-block .inner-box:hover .icon-box {
+  opacity: 1;
+  visibility: visible;
+}
+.market-section .market-block .inner-box .icon-box {
+  position: relative;
+  font-size: 50px;
+  line-height: 1em;
+  transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  color: #fff;
+}
 
 .sec-title {
   position: relative;
@@ -1643,7 +1694,7 @@ body {
 }
 .sec-title h2 {
   position: relative;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 500;
   color: #0f3693;
   line-height: 1.2em;
@@ -1704,7 +1755,7 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.5em;
-  margin-bottom: 15px;
+  margin-bottom: 8px;
 }
 .market-block .inner-box h3 a {
   position: relative;
@@ -1714,9 +1765,11 @@ body {
   -webkit-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
   -o-transition: all 300ms ease;
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 600;
+  font-size: 18px;
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
 }
 .market-block .inner-box h3 a:hover {
   color: #fff;
@@ -1735,10 +1788,10 @@ body {
 .market-block .inner-box .text {
   position: relative;
   color: #f4f4f4;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.8em;
   font-weight: 400;
-  margin-bottom: 35px;
+  margin-bottom: 45px;
   opacity: 1;
   visibility: visible;
   transition: all 300ms ease;
@@ -1753,8 +1806,7 @@ body {
   bottom: 30px;
   font-size: 14px;
   font-weight: 500;
-  color: #245690;
-  letter-spacing: 1px;
+  color: #fff;
   opacity: 0;
   visibility: hidden;
   transition: all 300ms ease;
@@ -1762,8 +1814,11 @@ body {
   -webkit-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
   -o-transition: all 300ms ease;
-  text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+.market-block .inner-box .icon-box img {
+  width: 17%;
+  margin-bottom: 20px;
 }
 
 .news-block-two {
@@ -1802,7 +1857,7 @@ body {
 }
 .news-block-two .inner-box .lower-content {
   position: relative;
-  padding: 24px 28px;
+  padding: 24px 20px;
   border: 1px solid #ddd;
 }
 .news-block-two .inner-box .lower-content h3 {
@@ -1821,6 +1876,7 @@ body {
   -webkit-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
+  font-family: "Montserrat", sans-serif;
 }
 .news-block-two .inner-box .lower-content .post-date {
   position: relative;
@@ -1828,6 +1884,7 @@ body {
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 12px;
+  font-family: "Montserrat", sans-serif;
 }
 .news-block-two .inner-box .lower-content .text {
   position: relative;

@@ -80,8 +80,8 @@ $("#client-slider").owlCarousel({
 //our projects tab slider
 $("#owl-example-projects").owlCarousel({
   loop:true,
-  autoplay: true,
-  margin: 10,
+  autoplay: false,
+  margin: 50,
   responsiveClass: true,
   autoHeight: true,
   autoplayTimeout: 7000,
@@ -96,10 +96,10 @@ $("#owl-example-projects").owlCarousel({
       items: 4
     },
     1024: {
-      items: 5
+      items: 4
     },
     1366: {
-      items: 5
+      items: 4
     }
   }
   });

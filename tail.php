@@ -7,7 +7,7 @@
                 <img src="images/logo.png" alt="">
               </a>
               <p class="common-para mt-4" style="color:#fff">
-                Konstelec Engineers has over two decades of cross-industry project management and execution experience.
+              Konstelec Engineers pvt ltd. holds a steadfast pledge to uphold the highest standards in engineering, procurement and construction excellence.
               </p>
             </div>
             <div class="col-md-3">

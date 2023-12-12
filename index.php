@@ -14,7 +14,7 @@
         <div class="carousel-item active" data-bs-interval="10000">
           <img src="images/Home-Hero-Slider-One.png" class="d-block w-100" alt="home slider 1">
           <div class="carousel-caption d-none" >
-            <h5 class="animated fadeInUp">An Integrated <br> <span>SOLUTION PROVIDER</span></h5>
+            <h5 class="animated fadeInUp">Committed to delivering <br> <span>comprehensive solutions</span></h5>
             <button class="cta-btn mt-4 animated fadeInUp" style="animation-delay: 2s">
                 <a href="javascript:vooid(0)">
                     Know More
@@ -25,7 +25,7 @@
         <div class="carousel-item" data-bs-interval="2000">
         <img src="images/Home-Hero-Slider-Two.png" class="d-block w-100" alt="home slider 2">
           <div class="carousel-caption d-none">
-            <h5 class="animated fadeInUp">Over Two Decades <br><span>of EPC EXCELLENCE</span></h5>
+            <h5 class="animated fadeInUp">Engineered for optimal <br> <span>quality and safety</span></h5>
             <button class="cta-btn mt-4 animated fadeInUp" style="animation-delay: 2s">
                 <a href="javascript:vooid(0)">
                     Know More
@@ -36,7 +36,7 @@
         <div class="carousel-item">
         <img src="images/Home-Hero-Slider-Three.png" class="d-block w-100" alt="home slider 3">
           <div class="carousel-caption d-none">
-            <h5 class="animated fadeInUp">Sustainable Solutions <br> <span>for the FUTURE</span></h5>
+            <h5 class="animated fadeInUp"> Accelerating toward <br> <span>a sustainable future</span></h5>
             <button class="cta-btn mt-4 animated fadeInUp" style="animation-delay: 2s">
                 <a href="javascript:vooid(0)">
                     Know More
@@ -55,53 +55,49 @@
     </section>
     <!--home banner section end-->
     <!--our USP section start-->
-    <section class="home-our-usps">
+    <section class="home-our-usps position-relative">
         <div class="auto-container">
-            <h1 class="text-center" data-aos="fade-up" data-aos-duration="1000">Our Services</h1>
+            <h1 class="text-center" data-aos="fade-up" data-aos-duration="1000">Konstelec Engineers Pvt. Ltd (KEPL) is an all-inclusive engineering service provider</h1>
             <div class="usps-main mt-5">
                 <div class="usp-content" data-aos="fade-up">
-                    <img src="svg/silhouette.svg" alt="">
-                    <span class="mt-3 mb-2">45 Years Experience</span>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <img src="svg/silhouette.svg" alt="">
+                    <span class="mt-2 mb-2">27+ years of <br> experience</span>
+                    <p>Expertise through decades of successfully delivering <br> complex projects</p>
                 </div>
                 <div class="usp-content" data-aos="fade-up" data-aos-duration="500">
                     <img src="svg/leadership.svg" alt="">
-                    <span class="mt-3 mb-2">Best Team Member</span>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <span class="mt-2 mb-2">Renowned EPC service contractor</span>
+                    <p>A trusted industry leader with operational prowess in EPC services</p>
                 </div>
                 <div class="usp-content" data-aos="fade-up" data-aos-duration="1000">
                     <img src="svg/services.svg" alt="">
-                    <span class="mt-3 mb-2">The Best Services</span>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <span class="mt-2 mb-2">Diverse <br> projects</span>
+                    <p>Tailoring solutions for a wide range of project <br> requirements</p>
                 </div>
                 <div class="usp-content" data-aos="fade-up" data-aos-duration="1500">
                     <img src="svg/silhouette.svg" alt="">
-                    <span class="mt-3 mb-2">Unique Technology</span>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <span class="mt-2 mb-2">Technically competent workforce</span>
+                    <p>A highly skilled personnel that excels in cutting-edge engineering</p>
                 </div>
             </div>
         </div>
     </section>
     <!--our USP section end-->
     <!--about us section start-->
-    <section class="about-us common-padding">
+    <section class="about-us">
         <div class="auto-container">
-            <h1 class="common-heading text-center" data-aos="fade-down" data-aos-duration="500">About Us</h1>
+            <h1 class="text-center" data-aos="fade-down" data-aos-duration="500">About Us</h1>
             <div class="row mt-5">
                 <div class="col-sm-12 col-md-12 col-lg-4">
                   <div class="about__text mt-30">
-                    <p data-aos="fade-down" data-aos-duration="700">Industic Group is a representative Industrial Construction operator providing full range of service in
-                      the sphere of Mechanical Engineering worldwide.</p>
-                    <p class="common-para" data-aos="fade-down" data-aos-duration="900">The world is changing faster than ever before, business is no exception. Industic industries are
-                      threatened as technology disrupts and software “eats the world.” Yet those that embrace change are
-                      thriving, building bigger, better, faster, and stronger products than ever before. You are helping to
-                      lead the charge; we can help you build on your past successes and prepare for future.</p>
+                    <p data-aos="fade-down" data-aos-duration="700">Konstelec, a licensed electrical contractor, upholds a steadfast commitment to quality, safety, timely delivery, and cost-effectiveness.</p>
+                    <p class="common-para" data-aos="fade-down" data-aos-duration="900">Our diverse clientele spans across a multitude of industries, encompassing Oil and Gas, Refinery, Steel, Cement, Pharmaceuticals, Textile, Hospital, Health Care, FMCG, and Commercial Complexes, both within India and abroad.</p>
                   </div>
                 </div>
                 <div class="col-sm-12 col-md-8 col-lg-5" data-aos="flip-left" data-aos-duration="1000">
                   <div class="about__img animated-img" id="lightgallery">
                     <img src="images/home-video-bg.jpg" alt="about" class="img-fluid">
-                    <a href="https://www.youtube.com/watch?4=&amp;v=TKnufs85hXk" class="btn btn__primary popup-youtube" alt="home video bg">
+                    <a href="javascript:void(0)" class="btn btn__primary popup-youtube" alt="home video bg">
                       <i class="fa fa-play-circle" aria-hidden="true"></i><span>Watch Video!</span>
                     </a>
                   </div>
@@ -110,22 +106,20 @@
                   <div class="features-list features-list-layout1 mt-30">
                     <div class="feature-item feature-list-item" data-aos="fade-down" data-aos-duration="500">
                       <div class="feature__content">
-                        <h4 class="feature__title">Quality</h4>
-                        <p class="feature__desc common-para">Following the quality of our service thus having gained trust of our many
-                          clients.</p>
+                        <h4 class="feature__title">Timely Delivery</h4>
+                        <p class="feature__desc common-para">Our focus is on precision and punctuality for delivery</p>
                       </div>
                     </div>
                     <div class="feature-item feature-list-item" data-aos="fade-down" data-aos-duration="700">
                       <div class="feature__content">
-                        <h4 class="feature__title">Reliability</h4>
-                        <p class="feature__desc common-para">We have established a corporate mandate to maintain strong core values that
-                          truly reflect.</p>
+                        <h4 class="feature__title">Safety Standards</h4>
+                        <p class="feature__desc common-para">We prioritise stringent safety standards for a secure project environment</p>
                       </div>
                     </div>
                     <div class="feature-item feature-list-item" data-aos="fade-down" data-aos-duration="900">
                       <div class="feature__content">
-                        <h4 class="feature__title">Innovation</h4>
-                        <p class="feature__desc common-para">Our company develops a unique dynamically and keeps in step with the times.
+                        <h4 class="feature__title">Cost-Effective</h4>
+                        <p class="feature__desc common-para">The essence of our projects is to maximise value without compromise
                         </p>
                       </div>
                     </div>
@@ -136,66 +130,66 @@
     </section>
     <!--about us section end-->
     <!--our services section start-->
-    <section class="market-section" style="background-image:url(images/background/2.jpg)">
+    <section class="market-section">
+    <h1 class="text-center">Our Services</h1>
     	<div class="auto-container">
         	<div class="row clearfix">
                 <div class="title-column m-block col-lg-4 col-md-12 col-sm-12 col-xs-12">
                 	<div class="inner-column">
                     	<div class="sec-title light">
-                        	<h2>Our Services</h2>
+                        	<h2>Dummy Text</h2>
                             <div class="separator"></div>
                         </div>
-                        <div class="text">Over 24 years experience &amp; knowledge of international industrial systems, dedicated to</div>
-                        <a href="javascript:void(0)" class="view_all"><span class="icon flaticon-right-arrow-1"></span> View All Sectors</a>
+                        <div class="text">We deliver engineering services globally with a client-first approach while developing innovative solutions in every project we undertake. </div>
                     </div>
                 </div>
                 <div class="market-block m-block col-lg-4 col-md-6 col-sm-6 col-xs-12">
                 	<div class="inner-box">
+                        <div class="icon-box">
+                        <img src="svg/services-white.svg" alt="">
+                        </div>
                     	<h3><a href="javascript:void(0)">Engineering Design</a></h3>
-                        <div class="text">Denouncing pleasure and praising pain was born  give you a complete...</div>
-                        <div class="icon-box">
-                        	<span class="icon flaticon-conveyor"></span>
-                        </div>
+                        <div class="text">Innovative solutions, engineered with precision</div>
                         <a href="javascript:void(0)" class="view_all">Know More <span class="icon flaticon-right-arrow-1"></span></a>
                     </div>
                 </div>
                 <div class="market-block m-block col-lg-4 col-md-6 col-sm-6 col-xs-12">
                 	<div class="inner-box">
+                    <div class="icon-box">
+                        	<img src="svg/services-white.svg" alt="">
+                        </div>
                     	<h3><a href="javascript:void(0)">Procurement</a></h3>
-                        <div class="text">Denouncing pleasure and praising pain was born  give you a complete...</div>
-                        <div class="icon-box">
-                        	<span class="icon flaticon-demolishing"></span>
-                        </div>
+                        <div class="text">Empowering supply chain success</div>
                         <a href="javascript:void(0)" class="view_all">Know More <span class="icon flaticon-right-arrow-1"></span></a>
                     </div>
                 </div>
                 <div class="market-block m-block col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-0">
                 	<div class="inner-box">
+                  <div class="icon-box">
+                        	<img src="svg/services-white.svg" alt="">
+                        </div>
                     	<h3><a href="javascript:void(0)">Operation &amp; Maintenance</a></h3>
-                        <div class="text">Denouncing pleasure and praising pain was born  give you a complete...</div>
-                        <div class="icon-box">
-                        	<span class="icon flaticon-valve"></span>
-                        </div>
+                        <div class="text">Reliable, responsive, result-driven</div>
                         <a href="javascript:void(0)" class="view_all">Know More <span class="icon flaticon-right-arrow-1"></span></a>
                     </div>
                 </div>
                 <div class="market-block m-block col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-0">
                 	<div class="inner-box">
+                  <div class="icon-box">
+                        	<img src="svg/services-white.svg" alt="">
+                        </div>
                     	<h3><a href="javascript:void(0)">Construction &amp; Comisisonning</a></h3>
-                        <div class="text">Denouncing pleasure and praising pain was born  give you a complete...</div>
-                        <div class="icon-box">
-                        	<span class="icon flaticon-boat"></span>
-                        </div>
+                        <div class="text">Crafting quality structures and solutions</div>
                         <a href="javascript:void(0)" class="view_all">Know More <span class="icon flaticon-right-arrow-1"></span></a>
                     </div>
                 </div>
                 <div class="market-block m-block col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-0">
                 	<div class="inner-box">
-                    	<h3><a href="javascript:void(0)">Project Management</a></h3>
-                        <div class="text">Denouncing pleasure and praising pain was born  give you a complete...</div>
-                        <div class="icon-box">
-                        	<span class="icon flaticon-flasks"></span>
+                  <div class="icon-box">
+                        	<img src="svg/services-white.svg" alt="">
                         </div>
+                    	<h3><a href="javascript:void(0)">Project Management</a></h3>
+                        <div class="text">From concept to completion, we manage it all</div>
                         <a href="javascript:void(0)" class="view_all">Know More <span class="icon flaticon-right-arrow-1"></span></a>
                     </div>
                 </div>
@@ -226,7 +220,7 @@
                 <div class="col-md-8 col-sm-12 col-xs-12">
                     <div class="product_category_content aos-init aos-animate" data-aos="zoom-in">
                     <h3>Hydrocarbon Oil <br> & Gas</h3>
-                    <p class="common-para">Oil & Gas are declining finite resources. Their extraction is a complex process, carried out in remote and hazardous conditions. This requires extreme amount of skill, planning, and execution expertise.</p>
+                    <p class="common-para">We construct and operate the power supply system on-site, focusing on capacity expansion and modernisation of refineries, residue upgradation and more.</p>
                     <a href="javascript:void(0)" class="more_category">Know More</a>
                     </div>
                 </div>
@@ -240,7 +234,7 @@
                 <div class="col-md-8 col-sm-12 col-xs-12">
                     <div class="product_category_content aos-init aos-animate" data-aos="zoom-in">
                     <h3>Power</h3>
-                    <p class="common-para">EPC projects for power plants warrant a unique set of skills, capabilities, and expertise. Safety, sustainability, performance, and efficiency are the critical factors defining the success of a power plant.</p>
+                    <p class="common-para">From the supply and installation of parts to the testing and commissioning of equipment, our team of technicians designs power plants with safety and efficiency.</p>
                     <a href="javascript:void(0)" class="more_category">Know More</a>
                     </div>
                 </div>
@@ -254,7 +248,7 @@
                 <div class="col-md-8 col-sm-12 col-xs-12">
                     <div class="product_category_content aos-init aos-animate" data-aos="zoom-in">
                     <h3>Steel & Cement</h3>
-                    <p class="common-para">The Steel and Cement sector is the lifeline of a developing nation like India. KEPL holds a vast amount of experience and process maturity for this industry. Our range of offerings includes designing and executing power distribution</p>
+                    <p class="common-para">The projects undertaken for steel and cement include designing and implementing power distribution systems, installing and commissioning electrical and instrumentation equipment, as well as undertaking projects in electrical, automation, and instrumentation.</p>
                     <a href="javascript:void(0)" class="more_category">Know More</a>
                     </div>
                 </div>
@@ -268,7 +262,7 @@
                 <div class="col-md-8 col-sm-12 col-xs-12">
                     <div class="product_category_content aos-init aos-animate" data-aos="zoom-in">
                     <h3>Substation & <br>Switchyard</h3>
-                    <p class="common-para">Substation and switchyard installation and maintenance are critical projects for any plant. KEPL offers services like LT and HT installation, substation installation, electrical installation, power protection system design and execution</p>
+                    <p class="common-para">KEPL offers LT and HT installation services as well as substation installation, electrical installation, power protection system design and execution, civil work on a turnkey basis, etc.</p>
                     <a href="javascript:void(0)" class="more_category">Know More</a>
                     </div>
                 </div>
@@ -282,7 +276,7 @@
                 <div class="col-md-8 col-sm-12 col-xs-12">
                     <div class="product_category_content aos-init aos-animate" data-aos="zoom-in">
                     <h3>Ports</h3>
-                    <p class="common-para">KEPL's EPC expertise extends to specialized projects and requirements in Ports, Pharmaceuticals, Textiles, and Commercial Complexes as well. We can offer services like electrical installations and office automationfor data and voice and network</p>
+                    <p class="common-para">Our expertise extends to specialized projects and requirements in Ports, Pharmaceuticals, Textiles, and Commercial Complexes.</p>
                     <a href="javascript:void(0)" class="more_category">Know More</a>
                     </div>
                 </div>
@@ -296,7 +290,7 @@
                 <div class="col-md-8 col-sm-12 col-xs-12">
                     <div class="product_category_content aos-init aos-animate" data-aos="zoom-in">
                     <h3>International Projects</h3>
-                    <p class="common-para">Konstelec Engineers has executed multiple international EPC projects. Our local expertise, process excellence, and global technical know-how has allowed us to work overseas with the same zeal, authority, and excellence.</p>
+                    <p class="common-para">We've successfully delivered numerous international EPC projects, showcasing process excellence and leveraging global technical expertise in electrical, instrumentation, and automation work, notably in Nigeria.</p>
                     <a href="javascript:void(0)" class="more_category">Know More</a>
                     </div>
                 </div>
@@ -354,8 +348,8 @@
                     <div class="clearfix">
                       <div class="iconset"> <img src="svg/custom_made.svg"> </div>
                       <div class="processB-content">
-                        <h4>PLANNING</h4>
-                        <p>A lot of planning goes into shaping impeccable range of kitchen solutions to ideally meet varying needs.</p>
+                        <h4>Concept Craftsmanship</h4>
+                        <p>Transforming ideas into precision blueprints, we meticulously design the foundation for success.</p>
                       </div>
                     </div>
                   </div>
@@ -363,8 +357,8 @@
                     <div class="clearfix">
                       <div class="iconset"> <img src="svg/custom_made.svg">  </div>
                       <div class="processB-content">
-                        <h4>INSTALLATION</h4>
-                        <p>Regalo Kitchens deals in precision and exactness to deliver solutions that meet varied dimensions.</p>
+                        <h4>Strategic Sourcing</h4>
+                        <p>We navigate global markets to source optimal materials, ensuring the highest quality for every project.</p>
                       </div>
                     </div>
                   </div>
@@ -372,8 +366,8 @@
                     <div class="clearfix">
                       <div class="iconset"> <img src="svg/custom_made.svg">  </div>
                       <div class="processB-content">
-                        <h4> MADE TO MEASURE</h4>
-                        <p>Installation of kitchen solutions is one of vital stages to follow right after clients have already selected.</p>
+                        <h4>Elevating through Automation</h4>
+                        <p>Harnessing cutting-edge automation to optimize processes for seamless execution and enhanced productivity.</p>
                       </div>
                     </div>
                   </div>
@@ -385,8 +379,8 @@
                     <div class="clearfix">
                       <div class="iconset"> <img src="svg/custom_made.svg"> </div>
                       <div class="processB-content">
-                        <h4>CUSTOM MADE</h4>
-                        <p>A lot of planning goes into shaping impeccable range of kitchen solutions to ideally meet varying needs.</p>
+                        <h4>Construction</h4>
+                        <p>Our skilled teams design flawless construction, adhering to timelines and surpassing quality benchmarks.</p>
                       </div>
                     </div>
                   </div>
@@ -394,8 +388,8 @@
                     <div class="clearfix">
                       <div class="iconset"> <img src="svg/custom_made.svg">  </div>
                       <div class="processB-content">
-                        <h4>DESIGNING</h4>
-                        <p>Regalo Kitchens deals in precision and exactness to deliver solutions that meet varied dimensions.</p>
+                        <h4>Integrating Innovation</h4>
+                        <p>We infuse innovative technologies to elevate project performance and sustainability.</p>
                       </div>
                     </div>
                   </div>
@@ -403,8 +397,8 @@
                     <div class="clearfix">
                       <div class="iconset"> <img src="svg/custom_made.svg">  </div>
                       <div class="processB-content">
-                        <h4>LIFE TIME WARRENTY</h4>
-                        <p>Installation of kitchen solutions is one of vital stages to follow right after clients have already selected.</p>
+                        <h4>Commissioning and Beyond</h4>
+                        <p>From system testing to ongoing support, our commitment extends beyond completion.</p>
                       </div>
                     </div>
                   </div>
@@ -413,7 +407,7 @@
               </div>
             </div>
             <div class="col-md-5 process_right">
-              <img src="images/process_rightimg.jpg">
+              <img src="images/process_rightimg.png">
             </div>
           </div>
       </div>
@@ -426,7 +420,7 @@
           <div class="eltd-text-wrapper eltd-call-to-action-column1 eltd-call-to-action-cell">
             <div class="eltd-call-to-action-text" style="font-size: 45px">
               <p></p>
-                <h3>Konstelec Engineers Limited (KEL)  <span class="text-white">Offers&nbsp;</span>
+                <h3>Need a quote? Get in touch
                 </h3>
               <p></p>
             </div>
