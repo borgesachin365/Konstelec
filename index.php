@@ -55,9 +55,9 @@
     </section>
     <!--home banner section end-->
     <!--our USP section start-->
-    <section class="home-our-usps common-padding">
+    <section class="home-our-usps">
         <div class="auto-container">
-            <h1 class="common-heading text-center" data-aos="fade-up" data-aos-duration="1000">Our Services</h1>
+            <h1 class="text-center" data-aos="fade-up" data-aos-duration="1000">Our Services</h1>
             <div class="usps-main mt-5">
                 <div class="usp-content" data-aos="fade-up">
                     <img src="svg/silhouette.svg" alt="">
@@ -86,7 +86,7 @@
     <!--about us section start-->
     <section class="about-us common-padding">
         <div class="auto-container">
-            <h1 class="common-heading text-center" style="color:#245690;"  data-aos="fade-down" data-aos-duration="500">About Us</h1>
+            <h1 class="common-heading text-center" data-aos="fade-down" data-aos-duration="500">About Us</h1>
             <div class="row mt-5">
                 <div class="col-sm-12 col-md-12 col-lg-4">
                   <div class="about__text mt-30">
@@ -206,6 +206,7 @@
     <!--section our key projects start-->
     <section class="our-key-projects common-padding">
         <div class="auto-container">
+        <h1 class="common-heading text-center" data-aos="fade-down" data-aos-duration="500">Our Key Projects</h1>
           <div class="owl-slider mt-5">
             <div id="owl-example-projects" class="owl-carousel tabs">
               <li class="active"><a href="#tab1">Hydrocarbon Oil & Gas</a></li>
@@ -308,7 +309,7 @@
     <!--our clients section start-->
     <section class="our-clients common-padding">
       <div class="auto-container">
-          <h1 class="common-heading" style="color:#245690;">Our Clients</h1>
+          <h1 class="common-heading text-center">Our Clients</h1>
           <div class="owl-slider mt-5">
             <div id="client-slider" class="owl-carousel">
               <div class="item">
@@ -341,9 +342,9 @@
     </section>
     <!--our clients section end-->
     <!--precess section start-->
-    <section class="know_the_process common-padding">
-      <div class="auto-container">
-        <h2 class="common-heading mb-5">Know The <span>Process</span></h2>
+    <section class="know_the_process">
+    <h1 class="mb-5 text-center">Know The Process</h1>
+      <div class="auto-container mt-5">
         <div class="row">
           <div class="col-md-7">
             <div class="row">
@@ -438,9 +439,9 @@
     </div>
     <!--contact strip end-->
     <!--our blogs section start-->
-    <section class="home-blog-section common-padding">
+    <section class="home-blog-section">
       <div class="auto-container">
-        <h1 class="common-heading mb-5 text-center" style="color:#245690;">Our Blogs</h1>
+        <h1 class="mb-5 text-center">Our Blogs</h1>
         <div class="row clearfix">
           <div class="news-block-two col-md-4 col-sm-6 col-xs-12">
             <div class="inner-box">

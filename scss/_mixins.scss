@@ -1,0 +1,30 @@
+
+@mixin common-padding{
+    padding: 4% 0;;
+}
+@mixin common-heading{
+	font-size: 32px;
+	color: $primary-color;
+	font-weight: 600;
+	line-height: 45px;
+	font-family: $heading-font;
+}
+@mixin common-paragraph{
+    font-family: $paragraph-font;
+    color: $text-color;
+    font-size: 14px;
+    line-height: 36px;
+}
+@mixin border-radius ($radius-value){
+    border-radius: $radius-value;
+    -webkit-border-radius: $radius-value;
+    -moz-border-radius:$radius-value;
+}
+
+@mixin box-shadow($top,$left,$blur,$shadow){
+box-shadow:$top $left $blur $shadow;
+-webkit-box-shadow:$top $left $blur $shadow;
+-moz-box-shadow:$top $left $blur $shadow;
+}   
+
+

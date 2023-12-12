@@ -266,7 +266,7 @@ label {
 	background-color: $secondary-color;
 	width: 40px;
 	height: 3px;
-	border-radius: 5px;
+	@include border-radius(5px);
 	margin: 7px auto;
 	transition: background-color 0.4s ease-in, transform 0.4s ease-in, width 0.4s ease-in;
 }
@@ -390,13 +390,13 @@ label {
 }
 .main-header.is-sticky {
 	position: fixed;
-	box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+	@include box-shadow(0px, 5px, 16px, rgba(0, 0, 0, 0.1));
 	animation: slideDown 0.35s ease-out;
 }
 .cta-btn {
 	padding: 7px;
 	background-color: $primary-color;
-	border-radius: 50px;
+	@include border-radius(50px);
 	width: 115px;
 	a {
 		color: $secondary-color;
@@ -406,19 +406,26 @@ label {
 		display: block;
 	}
 }
-.common-padding {
-	padding: 4% 0;
+
+.home-our-usps{
+	@include common-padding;
+	h1{
+		@include common-heading;
+	}
 }
-.common-heading {
-	font-size: 32px;
-	color: $primary-color;
-	font-weight: 600;
-	line-height: 45px;
-	font-family: $heading-font;
-}
-.common-paragraph {
-	font-family: $paragraph-font;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .usps-main {
 	display: grid;
 	grid-auto-rows: auto;
@@ -467,6 +474,15 @@ label {
 	margin: 0;
 	font-family: $paragraph-font;
 }
+
+
+.about-us {
+	@include common-padding;
+	h1{
+		@include common-heading;
+	}
+}
+
 .about__text {
 	p {
 		&:first-of-type {
@@ -550,7 +566,7 @@ label {
 	width: 170px;
 	height: 50px;
 	line-height: 48px;
-	border-radius: 0;
+	@include border-radius(0px);
 	text-align: center;
 	padding: 0;
 	letter-spacing: .4px;
@@ -603,13 +619,17 @@ label {
 			top: 7px;
 			width: 8px;
 			height: 8px;
-			border-radius: 50%;
+			@include border-radius(50%);
 			background-color: $black-color;
 		}
 	}
 }
 .our-key-projects {
 	background-color: $bg-gray;
+	@include common-padding;
+	h1{
+		@include common-heading;
+	}
 }
 #owl-example-projects {
 	li {
@@ -650,14 +670,14 @@ label {
 		height: 100%;
 		width: 2%;
 		background: $primary-color !important;
-		border-radius: 0;
+		@include border-radius(0px);
 	}
 	button.owl-next {
 		position: absolute;
 		right: 0;
 		top: 0;
 		height: 100%;
-		border-radius: 0;
+		@include border-radius(0px);
 		background: $primary-color !important;
 		width: 2%;
 	}
@@ -684,7 +704,7 @@ label {
 				text-decoration: none;
 			}
 			margin: 0 !important;
-			border-radius: none !important;
+			@include border-radius(none !important);
 		}
 		margin: 0 !important;
 	}
@@ -695,8 +715,9 @@ label {
 .know_the_process {
 	width: 100%;
 	position: relative;
-	span {
-		color: $black-color;
+	@include common-padding;
+	h1{
+		@include common-heading;
 	}
 	.dots {
 		font-size: 22px;
@@ -754,6 +775,10 @@ label {
 }
 .our-clients {
 	background-color: $bg-gray;
+	@include common-padding;
+	h1{
+		@include common-heading;
+	}
 }
 .eltd-call-to-action {
 	position: relative;
@@ -786,7 +811,7 @@ label {
 	}
 	.eltd-btn {
 		vertical-align: middle;
-		border-radius: 50px;
+		@include border-radius(50px);
 		color: $secondary-color;
 		font-family: $heading-font;
 		font-size: 18px;
@@ -847,18 +872,23 @@ label {
 	}
 	.item {
 		img {
-			border-radius: 5px;
+			@include border-radius(5px);
 		}
 	}
 }
 .home-blog-section {
 	width: 100%;
 	float: left;
+	@include common-padding;
+	h1{
+		@include common-heading;
+	}
 }
 footer {
 	width: 100%;
 	float: left;
 	background-color: $primary-color;
+	@include common-padding;
 	h5 {
 		color: $secondary-color;
 		font-size: 18px;
@@ -880,7 +910,7 @@ footer {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		border-radius: 50px;
+		@include border-radius(50px);
 		margin-right: 6px;
 		transition: 0.5s all;
 		&:hover {
@@ -924,7 +954,7 @@ footer {
 	width: 50px;
 	height: 50px;
 	text-align: center;
-	border-radius: 50px;
+	@include border-radius(50px);
 	position: fixed;
 	bottom: 30px;
 	right: 30px;
@@ -974,7 +1004,7 @@ footer {
 	}
 }
 .tabs {
-	margin-top: 100px;
+	margin-top: 80px;
 }
 #tab-contents {
 	margin-top: 80px;
@@ -996,7 +1026,7 @@ footer {
 	padding-left: 7%;
 	h3 {
 		font-family: $heading-font;
-		font-size: 60px;
+		font-size: 50px;
 		font-weight: 800;
 		text-transform: uppercase;
 		margin-bottom: 28px;
@@ -1013,7 +1043,7 @@ footer {
 	width: 100px;
 	text-align: center;
 	font-weight: 400;
-	border-radius: 35px;
+	@include border-radius(35px);
 	margin-top: 25px;
 	transition: all 0.5s;
 	&:hover {

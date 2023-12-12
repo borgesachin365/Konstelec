@@ -26,7 +26,7 @@
                 <div class="auto-container second-option">
                     <div class="outer-container clearfix">
                         <div class="logo-box">
-                            <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+                            <div class="logo"><a href="index.php"><img src="images/logo.png" alt="logo"></a></div>
                         </div>
                         <div class="navbar-content">
                             <div class="email-number">

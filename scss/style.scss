@@ -1,7 +1,10 @@
 
 @import 'reset';
 @import 'variables';
+@import 'mixins';
 @import 'hamberger-nav';
+
+
 
 
 body {
@@ -222,7 +225,7 @@ body {
 			top: 100%;
 			left: 0px;
 			width: 180px;
-			border-radius: 0px;
+			@include border-radius(0px);
 			margin-top: 18px;
 			border: none;
 			padding: 0px;
@@ -256,7 +259,7 @@ body {
 			padding: 0px 0px;
 			background: none !important;
 			border: 0px;
-			border-radius: 0px;
+			@include border-radius(0px);
 		}
 	}
 	language {
@@ -306,7 +309,7 @@ body {
 		top: 50%;
 		margin-top: 0px;
 		display: block;
-		border-radius: 4px;
+		@include border-radius(4px);
 		text-align: center;
 		border: 1px solid #dddddd;
 		button {

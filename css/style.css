@@ -3,6 +3,7 @@
   padding: 0px;
   border: none;
   outline: none;
+  box-sizing: border-box;
 }
 
 a {
@@ -282,6 +283,8 @@ label {
   width: 40px;
   height: 3px;
   border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
   margin: 7px auto;
   transition: background-color 0.4s ease-in, transform 0.4s ease-in, width 0.4s ease-in;
 }
@@ -410,7 +413,9 @@ label {
 
 .main-header.is-sticky {
   position: fixed;
-  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.1);
   animation: slideDown 0.35s ease-out;
 }
 
@@ -418,6 +423,8 @@ label {
   padding: 7px;
   background-color: #0f3693;
   border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
   width: 115px;
 }
 .cta-btn a {
@@ -428,20 +435,15 @@ label {
   display: block;
 }
 
-.common-padding {
+.home-our-usps {
   padding: 4% 0;
 }
-
-.common-heading {
+.home-our-usps h1 {
   font-size: 32px;
   color: #0f3693;
   font-weight: 600;
   line-height: 45px;
   font-family: "Montserrat", sans-serif;
-}
-
-.common-paragraph {
-  font-family: "Roboto", sans-serif;
 }
 
 .usps-main {
@@ -491,6 +493,17 @@ label {
   font-weight: 300;
   margin: 0;
   font-family: "Roboto", sans-serif;
+}
+
+.about-us {
+  padding: 4% 0;
+}
+.about-us h1 {
+  font-size: 32px;
+  color: #0f3693;
+  font-weight: 600;
+  line-height: 45px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .about__text p:first-of-type {
@@ -572,7 +585,9 @@ label {
   width: 170px;
   height: 50px;
   line-height: 48px;
-  border-radius: 0;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
   text-align: center;
   padding: 0;
   letter-spacing: 0.4px;
@@ -627,11 +642,21 @@ label {
   width: 8px;
   height: 8px;
   border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
   background-color: #000;
 }
 
 .our-key-projects {
   background-color: #f4f4f4;
+  padding: 4% 0;
+}
+.our-key-projects h1 {
+  font-size: 32px;
+  color: #0f3693;
+  font-weight: 600;
+  line-height: 45px;
+  font-family: "Montserrat", sans-serif;
 }
 
 #owl-example-projects li a {
@@ -668,14 +693,18 @@ label {
   height: 100%;
   width: 2%;
   background: #0f3693 !important;
-  border-radius: 0;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
 }
 #owl-example-projects button.owl-next {
   position: absolute;
   right: 0;
   top: 0;
   height: 100%;
-  border-radius: 0;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
   background: #0f3693 !important;
   width: 2%;
 }
@@ -697,6 +726,8 @@ label {
 .owl-theme .owl-nav [class*=owl-] {
   margin: 0 !important;
   border-radius: none !important;
+  -webkit-border-radius: none !important;
+  -moz-border-radius: none !important;
 }
 .owl-theme .owl-nav [class*=owl-]:hover {
   background: #0f3693;
@@ -711,9 +742,14 @@ label {
 .know_the_process {
   width: 100%;
   position: relative;
+  padding: 4% 0;
 }
-.know_the_process span {
-  color: #000;
+.know_the_process h1 {
+  font-size: 32px;
+  color: #0f3693;
+  font-weight: 600;
+  line-height: 45px;
+  font-family: "Montserrat", sans-serif;
 }
 .know_the_process .dots {
   font-size: 22px;
@@ -767,6 +803,14 @@ label {
 
 .our-clients {
   background-color: #f4f4f4;
+  padding: 4% 0;
+}
+.our-clients h1 {
+  font-size: 32px;
+  color: #0f3693;
+  font-weight: 600;
+  line-height: 45px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .eltd-call-to-action {
@@ -802,6 +846,8 @@ label {
 .eltd-call-to-action .eltd-btn {
   vertical-align: middle;
   border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
@@ -862,17 +908,28 @@ label {
 }
 #client-slider .item img {
   border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
 }
 
 .home-blog-section {
   width: 100%;
   float: left;
+  padding: 4% 0;
+}
+.home-blog-section h1 {
+  font-size: 32px;
+  color: #0f3693;
+  font-weight: 600;
+  line-height: 45px;
+  font-family: "Montserrat", sans-serif;
 }
 
 footer {
   width: 100%;
   float: left;
   background-color: #0f3693;
+  padding: 4% 0;
 }
 footer h5 {
   color: #fff;
@@ -897,6 +954,8 @@ footer h5 {
   justify-content: center;
   align-items: center;
   border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
   margin-right: 6px;
   transition: 0.5s all;
 }
@@ -940,6 +999,8 @@ footer h5 {
   height: 50px;
   text-align: center;
   border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
   position: fixed;
   bottom: 30px;
   right: 30px;
@@ -988,7 +1049,7 @@ footer h5 {
 }
 
 .tabs {
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 #tab-contents {
@@ -1013,7 +1074,7 @@ footer h5 {
 }
 .product_category_content h3 {
   font-family: "Montserrat", sans-serif;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 800;
   text-transform: uppercase;
   margin-bottom: 28px;
@@ -1031,6 +1092,8 @@ footer h5 {
   text-align: center;
   font-weight: 400;
   border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
   margin-top: 25px;
   transition: all 0.5s;
 }
@@ -1268,6 +1331,8 @@ body {
   left: 0px;
   width: 180px;
   border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
   margin-top: 18px;
   border: none;
   padding: 0px;
@@ -1302,6 +1367,8 @@ body {
   background: none !important;
   border: 0px;
   border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
 }
 .main-header language a:hover {
   background: none;
@@ -1345,6 +1412,8 @@ body {
   margin-top: 0px;
   display: block;
   border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
   text-align: center;
   border: 1px solid #dddddd;
 }
