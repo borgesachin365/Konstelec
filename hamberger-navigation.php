@@ -96,7 +96,7 @@
                                 <ul class="aside-list mt-5">
                                     <li class="dropdown">
                                         <a href="javascript:void(0)" class="aside-anchor dropdowns">About Us
-                                            <span><img src="svg/plus.svg" alt=""></span> 
+                                            <span></span> 
                                           </a>
                                           <ul class="dropdowns-menu" style="display: none;">
                                             <li><a href="javascript:void(0)">Vision / Mission / Values</a></li>
@@ -109,7 +109,7 @@
                                       </li>
                                     <li class="dropdown">
                                         <a href="javascript:void(0)" class="aside-anchor dropdowns">Services
-                                            <span><img src="svg/plus.svg" alt=""></span> 
+                                            <span></span> 
                                           </a>
                                           <ul class="dropdowns-menu" style="display: none;">
                                             <li><a href="javascript:void(0)">Engineering Design</a></li>
@@ -125,7 +125,7 @@
                                       </li>
                                       <li class="dropdown">
                                         <a href="javascript:void(0)" class="aside-anchor dropdowns">Projects
-                                            <span><img src="svg/plus.svg" alt=""></span> 
+                                            <span></span> 
                                           </a>
                                           <ul class="dropdowns-menu" style="display: none;">
                                             <li><a href="javascript:void(0)">Hydrocarbon / Oil & Gas</a></li>
@@ -148,7 +148,7 @@
                                     </li>
                                     <li class="dropdown">
                                         <a href="javascript:void(0)" class="aside-anchor dropdowns">Investors
-                                            <span><img src="svg/plus.svg" alt=""></span> 
+                                            <span></span> 
                                           </a>
                                           <ul class="dropdowns-menu" style="display: none;">
                                             <li><a href="javascript:void(0)">Financial Information</a></li>
@@ -163,10 +163,10 @@
                                       </li>
                                       <li class="dropdown">
                                         <a href="javascript:void(0)" class="aside-anchor dropdowns">Contact Us
-                                            <span><img src="svg/plus.svg" alt=""></span> 
+                                            <span></span> 
                                           </a>
                                           <ul class="dropdowns-menu" style="display: none;">
-                                            <li><a href="javascript:void(0)">Contact US</a></li>
+                                            <li><a href="contact-us.php">Contact US</a></li>
                                             <li><a href="javascript:void(0)">Vendor Registration Form</a></li>
                                             <li><a href="javascript:void(0)">Contractor Registration Form</a></li>
                                           </ul>

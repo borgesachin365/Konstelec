@@ -2,8 +2,8 @@
 @import 'reset';
 @import 'variables';
 @import 'mixins';
+@import 'breakpoints';
 @import 'hamberger-nav';
-
 
 
 
@@ -774,15 +774,17 @@ body {
 		}
 		.lower-content {
 			position: relative;
+			border: 1px solid #0f369373;
 			padding: 24px 20px;
-			border: 1px solid #ddd;
+			border-bottom-right-radius: 10px;
+			border-bottom-left-radius: 10px;
 			h3 {
 				position: relative;
 				color: $primary-color;
-				font-size: 20px;
+				font-size: 19px;
 				font-weight: 600;
-				line-height: 1.5em;
-				padding-bottom: 15px;
+				line-height: 28px;
+				padding-bottom: 5px;
 				a {
 					position: relative;
 					color: $primary-color;
@@ -801,25 +803,33 @@ body {
 				font-weight: 600;
 				margin-bottom: 12px;
 				font-family: $heading-font;
+				i{
+					color: $primary-color;
+				}
 			}
 			.text {
 				position: relative;
 				color: $text-color;
 				font-size: 16px;
-				line-height: 1.8em;
-				margin-bottom: 18px;
+				line-height: 26px;
+				margin-bottom: 12px;
 			}
 			.read-more {
 				position: relative;
 				color: $primary-color;
-				font-size: 14px;
-				font-weight: 600;
+				font-size: 15px;
+				font-weight: 500;
 				transition: all 500ms ease;
 				-moz-transition: all 500ms ease;
 				-webkit-transition: all 500ms ease;
 				-ms-transition: all 500ms ease;
 				-o-transition: all 500ms ease;
 				font-family: $paragraph-font;
+				a{
+					span{
+						font-size: 14px;
+					}
+				}
 			}
 		}
 	}

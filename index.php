@@ -57,7 +57,7 @@
     <!--our USP section start-->
     <section class="home-our-usps position-relative">
         <div class="auto-container">
-            <h1 class="text-center" data-aos="fade-up" data-aos-duration="1000">Konstelec Engineers Pvt. Ltd (KEPL) is an all-inclusive engineering service provider</h1>
+            <h1 class="text-center" data-aos="fade-up" data-aos-duration="1000">An all-inclusive <br> engineering service provider</h1>
             <div class="usps-main mt-5">
                 <div class="usp-content" data-aos="fade-up">
                   <img src="svg/silhouette.svg" alt="">
@@ -86,7 +86,7 @@
     <!--about us section start-->
     <section class="about-us">
         <div class="auto-container">
-            <h1 class="text-center" data-aos="fade-down" data-aos-duration="500">About Us</h1>
+            <h1 class="text-center" data-aos="fade-down" data-aos-duration="500"> <span>About Us</span></h1>
             <div class="row mt-5">
                 <div class="col-sm-12 col-md-12 col-lg-4">
                   <div class="about__text mt-30">
@@ -131,7 +131,7 @@
     <!--about us section end-->
     <!--our services section start-->
     <section class="market-section">
-    <h1 class="text-center">Our Services</h1>
+    <h1 class="text-center"><span>Our Services</span></h1>
     	<div class="auto-container">
         	<div class="row clearfix">
                 <div class="title-column m-block col-lg-4 col-md-12 col-sm-12 col-xs-12">
@@ -200,7 +200,7 @@
     <!--section our key projects start-->
     <section class="our-key-projects common-padding">
         <div class="auto-container">
-        <h1 class="common-heading text-center" data-aos="fade-down" data-aos-duration="500">Our Key Projects</h1>
+        <h1 class="common-heading text-center" data-aos="fade-down" data-aos-duration="500"><span>Our Key Projects</span></h1>
           <div class="owl-slider mt-5">
             <div id="owl-example-projects" class="owl-carousel tabs">
               <li class="active"><a href="#tab1">Hydrocarbon Oil & Gas</a></li>
@@ -303,7 +303,7 @@
     <!--our clients section start-->
     <section class="our-clients common-padding">
       <div class="auto-container">
-          <h1 class="common-heading text-center">Our Clients</h1>
+          <h1 class="common-heading text-center"><span>Our Clients</span></h1>
           <div class="owl-slider mt-5">
             <div id="client-slider" class="owl-carousel">
               <div class="item">
@@ -337,16 +337,16 @@
     <!--our clients section end-->
     <!--precess section start-->
     <section class="know_the_process">
-    <h1 class="mb-5 text-center">Know The Process</h1>
+    <h1 class="text-center"> <span>Know The Process</span></h1>
       <div class="auto-container mt-5">
         <div class="row">
-          <div class="col-md-7">
+          <div class="col-md-9">
             <div class="row">
               <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="process-2">
                   <div class="process-box">
                     <div class="clearfix">
-                      <div class="iconset"> <img src="svg/custom_made.svg"> </div>
+                      <div class="iconset"> <img src="svg/concept-craftsmanship.svg"> </div>
                       <div class="processB-content">
                         <h4>Concept Craftsmanship</h4>
                         <p>Transforming ideas into precision blueprints, we meticulously design the foundation for success.</p>
@@ -355,7 +355,7 @@
                   </div>
                   <div class="process-box">
                     <div class="clearfix">
-                      <div class="iconset"> <img src="svg/custom_made.svg">  </div>
+                      <div class="iconset"> <img src="svg/strategic-sourcing.svg">  </div>
                       <div class="processB-content">
                         <h4>Strategic Sourcing</h4>
                         <p>We navigate global markets to source optimal materials, ensuring the highest quality for every project.</p>
@@ -364,7 +364,7 @@
                   </div>
                   <div class="process-box">
                     <div class="clearfix">
-                      <div class="iconset"> <img src="svg/custom_made.svg">  </div>
+                      <div class="iconset"> <img src="svg/elevating.svg">  </div>
                       <div class="processB-content">
                         <h4>Elevating through Automation</h4>
                         <p>Harnessing cutting-edge automation to optimize processes for seamless execution and enhanced productivity.</p>
@@ -377,7 +377,7 @@
                 <div class="process-2">
                   <div class="process-box">
                     <div class="clearfix">
-                      <div class="iconset"> <img src="svg/custom_made.svg"> </div>
+                      <div class="iconset"> <img src="svg/construction.svg"> </div>
                       <div class="processB-content">
                         <h4>Construction</h4>
                         <p>Our skilled teams design flawless construction, adhering to timelines and surpassing quality benchmarks.</p>
@@ -386,7 +386,7 @@
                   </div>
                   <div class="process-box">
                     <div class="clearfix">
-                      <div class="iconset"> <img src="svg/custom_made.svg">  </div>
+                      <div class="iconset"> <img src="svg/integrated-innovation.svg">  </div>
                       <div class="processB-content">
                         <h4>Integrating Innovation</h4>
                         <p>We infuse innovative technologies to elevate project performance and sustainability.</p>
@@ -395,7 +395,7 @@
                   </div>
                   <div class="process-box">
                     <div class="clearfix">
-                      <div class="iconset"> <img src="svg/custom_made.svg">  </div>
+                      <div class="iconset"> <img src="svg/communication-and-beyond.svg">  </div>
                       <div class="processB-content">
                         <h4>Commissioning and Beyond</h4>
                         <p>From system testing to ongoing support, our commitment extends beyond completion.</p>
@@ -405,9 +405,6 @@
                 </div>
               </div>
               </div>
-            </div>
-            <div class="col-md-5 process_right">
-              <img src="images/process_rightimg.png">
             </div>
           </div>
       </div>
@@ -435,7 +432,7 @@
     <!--our blogs section start-->
     <section class="home-blog-section">
       <div class="auto-container">
-        <h1 class="mb-5 text-center">Our Blogs</h1>
+        <h1 class="mb-5 text-center"><span>Our Blogs</span></h1>
         <div class="row clearfix">
           <div class="news-block-two col-md-4 col-sm-6 col-xs-12">
             <div class="inner-box">
@@ -444,9 +441,9 @@
                   </div>
                   <div class="lower-content">
                     <h3><a href="blog-detail.html">We are best for any industrial &amp; business solution.</a></h3>
-                      <div class="post-date">13th August 2017</div>
+                      <div class="post-date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> 13th August 2017</div>
                       <div class="text">Rationally encounter consequences seds ut that are extremely painful...</div>
-                      <a href="blog-detail.html" class="read-more">Read More <span class="icon flaticon-arrow-pointing-to-right"></span></a>
+                      <a href="blog-detail.html" class="read-more">Read More <span class="fa fa-long-arrow-right"></span></a>
                   </div>
               </div>
           </div>
@@ -457,9 +454,9 @@
                   </div>
                   <div class="lower-content">
                     <h3><a href="blog-detail.html">10 reason why should choose our industry.</a></h3>
-                      <div class="post-date">13th August 2017</div>
+                      <div class="post-date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> 13th August 2017</div>
                       <div class="text">Great explorer of the truth, that master builder of human happiness...</div>
-                      <a href="blog-detail.html" class="read-more">Read More <span class="icon flaticon-arrow-pointing-to-right"></span></a>
+                      <a href="blog-detail.html" class="read-more">Read More <span class="fa fa-long-arrow-right"></span></a>
                   </div>
               </div>
           </div>
@@ -470,9 +467,9 @@
                   </div>
                   <div class="lower-content">
                     <h3><a href="blog-detail.html">We won best factory award of the year 2015 &amp; 16.</a></h3>
-                      <div class="post-date">05th July 2017</div>
+                      <div class="post-date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> 05th July 2017</div>
                       <div class="text">To take a trivial example, which of us ever undertakes laborious physical...</div>
-                      <a href="blog-detail.html" class="read-more">Read More <span class="icon flaticon-arrow-pointing-to-right"></span></a>
+                      <a href="blog-detail.html" class="read-more">Read More <span class="fa fa-long-arrow-right"></span></a>
                   </div>
               </div>
           </div>          
@@ -481,6 +478,3 @@
     </section>
     <!--our blogs section end-->
   <?php include "tail.php" ?>
-</body>
-
-</html>

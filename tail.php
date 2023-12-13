@@ -80,3 +80,7 @@
     <script src="js/jquery-ui.js"></script>
     <script src="js/script.js"></script>
     <script src="js/custom-script.js"></script>
+
+    </body>
+
+</html>

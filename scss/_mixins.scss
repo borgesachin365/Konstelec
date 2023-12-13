@@ -8,6 +8,34 @@
 	font-weight: 600;
 	line-height: 45px;
 	font-family: $heading-font;
+    span{
+            display: inline-block;
+            position: relative;
+            &:before{
+                position: absolute;
+                content:"";
+                background-image: url("../images/prev__arrow.png");
+                left: -60px;
+                width: 68px;
+                height: 79px;
+                transform: scale(0.3);
+                top: -15px;
+                height: 78px;
+                width: 66px;
+            }
+            &:after{
+                position: absolute;
+                content:"";
+                background-image: url("../images/next__arrow.png");
+                right: -60px;
+                width: 68px;
+                height: 79px;
+                transform: scale(0.3);
+                top: -15px;
+                height: 78px;
+                width: 66px;
+            }
+        }
 }
 @mixin common-paragraph{
     font-family: $paragraph-font;

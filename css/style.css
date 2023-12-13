@@ -159,6 +159,11 @@ li {
   font-family: "Montserrat", sans-serif;
   line-height: 36px;
 }
+@media (min-width: 1600px) {
+  .aside-left .aside-content ul li h3 {
+    font-size: 23px;
+  }
+}
 
 .aside-right {
   width: 100%;
@@ -170,7 +175,7 @@ li {
   -o-transform: translateX(100%);
   transform: translateX(100%);
   transition: transform 0.4s ease-in-out;
-  padding: 5% 6%;
+  padding: 8% 6%;
 }
 .aside-right .aside-list {
   list-style: none;
@@ -181,18 +186,26 @@ li {
 .aside-right .aside-list li {
   margin-bottom: 15px;
 }
-.aside-right .aside-list li span img {
-  width: 2.7%;
-  transition: all 0.5s ease;
+.aside-right .aside-list li span {
+  background-image: url("../svg/plus.svg");
+  background-size: 100%;
+  height: 12px;
+  width: 12px;
+  display: inline-block;
 }
 .aside-right .aside-list li .aside-anchor {
   padding-bottom: 7px;
   color: #fff;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 18px;
   position: relative;
-  font-weight: 400;
+  font-weight: 500;
   transition: all 0.5s;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+.aside-right .aside-list li .dropdowns-menu {
+  margin-left: 10px;
 }
 
 .aside-list {
@@ -203,15 +216,17 @@ li {
 
 .dropdown a {
   display: block;
-  font-size: 17px;
-  color: #97c7ff;
+  font-size: 14px;
+  color: #e0ecf9;
   transition: all 0.5s;
-  font-weight: 400;
+  font-weight: 500;
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
 }
 
 .dropdowns-menu li {
-  margin-bottom: 10px !important;
+  margin-bottom: 6px !important;
 }
 
 .rotateSpan {
@@ -401,13 +416,13 @@ label {
   height: 5%;
 }
 .home-banner-section .carousel-control-prev-icon {
-  background-image: url("../svg/left-arrow.svg");
-  transform: scale(1.5);
+  background-image: url("../svg/home-banner-arrow.svg");
+  transform: rotate(180deg) scale(1.3);
   filter: unset;
 }
 .home-banner-section .carousel-control-next-icon {
-  background-image: url("../svg/right-arrow.svg");
-  transform: scale(1.5);
+  background-image: url("../svg/home-banner-arrow.svg");
+  transform: rotate(0deg) scale(1.3);
   filter: unset;
 }
 
@@ -421,18 +436,30 @@ label {
 
 .cta-btn {
   padding: 7px;
-  background-color: #0f3693;
   border-radius: 50px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   width: 115px;
+  background-color: #0f3693;
+  transition: all 0.5s;
 }
 .cta-btn a {
+  background-color: #0f3693;
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 15px;
   display: block;
+  transition: all 0.5s;
+}
+.cta-btn:hover {
+  background-color: #fff;
+  transition: all 0.5s;
+}
+.cta-btn:hover a {
+  background-color: #fff;
+  color: #0f3693;
+  transition: all 0.5s;
 }
 
 .home-our-usps {
@@ -444,6 +471,34 @@ label {
   font-weight: 600;
   line-height: 45px;
   font-family: "Montserrat", sans-serif;
+}
+.home-our-usps h1 span {
+  display: inline-block;
+  position: relative;
+}
+.home-our-usps h1 span:before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/prev__arrow.png");
+  left: -60px;
+  width: 68px;
+  height: 79px;
+  transform: scale(0.3);
+  top: -15px;
+  height: 78px;
+  width: 66px;
+}
+.home-our-usps h1 span:after {
+  position: absolute;
+  content: "";
+  background-image: url("../images/next__arrow.png");
+  right: -60px;
+  width: 68px;
+  height: 79px;
+  transform: scale(0.3);
+  top: -15px;
+  height: 78px;
+  width: 66px;
 }
 .home-our-usps::before {
   position: absolute;
@@ -518,12 +573,12 @@ label {
 }
 
 .common-para {
-  font-size: 16px;
+  font-size: 14px;
   color: #404041;
-  line-height: 28px;
-  font-weight: 400;
+  line-height: 25px;
+  font-weight: 500;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .about-us {
@@ -535,6 +590,34 @@ label {
   font-weight: 600;
   line-height: 45px;
   font-family: "Montserrat", sans-serif;
+}
+.about-us h1 span {
+  display: inline-block;
+  position: relative;
+}
+.about-us h1 span:before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/prev__arrow.png");
+  left: -60px;
+  width: 68px;
+  height: 79px;
+  transform: scale(0.3);
+  top: -15px;
+  height: 78px;
+  width: 66px;
+}
+.about-us h1 span:after {
+  position: absolute;
+  content: "";
+  background-image: url("../images/next__arrow.png");
+  right: -60px;
+  width: 68px;
+  height: 79px;
+  transform: scale(0.3);
+  top: -15px;
+  height: 78px;
+  width: 66px;
 }
 
 .about__text p:first-of-type {
@@ -690,6 +773,34 @@ label {
   line-height: 45px;
   font-family: "Montserrat", sans-serif;
 }
+.our-key-projects h1 span {
+  display: inline-block;
+  position: relative;
+}
+.our-key-projects h1 span:before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/prev__arrow.png");
+  left: -60px;
+  width: 68px;
+  height: 79px;
+  transform: scale(0.3);
+  top: -15px;
+  height: 78px;
+  width: 66px;
+}
+.our-key-projects h1 span:after {
+  position: absolute;
+  content: "";
+  background-image: url("../images/next__arrow.png");
+  right: -60px;
+  width: 68px;
+  height: 79px;
+  transform: scale(0.3);
+  top: -15px;
+  height: 78px;
+  width: 66px;
+}
 
 #owl-example-projects li a {
   display: flex;
@@ -722,36 +833,30 @@ label {
 }
 #owl-example-projects button.owl-prev {
   position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 2%;
-  background: #0f3693 !important;
+  left: -120px;
+  top: 25px;
   border-radius: 0px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
 }
 #owl-example-projects button.owl-next {
   position: absolute;
-  right: 0;
-  top: 0;
-  height: 100%;
+  right: -120px;
+  top: 20px;
   border-radius: 0px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  background: #0f3693 !important;
-  width: 2%;
 }
 #owl-example-projects .owl-dots {
   display: none;
 }
 
 .owl-next img {
-  width: 60%;
+  width: 50%;
 }
 
 .owl-prev img {
-  width: 60%;
+  width: 50%;
 }
 
 .owl-theme .owl-nav {
@@ -778,6 +883,10 @@ label {
   position: relative;
   background-color: #f4f4f4;
   padding: 4% 0;
+  background-image: url("../images/know-the-process-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .know_the_process h1 {
   font-size: 32px;
@@ -785,6 +894,35 @@ label {
   font-weight: 600;
   line-height: 45px;
   font-family: "Montserrat", sans-serif;
+  margin-bottom: 80px;
+}
+.know_the_process h1 span {
+  display: inline-block;
+  position: relative;
+}
+.know_the_process h1 span:before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/prev__arrow.png");
+  left: -60px;
+  width: 68px;
+  height: 79px;
+  transform: scale(0.3);
+  top: -15px;
+  height: 78px;
+  width: 66px;
+}
+.know_the_process h1 span:after {
+  position: absolute;
+  content: "";
+  background-image: url("../images/next__arrow.png");
+  right: -60px;
+  width: 68px;
+  height: 79px;
+  transform: scale(0.3);
+  top: -15px;
+  height: 78px;
+  width: 66px;
 }
 .know_the_process .dots {
   font-size: 22px;
@@ -798,13 +936,16 @@ label {
 .know_the_process .process-2 .process-box {
   margin: 0 0 60px;
 }
+.know_the_process .process-2 .process-box:nth-last-child(1) {
+  margin: 0 0 0px;
+}
 .know_the_process .process-2 .process-box .iconset {
   float: left;
-  width: 25%;
+  width: 15%;
 }
 .know_the_process .process-2 .process-box .iconset img {
   padding: 0px;
-  height: 40px;
+  height: 50px;
   text-align: center;
   width: 100%;
 }
@@ -828,6 +969,8 @@ label {
   color: #404041;
   font-size: 16px;
   line-height: 28px;
+  line-height: 26px;
+  font-weight: 400;
 }
 .know_the_process .process_right {
   position: absolute;
@@ -849,6 +992,34 @@ label {
   font-weight: 600;
   line-height: 45px;
   font-family: "Montserrat", sans-serif;
+}
+.our-clients h1 span {
+  display: inline-block;
+  position: relative;
+}
+.our-clients h1 span:before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/prev__arrow.png");
+  left: -60px;
+  width: 68px;
+  height: 79px;
+  transform: scale(0.3);
+  top: -15px;
+  height: 78px;
+  width: 66px;
+}
+.our-clients h1 span:after {
+  position: absolute;
+  content: "";
+  background-image: url("../images/next__arrow.png");
+  right: -60px;
+  width: 68px;
+  height: 79px;
+  transform: scale(0.3);
+  top: -15px;
+  height: 78px;
+  width: 66px;
 }
 
 .eltd-call-to-action {
@@ -962,6 +1133,34 @@ label {
   line-height: 45px;
   font-family: "Montserrat", sans-serif;
 }
+.home-blog-section h1 span {
+  display: inline-block;
+  position: relative;
+}
+.home-blog-section h1 span:before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/prev__arrow.png");
+  left: -60px;
+  width: 68px;
+  height: 79px;
+  transform: scale(0.3);
+  top: -15px;
+  height: 78px;
+  width: 66px;
+}
+.home-blog-section h1 span:after {
+  position: absolute;
+  content: "";
+  background-image: url("../images/next__arrow.png");
+  right: -60px;
+  width: 68px;
+  height: 79px;
+  transform: scale(0.3);
+  top: -15px;
+  height: 78px;
+  width: 66px;
+}
 
 footer {
   width: 100%;
@@ -971,8 +1170,9 @@ footer {
 }
 footer h5 {
   color: #fff;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 500;
+  font-family: "Montserrat", sans-serif;
 }
 
 .social-style-one {
@@ -1004,19 +1204,23 @@ footer h5 {
 }
 
 .footer-title {
-  font-size: 19px;
+  font-size: 18px;
   color: #fff;
-  font-weight: 500;
-  margin-bottom: 10px;
+  font-weight: 600;
+  margin-bottom: 15px;
   font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
 }
 
 .footer-links li a {
-  font-family: "Roboto", sans-serif;
-  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  color: #e0ecf9;
   font-size: 15px;
-  margin: 5px 0;
+  margin: 3px 0;
   display: block;
+  font-weight: 500;
+  margin-left: 10px;
+  position: relative;
 }
 
 .copyright-strip {
@@ -1135,9 +1339,12 @@ footer h5 {
   -moz-border-radius: 35px;
   margin-top: 25px;
   transition: all 0.5s;
+  border: 1px solid #0f3693;
 }
 .more_category:hover {
-  color: #fff;
+  color: #0f3693;
+  background-color: #fff;
+  transition: all 0.5s;
 }
 
 .main-box.shrink {
@@ -1582,6 +1789,34 @@ body {
   color: #fff;
   margin-bottom: 100px;
 }
+.market-section h1 span {
+  display: inline-block;
+  position: relative;
+}
+.market-section h1 span:before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/prev__arrow.png");
+  left: -60px;
+  width: 68px;
+  height: 79px;
+  transform: scale(0.3);
+  top: -15px;
+  height: 78px;
+  width: 66px;
+}
+.market-section h1 span:after {
+  position: absolute;
+  content: "";
+  background-image: url("../images/next__arrow.png");
+  right: -60px;
+  width: 68px;
+  height: 79px;
+  transform: scale(0.3);
+  top: -15px;
+  height: 78px;
+  width: 66px;
+}
 .market-section .row {
   margin: 0px -30px;
 }
@@ -1857,16 +2092,18 @@ body {
 }
 .news-block-two .inner-box .lower-content {
   position: relative;
+  border: 1px solid rgba(15, 54, 147, 0.4509803922);
   padding: 24px 20px;
-  border: 1px solid #ddd;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 .news-block-two .inner-box .lower-content h3 {
   position: relative;
   color: #0f3693;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 600;
-  line-height: 1.5em;
-  padding-bottom: 15px;
+  line-height: 28px;
+  padding-bottom: 5px;
 }
 .news-block-two .inner-box .lower-content h3 a {
   position: relative;
@@ -1886,24 +2123,30 @@ body {
   margin-bottom: 12px;
   font-family: "Montserrat", sans-serif;
 }
+.news-block-two .inner-box .lower-content .post-date i {
+  color: #0f3693;
+}
 .news-block-two .inner-box .lower-content .text {
   position: relative;
   color: #404041;
   font-size: 16px;
-  line-height: 1.8em;
-  margin-bottom: 18px;
+  line-height: 26px;
+  margin-bottom: 12px;
 }
 .news-block-two .inner-box .lower-content .read-more {
   position: relative;
   color: #0f3693;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 500;
   transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -webkit-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
   font-family: "Roboto", sans-serif;
+}
+.news-block-two .inner-box .lower-content .read-more a span {
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */
