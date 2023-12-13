@@ -57,25 +57,10 @@
 
     <!--footer end-->
     <script src="js/jquery.js"></script>
-    <!--Revolution Slider-->
-    <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script> 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/main-slider-script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
-    <script src="js/smoothscroll.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
-    <script src="js/jquery.fancybox.js"></script>
+	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/script.js"></script>

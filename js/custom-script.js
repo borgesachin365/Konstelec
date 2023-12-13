@@ -35,15 +35,15 @@ btn.on('click', function(e) {
 $(function(){
 $('li.dropdown > a').on('click',function(event){
    if($(this).hasClass("one")){
-      $(this).parent().siblings().find("span img").removeClass("rotateSpan");
+      $(this).parent().siblings().find("span").removeClass("rotateSpan");
   }
   if($(this).hasClass("dropdowns")){
-      $(this).parent().siblings().find("span img").removeClass("rotateSpan");
+      $(this).parent().siblings().find("span").removeClass("rotateSpan");
   }
-    if ($(this).find('span img').hasClass("rotateSpan")) {
-    $(this).find('span img').removeClass("rotateSpan")
-  } else if (!$(this).find('span img').hasClass("rotateSpan")) {
-    $(this).find('span img').addClass("rotateSpan")
+    if ($(this).find('span').hasClass("rotateSpan")) {
+    $(this).find('span').removeClass("rotateSpan")
+  } else if (!$(this).find('span').hasClass("rotateSpan")) {
+    $(this).find('span').addClass("rotateSpan")
   }
   $(this).parent().find('ul').first().toggle(300);
   $(this).parent().siblings().find('ul').hide(200);

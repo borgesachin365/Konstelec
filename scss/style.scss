@@ -554,7 +554,7 @@ body {
 				font-size: 16px;
 				font-weight: 400;
 				line-height: 28px;
-				margin-bottom: 25px;
+				margin-bottom: 45px;
 			}
 		}
 		.sec-title {
@@ -611,12 +611,13 @@ body {
 	margin-bottom: 50px;
 	h2 {
 		position: relative;
-		font-size: 24px;
+		font-size: 22px;
 		font-weight: 500;
 		color: $primary-color;
 		line-height: 1.2em;
-		padding: 0px 0px 24px;
+		padding: 0px 0px 10px;
 		display: inline-block;
+		font-family: $heading-font;
 	}
 	.separator {
 		position: relative;

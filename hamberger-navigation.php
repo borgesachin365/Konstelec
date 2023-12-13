@@ -92,7 +92,7 @@
                                 </div>
                                 </div>
                                 <div class="aside-section aside-right">
-                                <a href="javascript:void(0)"><img src="images/logo.png" alt=""></a>
+                                <a href="javascript:void(0)" class="hamberger-nav-logo"><img src="images/logo.png" alt=""></a>
                                 <ul class="aside-list mt-5">
                                     <li class="dropdown">
                                         <a href="javascript:void(0)" class="aside-anchor dropdowns">About Us

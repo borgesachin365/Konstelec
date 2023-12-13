@@ -17,10 +17,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lightgallery.min.css">
-    <link rel="stylesheet" href="css/hamberger-nav.css">
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <link href="css/responsive.css" rel="stylesheet">
-    <!-- Responsive -->
+    <!-- Stylesheets -->
 </head>
 <body>
     <a id="top-btn" class="show"><i class="fa fa-arrow-up"></i></a>

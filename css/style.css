@@ -159,9 +159,14 @@ li {
   font-family: "Montserrat", sans-serif;
   line-height: 36px;
 }
-@media (min-width: 1600px) {
+@media (max-width: 1536px) {
   .aside-left .aside-content ul li h3 {
-    font-size: 23px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 1440px) {
+  .aside-left .aside-content ul li h3 {
+    font-size: 20px;
   }
 }
 
@@ -175,7 +180,12 @@ li {
   -o-transform: translateX(100%);
   transform: translateX(100%);
   transition: transform 0.4s ease-in-out;
-  padding: 8% 6%;
+  padding: 4% 6%;
+}
+@media (max-width: 1440px) {
+  .aside-right .hamberger-nav-logo img {
+    width: 28%;
+  }
 }
 .aside-right .aside-list {
   list-style: none;
@@ -186,12 +196,23 @@ li {
 .aside-right .aside-list li {
   margin-bottom: 15px;
 }
+@media (max-width: 1536px) {
+  .aside-right .aside-list li {
+    margin-bottom: 6px;
+  }
+}
+@media (max-width: 1440px) {
+  .aside-right .aside-list li {
+    margin-bottom: 4px;
+  }
+}
 .aside-right .aside-list li span {
   background-image: url("../svg/plus.svg");
   background-size: 100%;
   height: 12px;
   width: 12px;
   display: inline-block;
+  transition: all 0.5s ease;
 }
 .aside-right .aside-list li .aside-anchor {
   padding-bottom: 7px;
@@ -203,6 +224,11 @@ li {
   transition: all 0.5s;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
+}
+@media (max-width: 1536px) {
+  .aside-right .aside-list li .aside-anchor {
+    font-size: 16px;
+  }
 }
 .aside-right .aside-list li .dropdowns-menu {
   margin-left: 10px;
@@ -371,10 +397,21 @@ label {
   text-transform: uppercase;
   line-height: 65px;
 }
+@media (max-width: 1440px) {
+  .home-banner-section .carousel-caption h5 {
+    font-size: 28px;
+    line-height: 60px;
+  }
+}
 .home-banner-section .carousel-caption h5 span {
   font-size: 55px;
   color: #fff;
   font-weight: 700;
+}
+@media (max-width: 1440px) {
+  .home-banner-section .carousel-caption h5 span {
+    font-size: 45px;
+  }
 }
 .home-banner-section .carousel-indicators {
   display: none;
@@ -420,10 +457,20 @@ label {
   transform: rotate(180deg) scale(1.3);
   filter: unset;
 }
+@media (max-width: 1440px) {
+  .home-banner-section .carousel-control-prev-icon {
+    transform: rotate(180deg) scale(1.2);
+  }
+}
 .home-banner-section .carousel-control-next-icon {
   background-image: url("../svg/home-banner-arrow.svg");
   transform: rotate(0deg) scale(1.3);
   filter: unset;
+}
+@media (max-width: 1440px) {
+  .home-banner-section .carousel-control-next-icon {
+    transform: rotate(0deg) scale(1.2);
+  }
 }
 
 .main-header.is-sticky {
@@ -472,6 +519,11 @@ label {
   line-height: 45px;
   font-family: "Montserrat", sans-serif;
 }
+@media (max-width: 1440px) {
+  .home-our-usps h1 {
+    font-size: 30px;
+  }
+}
 .home-our-usps h1 span {
   display: inline-block;
   position: relative;
@@ -513,6 +565,13 @@ label {
   right: -60px;
   bottom: 10px;
   transform: rotate(180deg) scale(0.7);
+}
+@media (max-width: 1440px) {
+  .home-our-usps::after {
+    right: -113px;
+    bottom: -110px;
+    transform: rotate(180deg) scale(0.5);
+  }
 }
 
 .usps-main {
@@ -590,6 +649,11 @@ label {
   font-weight: 600;
   line-height: 45px;
   font-family: "Montserrat", sans-serif;
+}
+@media (max-width: 1440px) {
+  .about-us h1 {
+    font-size: 30px;
+  }
 }
 .about-us h1 span {
   display: inline-block;
@@ -773,6 +837,11 @@ label {
   line-height: 45px;
   font-family: "Montserrat", sans-serif;
 }
+@media (max-width: 1440px) {
+  .our-key-projects h1 {
+    font-size: 30px;
+  }
+}
 .our-key-projects h1 span {
   display: inline-block;
   position: relative;
@@ -839,6 +908,12 @@ label {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
 }
+@media (max-width: 1440px) {
+  #owl-example-projects button.owl-prev {
+    left: -85px;
+    top: 30px;
+  }
+}
 #owl-example-projects button.owl-next {
   position: absolute;
   right: -120px;
@@ -847,6 +922,12 @@ label {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
 }
+@media (max-width: 1440px) {
+  #owl-example-projects button.owl-next {
+    right: -85px;
+    top: 30px;
+  }
+}
 #owl-example-projects .owl-dots {
   display: none;
 }
@@ -854,9 +935,19 @@ label {
 .owl-next img {
   width: 50%;
 }
+@media (max-width: 1440px) {
+  .owl-next img {
+    width: 40%;
+  }
+}
 
 .owl-prev img {
   width: 50%;
+}
+@media (max-width: 1440px) {
+  .owl-prev img {
+    width: 40%;
+  }
 }
 
 .owl-theme .owl-nav {
@@ -895,6 +986,11 @@ label {
   line-height: 45px;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 80px;
+}
+@media (max-width: 1440px) {
+  .know_the_process h1 {
+    font-size: 30px;
+  }
 }
 .know_the_process h1 span {
   display: inline-block;
@@ -993,6 +1089,11 @@ label {
   line-height: 45px;
   font-family: "Montserrat", sans-serif;
 }
+@media (max-width: 1440px) {
+  .our-clients h1 {
+    font-size: 30px;
+  }
+}
 .our-clients h1 span {
   display: inline-block;
   position: relative;
@@ -1075,7 +1176,7 @@ label {
 
 .eltd-call-to-action-text h3 {
   color: #fff;
-  font-size: 30px;
+  font-size: 28px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
@@ -1133,6 +1234,11 @@ label {
   line-height: 45px;
   font-family: "Montserrat", sans-serif;
 }
+@media (max-width: 1440px) {
+  .home-blog-section h1 {
+    font-size: 30px;
+  }
+}
 .home-blog-section h1 span {
   display: inline-block;
   position: relative;
@@ -1173,6 +1279,11 @@ footer h5 {
   font-size: 19px;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
+}
+@media (max-width: 1440px) {
+  footer img {
+    width: 42%;
+  }
 }
 
 .social-style-one {
@@ -1324,6 +1435,11 @@ footer h5 {
   position: relative;
   color: #0f3693;
   line-height: 60px;
+}
+@media (max-width: 1440px) {
+  .product_category_content h3 {
+    font-size: 45px;
+  }
 }
 
 .more_category {
@@ -1789,6 +1905,11 @@ body {
   color: #fff;
   margin-bottom: 100px;
 }
+@media (max-width: 1440px) {
+  .market-section h1 {
+    font-size: 30px;
+  }
+}
 .market-section h1 span {
   display: inline-block;
   position: relative;
@@ -1879,7 +2000,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
-  margin-bottom: 25px;
+  margin-bottom: 45px;
 }
 .market-section .title-column .sec-title {
   margin-bottom: 40px;
@@ -1929,12 +2050,13 @@ body {
 }
 .sec-title h2 {
   position: relative;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
   color: #0f3693;
   line-height: 1.2em;
-  padding: 0px 0px 24px;
+  padding: 0px 0px 10px;
   display: inline-block;
+  font-family: "Montserrat", sans-serif;
 }
 .sec-title .separator {
   position: relative;
