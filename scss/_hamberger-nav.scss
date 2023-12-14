@@ -353,7 +353,7 @@ label {
 		}
 	}
 	.carousel-caption {
-		top: 56%;
+		top: 55%;
 		left: 41%;
 		transform: translate(-50%, -50%);
 		display: flex !important;
@@ -851,20 +851,20 @@ label {
 	.owl-dots {
 		display: none;
 	}
-}
-.owl-next {
-	img {
-		width: 50%;
-		@include breakpoints(1440px){
-			width: 40%;
+	.owl-next {
+		img {
+			width: 50%;
+			@include breakpoints(1440px){
+				width: 40%;
+			}
 		}
 	}
-}
-.owl-prev {
-	img {
-		width: 50%;
-		@include breakpoints(1440px){
-			width: 40%;
+	.owl-prev {
+		img {
+			width: 50%;
+			@include breakpoints(1440px){
+				width: 40%;
+			}
 		}
 	}
 }
@@ -1065,22 +1065,42 @@ label {
 		position: absolute;
 	}
 	.owl-next {
-		right: -70px;
-		top: 35px;
-		@include breakpoints(1280px){
-			right: -20px;
+		right: -18px;
+		top: 30px;
+		width: 3.3%;
+		// @include breakpoints(1280px){
+		// 	right: -20px;
+		// }
+		 img {
+			width: 100%;
 		}
 	}
 	.owl-prev {
-		left: -70px;
-		top: 35px;
-		@include breakpoints(1280px){
-			left: -20px;
+		left: -18px;
+		top: 30px;
+		width: 3.3%;
+		// @include breakpoints(1280px){
+		// 	left: -20px;
+		// }
+		 img {
+			width: 100%;
+			transform: rotate(180deg);
 		}
 	}
 	.item {
+		background-color: $bg-gray;
+		border-radius: 15px;
+		padding: 5px 0;
+		transition: all 0.5s;
+		&:hover {
+			transform: scale(1);
+			transition: all 0.5s;
+			background-color: #e8f2ff;
+		}
 		img {
 			@include border-radius(5px);
+			width: 45%;
+			margin: 0 auto;
 		}
 	}
 }

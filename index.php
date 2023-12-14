@@ -307,28 +307,19 @@
           <div class="owl-slider mt-5">
             <div id="client-slider" class="owl-carousel">
               <div class="item">
-                <img src="images/clients/cl-logo-9.jpg" alt="">
+                <img src="images/clients/acc-logo.png" alt="">
               </div>
               <div class="item">
-                <img src="images/clients/cl-logo-10.jpg" alt="">
+                <img src="images/clients/dangote-group-logo.png" alt="">
               </div>
               <div class="item">
-                <img src="images/clients/cl-logo-11.jpg" alt="">
+                <img src="images/clients/eil-logo.png" alt="">
               </div>
                 <div class="item">
-                <img src="images/clients/cl-logo-12.jpg" alt="">
+                <img src="images/clients/essar-logo.png" alt="">
               </div>
               <div class="item">
-                <img src="images/clients/cl-logo-13.jpg" alt="">
-              </div>
-              <div class="item">
-                <img src="images/clients/cl-logo-14.jpg" alt="">
-              </div>
-              <div class="item">
-                <img src="images/clients/cl-logo-15.jpg" alt="">
-              </div>
-                <div class="item">
-                <img src="images/clients/cl-logo-16.jpg" alt="">
+                <img src="images/clients/cpl-logo.png" alt="">
               </div>
             </div>
             </div>
@@ -423,7 +414,7 @@
             </div>
           </div>
           <div class="eltd-button-wrapper eltd-call-to-action-column2 eltd-call-to-action-cell" style="text-align: left ;">
-            <a href="javascript:void(0)" target="" class="eltd-btn eltd-btn-medium eltd-btn-solid">    <span class="eltd-btn-text">Contact Us</span></a>
+            <a href="contact-us.php" target="" class="eltd-btn eltd-btn-medium eltd-btn-solid">    <span class="eltd-btn-text">Contact Us</span></a>
           </div>
         </div>
       </div>
@@ -433,47 +424,47 @@
     <section class="home-blog-section">
       <div class="auto-container">
         <h1 class="mb-5 text-center"><span>Our Blogs</span></h1>
-        <div class="row clearfix">
-          <div class="news-block-two col-md-4 col-sm-6 col-xs-12">
+        <div class="home-bolgs-main">
+        <div class="news-block-two">
             <div class="inner-box">
                 <div class="image">
                     <a href="blog-detail.html"><img src="images/blogs/news-3.jpg" alt=""></a>
                   </div>
                   <div class="lower-content">
-                    <h3><a href="blog-detail.html">We are best for any industrial &amp; business solution.</a></h3>
+                    <h3><a href="blog-detail.html" class="common-heading-text">We are best for any industrial &amp; business solution.</a></h3>
                       <div class="post-date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> 13th August 2017</div>
-                      <div class="text">Rationally encounter consequences seds ut that are extremely painful...</div>
+                      <div class="text truncate-text">Great explorer of the truth, that master builder of human happiness Great explorer of the truth, that master builder of human happiness</div>
                       <a href="blog-detail.html" class="read-more">Read More <span class="fa fa-long-arrow-right"></span></a>
                   </div>
               </div>
           </div>
-          <div class="news-block-two col-md-4 col-sm-6 col-xs-12">
+          <div class="news-block-two">
             <div class="inner-box">
                 <div class="image">
                     <a href="blog-detail.html"><img src="images/blogs/news-3.jpg" alt=""></a>
                   </div>
                   <div class="lower-content">
-                    <h3><a href="blog-detail.html">10 reason why should choose our industry.</a></h3>
+                    <h3><a href="blog-detail.html" class="common-heading-text">10 reason why should choose our industry.</a></h3>
                       <div class="post-date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> 13th August 2017</div>
-                      <div class="text">Great explorer of the truth, that master builder of human happiness...</div>
+                      <div class="text truncate-text">Great explorer of the truth, that master builder of human happiness Great explorer of the truth, that master builder of human happiness</div>
                       <a href="blog-detail.html" class="read-more">Read More <span class="fa fa-long-arrow-right"></span></a>
                   </div>
               </div>
           </div>
-          <div class="news-block-two col-md-4 col-sm-6 col-xs-12">
+          <div class="news-block-two">
             <div class="inner-box">
                 <div class="image">
                     <a href="blog-detail.html"><img src="images/blogs/news-3.jpg" alt=""></a>
                   </div>
                   <div class="lower-content">
-                    <h3><a href="blog-detail.html">We won best factory award of the year 2015 &amp; 16.</a></h3>
+                    <h3><a href="blog-detail.html" class="common-heading-text">We won best factory award of the year 2015 &amp; 16.</a></h3>
                       <div class="post-date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> 05th July 2017</div>
-                      <div class="text">To take a trivial example, which of us ever undertakes laborious physical...</div>
+                      <div class="text truncate-text">To take a trivial example, which of us ever undertakes laborious physical To take a trivial example, which of us ever undertakes laborious physical</div>
                       <a href="blog-detail.html" class="read-more">Read More <span class="fa fa-long-arrow-right"></span></a>
                   </div>
               </div>
-          </div>          
-      </div>
+          </div> 
+        </div>         
       </div>
     </section>
     <!--our blogs section end-->

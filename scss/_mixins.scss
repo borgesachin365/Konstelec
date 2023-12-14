@@ -71,7 +71,7 @@ box-shadow:$top $left $blur $shadow;
     position: relative;
     .page-breadcrumbs{
         position: absolute;
-        bottom: 0;
+        bottom: 15px;
         width: 100%;
 
         padding: 5px 0;
@@ -93,6 +93,15 @@ box-shadow:$top $left $blur $shadow;
             }
         }
     }
+}
+
+@mixin about-para{
+    font-size: 18px;
+    color: $primary-color;
+    font-family: $heading-font;
+    font-weight: 400;
+    line-height: 38px;
+    margin-bottom: 0;
 }
 
 

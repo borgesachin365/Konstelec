@@ -745,9 +745,9 @@ body {
 		.view_all {
 			position: absolute;
 			left: 0px;
-			bottom: 30px;
-			font-size: 14px;
-			font-weight: 500;
+			bottom: 20px;
+			font-size: 13px;
+			font-weight: 600;
 			color: $secondary-color;
 			opacity: 0;
 			visibility: hidden;
@@ -757,6 +757,15 @@ body {
 			-ms-transition: all 300ms ease;
 			-o-transition: all 300ms ease;
 			font-family: $heading-font;
+			background-color: #5ca3fb;
+			padding: 3px 7px;
+			border-radius: 58px;
+			transition: all 0.5s;
+			&:hover{
+				background-color: $secondary-color;
+				color: $primary-color;
+				transition: all 0.5s;
+			}
 		}
 		.icon-box{
 			img{
@@ -769,29 +778,25 @@ body {
 		margin-top: 30px;
 	}
 }
-.news-block-two {
-	position: relative;
-	.inner-box {
+.home-bolgs-main{
+	width: 100%;
+	display: grid;
+	grid-auto-rows: minmax(400px, auto);
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+	grid-gap: 50px;
+	margin-top: 80px;
+	.news-block-two {
 		position: relative;
-		background-color: $secondary-color;
-		transition: all 500ms ease;
-		-moz-transition: all 500ms ease;
-		-webkit-transition: all 500ms ease;
-		-ms-transition: all 500ms ease;
-		-o-transition: all 500ms ease;
-		.image {
+		.inner-box {
 			position: relative;
+			background-color: $secondary-color;
 			transition: all 500ms ease;
 			-moz-transition: all 500ms ease;
 			-webkit-transition: all 500ms ease;
 			-ms-transition: all 500ms ease;
 			-o-transition: all 500ms ease;
-			border-top-left-radius: 10px;
-			border-top-right-radius: 10px;
-			img {
+			.image {
 				position: relative;
-				width: 100%;
-				display: block;
 				transition: all 500ms ease;
 				-moz-transition: all 500ms ease;
 				-webkit-transition: all 500ms ease;
@@ -799,71 +804,83 @@ body {
 				-o-transition: all 500ms ease;
 				border-top-left-radius: 10px;
 				border-top-right-radius: 10px;
-			}
-		}
-		.lower-content {
-			position: relative;
-			border: 1px solid #0f369373;
-			padding: 24px 20px;
-			border-bottom-right-radius: 10px;
-			border-bottom-left-radius: 10px;
-			h3 {
-				position: relative;
-				color: $primary-color;
-				font-size: 19px;
-				font-weight: 600;
-				line-height: 28px;
-				padding-bottom: 5px;
-				a {
+				img {
 					position: relative;
-					color: $primary-color;
+					width: 100%;
+					display: block;
 					transition: all 500ms ease;
 					-moz-transition: all 500ms ease;
 					-webkit-transition: all 500ms ease;
 					-ms-transition: all 500ms ease;
 					-o-transition: all 500ms ease;
-					font-family: $heading-font;
+					border-top-left-radius: 10px;
+					border-top-right-radius: 10px;
 				}
 			}
-			.post-date {
+			.lower-content {
 				position: relative;
-				color: $text-color;
-				font-size: 15px;
-				font-weight: 600;
-				margin-bottom: 12px;
-				font-family: $heading-font;
-				i{
+				border: 1px solid #0f369373;
+				padding: 24px 20px;
+				border-bottom-right-radius: 10px;
+				border-bottom-left-radius: 10px;
+				h3 {
+					position: relative;
 					color: $primary-color;
+					font-size: 19px;
+					font-weight: 600;
+					line-height: 28px;
+					padding-bottom: 5px;
+					a {
+						position: relative;
+						color: $primary-color;
+						transition: all 500ms ease;
+						-moz-transition: all 500ms ease;
+						-webkit-transition: all 500ms ease;
+						-ms-transition: all 500ms ease;
+						-o-transition: all 500ms ease;
+						font-family: $heading-font;
+					}
 				}
-			}
-			.text {
-				position: relative;
-				color: $text-color;
-				font-size: 16px;
-				line-height: 26px;
-				margin-bottom: 12px;
-			}
-			.read-more {
-				position: relative;
-				color: $primary-color;
-				font-size: 15px;
-				font-weight: 500;
-				transition: all 500ms ease;
-				-moz-transition: all 500ms ease;
-				-webkit-transition: all 500ms ease;
-				-ms-transition: all 500ms ease;
-				-o-transition: all 500ms ease;
-				font-family: $paragraph-font;
-				a{
-					span{
-						font-size: 14px;
+				.post-date {
+					position: relative;
+					color: $text-color;
+					font-size: 15px;
+					font-weight: 600;
+					margin-bottom: 12px;
+					font-family: $heading-font;
+					i{
+						color: $primary-color;
+					}
+				}
+				.text {
+					position: relative;
+					color: $text-color;
+					font-size: 16px;
+					line-height: 26px;
+					margin-bottom: 12px;
+				}
+				.read-more {
+					position: relative;
+					color: $primary-color;
+					font-size: 15px;
+					font-weight: 500;
+					transition: all 500ms ease;
+					-moz-transition: all 500ms ease;
+					-webkit-transition: all 500ms ease;
+					-ms-transition: all 500ms ease;
+					-o-transition: all 500ms ease;
+					font-family: $paragraph-font;
+					a{
+						span{
+							font-size: 14px;
+						}
 					}
 				}
 			}
 		}
 	}
+	
 }
-
 .contact-top-banner-section{
 	@include common-heading-banner;
 }
@@ -1047,13 +1064,7 @@ body {
 		@include common-heading;
 	}
 	p{
-		font-size: 18px;
-		color: $primary-color;
-		font-family: $heading-font;
-		font-family: "Montserrat", sans-serif;
-		font-weight: 500;
-		line-height: 38px;
-		margin-bottom: 0;
+		@include about-para;
 	}
 }
 .about-key-points{
@@ -1138,6 +1149,24 @@ body {
 				}
 			}
 		}
+	}
+}
+.directors-desk{
+	width: 100%;
+	background-image: url("../images/cmd-desk-bg-min.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 100vh;
+    background-position: center;
+	@include common-padding;
+	h1{
+		@include common-heading;
+		color: $secondary-color;
+	}
+	p{
+		@include about-para;
+		color: $secondary-color;
+		margin-top: 100px;
 	}
 }
 

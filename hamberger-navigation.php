@@ -100,7 +100,7 @@
                                           </a>
                                           <ul class="dropdowns-menu" style="display: none;">
                                             <li><a href="about-us.php">About Us</a></li>
-                                            <li><a href="javascript:void(0)">Managing Director</a></li>
+                                            <li><a href="managing-directors-desk.php">Managing Director</a></li>
                                             <li><a href="javascript:void(0)">Quality Policy</a></li>
                                             <li><a href="javascript:void(0)">HR Policies</a></li>
                                             <li><a href="javascript:void(0)">Achievements</a></li>

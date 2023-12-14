@@ -1,14 +1,30 @@
-//youtube video popup
-    $(function() {
-        $('.popup-youtube').magnificPopup({
-            disableOn: 0,
-            type: 'iframe',
-            mainClass: 'mfp-fade',
-            removalDelay: 160,
-            preloader: false,
-            fixedContentPos: false
-        });
-    });
+$( document ).ready(function() {
+  //Blog Paragraph Text Truncate Js
+let strlength = 80;
+var elements = document.querySelectorAll('.truncate-text');
+for(let i = 0; i < elements.length; i++){
+    let str = elements[i].innerHTML;
+    if (str.length > strlength) {
+        str = str.substring(0, strlength),
+        str.replace(/\w+$/, '');
+        str +='...';
+        elements[i].innerHTML = str;
+      }
+}
+
+//Testimonial Heading Text Truncate Js
+let blog_testimonials = 50;
+var blog_testimonial_elements = document.querySelectorAll('.common-heading-text');
+for(let i = 0; i < blog_testimonial_elements.length; i++){
+    let str_new_blog = blog_testimonial_elements[i].innerHTML;
+    if (str_new_blog.length > blog_testimonials) {
+        str_new_blog = str_new_blog.substring(0, blog_testimonials),
+        str_new_blog.replace(/\w+$/, '');
+        str_new_blog +='...';
+        blog_testimonial_elements[i].innerHTML = str_new_blog;
+      }
+}
+});
 
 //Fetch current year dynamicaly
   let currentdate = new Date();
@@ -53,14 +69,14 @@ $('li.dropdown > a').on('click',function(event){
 // our client slider
 $("#client-slider").owlCarousel({
   loop:true,
-  autoplay: false,
-  margin: 20,
+  autoplay: true,
+  margin: 30,
   responsiveClass: true,
   autoHeight: true,
   autoplayTimeout: 7000,
   smartSpeed: 800,
   nav: true,
-  navText: ["<img src='images/prev__arrow__blue.png'>","<img src='images/next__arrow__blue.png'>"],
+  navText: ["<img src='svg/home-banner-arrow.svg'>","<img src='svg/home-banner-arrow.svg'>"],
   responsive: {
     0: {
       items: 1
@@ -69,10 +85,10 @@ $("#client-slider").owlCarousel({
       items: 6
     },
     1024: {
-      items: 7
+      items: 4
     },
     1366: {
-      items: 7
+      items: 4
     }
   }
 });
