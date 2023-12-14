@@ -27,6 +27,9 @@
 				-o-transition: all 500ms ease;
 				transition: all 500ms ease;
 				font-family: $heading-font;
+				@include breakpoints(991px){
+					font-size: 15px;
+				}
 			}
 			&:after {
 				content: '';
@@ -49,6 +52,9 @@
 				font-size: 18px;
 				line-height: 24px;
 				margin-right: 10px;
+				@include breakpoints(991px){
+					font-size: 15px;
+				}
 			}
 		}
 	}
@@ -141,6 +147,10 @@
 					@include breakpoints(1440px){
 						font-size: 20px;
 					}
+					@include breakpoints(1280px){
+						font-size: 19px;
+						line-height: 30px;
+					}
 				}
 			}
 		}
@@ -162,6 +172,9 @@
 		img{
 			@include breakpoints(1440px){
 				width: 28%;
+			}
+			@include breakpoints(991px){
+				width: 15%;
 			}
 		}
 	}
@@ -300,6 +313,9 @@ label {
 	@include border-radius(5px);
 	margin: 7px auto;
 	transition: background-color 0.4s ease-in, transform 0.4s ease-in, width 0.4s ease-in;
+	@include breakpoints(1440px){
+		width: 35px;
+	}
 }
 .button {
 	display: inline-block;
@@ -346,6 +362,9 @@ label {
 		animation-duration: 1s;
 		animation-delay: 1.2s;
 		position: absolute;
+		@include breakpoints(1024px){
+			top: 50%;
+		}
 		img {
 			width: 20%;
 			animation-duration: 1s;
@@ -364,7 +383,14 @@ label {
 			line-height: 65px;
 			@include breakpoints(1440px){
 				font-size: 28px;
-				line-height: 60px;
+				line-height: 55px;
+			}
+			@include breakpoints(1024px){
+				font-size: 24px;
+				line-height: 47px;
+			}
+			@include breakpoints(768px){
+				font-size: 22px;
 			}
 			span {
 				font-size: 55px;
@@ -372,6 +398,9 @@ label {
 				font-weight: 700;
 				@include breakpoints(1440px){
 					font-size: 45px;
+				}
+				@include breakpoints(1024px){
+					font-size: 40px;
 				}
 			}
 		}
@@ -396,6 +425,10 @@ label {
 		opacity: 1;
 		transition: opacity 0.15s ease;
 		height: 5%;
+		@include breakpoints(1024px){
+			top:44%;
+			right: 50px;
+		}
 	}
 	.carousel-control-prev {
 		position: absolute;
@@ -414,6 +447,10 @@ label {
 		opacity: 1;
 		transition: opacity 0.15s ease;
 		height: 5%;
+		@include breakpoints(1024px){
+			top:44%;
+			left: 50px;
+		}
 	}
 	.carousel-control-prev-icon {
 		background-image: url("../svg/home-banner-arrow.svg");
@@ -443,6 +480,10 @@ label {
 	width: 115px;
 	background-color: $primary-color;
 	transition: all 0.5s;
+	@include breakpoints(1366px){
+		width: 100px;
+		padding: 5px;
+	}
 	a {
 		background-color: $primary-color;
 		color: $secondary-color;
@@ -451,6 +492,9 @@ label {
 		font-size: 15px;
 		display: block;
 		transition: all 0.5s;
+		@include breakpoints(1366px){
+			font-size: 14px;
+		}
 	}
 	&:hover{
 		background-color: $secondary-color;
@@ -493,6 +537,9 @@ label {
 	display: grid;
 	grid-auto-rows: auto;
 	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	@include breakpoints(1024px){
+	    grid-auto-rows: 325px;
+	}
 }
 .usp-content {
 	text-align: center;
@@ -506,6 +553,13 @@ label {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+	@include breakpoints(1024px){
+	   height:320px;
+	   padding: 53px;
+	}
+	@include breakpoints(768px){
+		font-size: 18px;
+	}
 	img {
 		width: 25%;
 	}
@@ -515,6 +569,12 @@ label {
 		font-weight: 700;
 		color: $primary-color;
 		font-family: $heading-font;
+		@include breakpoints(1101px){
+			font-size: 17px;
+		}
+		@include breakpoints(768px){
+			font-size: 20px;
+		}
 	}
 	p {
 		margin: 0;
@@ -522,6 +582,9 @@ label {
 		font-size: 15px;
 		font-family: $paragraph-font;
 		line-height: 24px;
+		@include breakpoints(1101px){
+			line-height: 22px;
+		}
 	}
 	svg{
 		position: relative;
@@ -533,17 +596,6 @@ label {
     -ms-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
-	}
-}
-.about-us {
-	background-color: $bg-gray;
-	.about-left {
-		span {
-			font-size: 17px;
-			font-weight: 500;
-			// color: $color_8;
-			display: block;
-		}
 	}
 }
 .common-para {
@@ -558,8 +610,24 @@ label {
 
 .about-us {
 	@include common-padding;
+	background-color: $bg-gray;
+	.about-left {
+		span {
+			font-size: 17px;
+			font-weight: 500;
+			// color: $color_8;
+			display: block;
+		}
+	}
 	h1{
 		@include common-heading;
+	}
+	.about__text{
+		@include breakpoints(991px){
+			text-align: center;
+			padding: 0 100px;
+			margin-bottom: 35px;
+		}
 	}
 }
 
@@ -692,6 +760,9 @@ label {
 		color: $primary-color;
 		font-weight: 600;
 		font-family: $heading-font;
+		@include breakpoints(1280px){
+			font-size: 18px;
+		}
 	}
 }
 .features-list-layout1 {
@@ -710,6 +781,9 @@ label {
 	@include common-padding;
 	h1{
 		@include common-heading;
+	}
+	img.product_show_mobile{
+		width: 100%;
 	}
 }
 #owl-example-projects {
@@ -755,6 +829,10 @@ label {
 			left: -85px;
 			top: 30px;
 		}
+		@include breakpoints(1280px){
+			left: -60px;
+			top: 30px;
+		}
 	}
 	button.owl-next {
 		position: absolute;
@@ -763,6 +841,10 @@ label {
 		@include border-radius(0px);
 		@include breakpoints(1440px){
 			right: -85px;
+			top: 30px;
+		}
+		@include breakpoints(1280px){
+			right: -60px;
 			top: 30px;
 		}
 	}
@@ -841,6 +923,9 @@ label {
 					height: 50px;
 					text-align: center;
 					width: 100%;
+					@include breakpoints(991px){
+						height: 45px;
+					}
 				}
 			}
 			.processB-content {
@@ -856,6 +941,9 @@ label {
 					font-weight: 600;
 					transition: all 0.5s;
 					font-family: $heading-font;
+					@include breakpoints(991px){
+						font-size: 18px;
+					}
 				}
 				p {
 					@include common-paragraph;
@@ -890,6 +978,9 @@ label {
 	float: left;
 	padding: 20px 0px;
 	background-color: $primary-color;
+	@include breakpoints(991px){
+		padding: 10px 0;
+	}
 	.eltd-call-to-action-row-75-25 {
 		display: table;
 		box-sizing: border-box;
@@ -928,6 +1019,9 @@ label {
 			background-color: $secondary-color;
 			color: $black-color;
 		}
+		@include breakpoints(1280px){
+			font-size: 15px;
+		}
 	}
 }
 .eltd-call-to-action-text {
@@ -936,13 +1030,19 @@ label {
 		font-size: 28px;
 		font-family: $heading-font;
 		font-weight: 500;
+		@include breakpoints(1280px){
+			font-size: 26px;
+		}
+		@include breakpoints(991px){
+			font-size: 22px;
+		}
 	}
 }
 .eltd-btn.eltd-btn-solid {
 	background-color: $black-color;
 	border: none;
 	color: $secondary-color;
-	overflow: hidden;
+	overflow: hidden; 
 }
 .eltd-btn {
 	display: inline-block;
@@ -967,10 +1067,16 @@ label {
 	.owl-next {
 		right: -70px;
 		top: 35px;
+		@include breakpoints(1280px){
+			right: -20px;
+		}
 	}
 	.owl-prev {
 		left: -70px;
 		top: 35px;
+		@include breakpoints(1280px){
+			left: -20px;
+		}
 	}
 	.item {
 		img {
@@ -1149,6 +1255,10 @@ footer {
 		@include breakpoints(1440px){
 			font-size: 45px;
 		}
+		@include breakpoints(1024px){
+			font-size: 35px;
+			line-height: 50px;
+		}
 	}
 }
 .more_category {
@@ -1167,6 +1277,10 @@ footer {
 		color: $primary-color;
 		background-color: $secondary-color;
 		transition: all 0.5s;
+	}
+	@include breakpoints(1024px){
+		width: 95px;
+		padding:3px 7px;
 	}
 }
 .main-box.shrink {

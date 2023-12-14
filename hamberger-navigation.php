@@ -92,14 +92,14 @@
                                 </div>
                                 </div>
                                 <div class="aside-section aside-right">
-                                <a href="javascript:void(0)" class="hamberger-nav-logo"><img src="images/logo.png" alt=""></a>
+                                <a href="index.php" class="hamberger-nav-logo"><img src="images/logo.png" alt=""></a>
                                 <ul class="aside-list mt-5">
                                     <li class="dropdown">
                                         <a href="javascript:void(0)" class="aside-anchor dropdowns">About Us
                                             <span></span> 
                                           </a>
                                           <ul class="dropdowns-menu" style="display: none;">
-                                            <li><a href="javascript:void(0)">Vision / Mission / Values</a></li>
+                                            <li><a href="about-us.php">About Us</a></li>
                                             <li><a href="javascript:void(0)">Managing Director</a></li>
                                             <li><a href="javascript:void(0)">Quality Policy</a></li>
                                             <li><a href="javascript:void(0)">HR Policies</a></li>
@@ -162,14 +162,14 @@
                                           </ul>
                                       </li>
                                       <li class="dropdown">
-                                        <a href="javascript:void(0)" class="aside-anchor dropdowns">Contact Us
-                                            <span></span> 
+                                        <a href="contact-us.php" class="aside-anchor one">Contact Us
+                                            <!-- <span></span>  -->
                                           </a>
-                                          <ul class="dropdowns-menu" style="display: none;">
+                                          <!-- <ul class="dropdowns-menu" style="display: none;">
                                             <li><a href="contact-us.php">Contact US</a></li>
                                             <li><a href="javascript:void(0)">Vendor Registration Form</a></li>
                                             <li><a href="javascript:void(0)">Contractor Registration Form</a></li>
-                                          </ul>
+                                          </ul> -->
                                       </li>
                                   </ul>
                                 </div>

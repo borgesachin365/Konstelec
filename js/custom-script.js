@@ -66,7 +66,7 @@ $("#client-slider").owlCarousel({
       items: 1
     },
     600: {
-      items: 4
+      items: 6
     },
     1024: {
       items: 7
@@ -93,10 +93,16 @@ $("#owl-example-projects").owlCarousel({
       items: 1
     },
     600: {
-      items: 4
+      items: 3,
+      margin: 10
     },
     1024: {
-      items: 4
+      items: 3,
+      margin: 10
+    },
+    1101: {
+      items: 3,
+      margin: 10
     },
     1366: {
       items: 4

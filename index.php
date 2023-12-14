@@ -87,14 +87,14 @@
     <section class="about-us">
         <div class="auto-container">
             <h1 class="text-center" data-aos="fade-down" data-aos-duration="500"> <span>About Us</span></h1>
-            <div class="row mt-5">
+            <div class="row mt-md-4">
                 <div class="col-sm-12 col-md-12 col-lg-4">
                   <div class="about__text mt-30">
                     <p data-aos="fade-down" data-aos-duration="700">Konstelec, a licensed electrical contractor, upholds a steadfast commitment to quality, safety, timely delivery, and cost-effectiveness.</p>
                     <p class="common-para" data-aos="fade-down" data-aos-duration="900">Our diverse clientele spans across a multitude of industries, encompassing Oil and Gas, Refinery, Steel, Cement, Pharmaceuticals, Textile, Hospital, Health Care, FMCG, and Commercial Complexes, both within India and abroad.</p>
                   </div>
                 </div>
-                <div class="col-sm-12 col-md-8 col-lg-5" data-aos="flip-left" data-aos-duration="1000">
+                <div class="col-sm-12 col-md-6 col-lg-5" data-aos="flip-left" data-aos-duration="1000">
                   <div class="about__img animated-img" id="lightgallery">
                     <img src="images/home-video-bg.jpg" alt="about" class="img-fluid">
                     <a href="javascript:void(0)" class="btn btn__primary popup-youtube" alt="home video bg">
@@ -102,7 +102,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-3">
+                <div class="col-sm-12 col-md-6 col-lg-3">
                   <div class="features-list features-list-layout1 mt-30">
                     <div class="feature-item feature-list-item" data-aos="fade-down" data-aos-duration="500">
                       <div class="feature__content">
@@ -340,7 +340,7 @@
     <h1 class="text-center"> <span>Know The Process</span></h1>
       <div class="auto-container mt-5">
         <div class="row">
-          <div class="col-md-9">
+          <div class="col-lg-9 col-md-12 col-sm-12">
             <div class="row">
               <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="process-2">

@@ -11,6 +11,10 @@
     @include breakpoints(1440px){
         font-size: 30px;
     }
+    @include breakpoints(1280px){
+        font-size: 26px;
+        line-height: 40px;
+    }
     span{
             display: inline-block;
             position: relative;
@@ -57,5 +61,39 @@ box-shadow:$top $left $blur $shadow;
 -webkit-box-shadow:$top $left $blur $shadow;
 -moz-box-shadow:$top $left $blur $shadow;
 }   
+
+@mixin common-heading-banner{
+	width: 100%;
+	background-image: url("../images/top-banners/contact-top-banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+    position: relative;
+    .page-breadcrumbs{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+
+        padding: 5px 0;
+        .breadcrumb{
+            margin-bottom: 0!important;
+            a{
+                color: $secondary-color;
+            }
+            .breadcrumb-item{
+                font-size: 14px;
+                font-weight: 600;
+                font-family: $heading-font;
+                &.active{
+                    color: $bg-gray;
+                }
+                &::before{
+                    color: $secondary-color;
+                }
+            }
+        }
+    }
+}
+
 
 
