@@ -10,7 +10,7 @@
               Konstelec Engineers pvt ltd. holds a steadfast pledge to uphold the highest standards in engineering, procurement and construction excellence.
               </p>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 mrclass">
               <h4 class="footer-title">Quick Links</h4>
               <ul class="footer-links">
                 <li><a href="javascript:void(0)">Home</a></li>
@@ -22,7 +22,7 @@
                 <li><a href="javascript:void(0)">Contact Us</a></li>
               </ul>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 mrclass">
               <h4 class="footer-title">Our Services</h4>
               <ul class="footer-links">
                 <li><a href="javascript:void(0)">Engineering Design</a></li>
@@ -33,7 +33,7 @@
                 <li><a href="javascript:void(0)">Construction & Commissioning</a></li>
               </ul>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 mrclass">
               <h4 class="footer-title">Reach Us</h4>
               <p class="common-para" style="color:#fff">308, Creative Industrial Estate, Sunder Nagar Lane No. 2 kalina, Santacruz East, Vidyanagari, Mumbai, Maharashtra, India. 400098</p>
               <br>

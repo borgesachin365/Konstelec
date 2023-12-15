@@ -1,5 +1,5 @@
 <?php include "head.php" ?>
-    <section class="contact-top-banner-section">
+    <section class="about-top-banner-section">
     <!--navigation include-->
     <?php include "hamberger-navigation.php" ?>
     <!--navigation include-->

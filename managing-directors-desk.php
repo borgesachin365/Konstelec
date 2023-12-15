@@ -1,5 +1,5 @@
 <?php include "head.php" ?>
-    <section class="contact-top-banner-section">
+    <section class="chairman-top-banner-section">
     <!--navigation include-->
     <?php include "hamberger-navigation.php" ?>
     <!--navigation include-->
@@ -14,7 +14,7 @@
         </div>
     </div>
     </section>
-    <!--about us top banner end-->
+    <!--chairman top banner end-->
     <section class="directors-desk">
         <div class="auto-container">
             <h1 class="text-center"> <span>Message from C.M.D</span></h1>

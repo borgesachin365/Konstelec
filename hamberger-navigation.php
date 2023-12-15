@@ -101,7 +101,7 @@
                                           <ul class="dropdowns-menu" style="display: none;">
                                             <li><a href="about-us.php">About Us</a></li>
                                             <li><a href="managing-directors-desk.php">Managing Director</a></li>
-                                            <li><a href="javascript:void(0)">Quality Policy</a></li>
+                                            <li><a href="awards-and-achievements.php">Awards / Achievements</a></li>
                                             <li><a href="javascript:void(0)">HR Policies</a></li>
                                             <li><a href="javascript:void(0)">Achievements</a></li>
                                             <li><a href="javascript:void(0)">CSR</a></li>
@@ -163,13 +163,7 @@
                                       </li>
                                       <li class="dropdown">
                                         <a href="contact-us.php" class="aside-anchor one">Contact Us
-                                            <!-- <span></span>  -->
                                           </a>
-                                          <!-- <ul class="dropdowns-menu" style="display: none;">
-                                            <li><a href="contact-us.php">Contact US</a></li>
-                                            <li><a href="javascript:void(0)">Vendor Registration Form</a></li>
-                                            <li><a href="javascript:void(0)">Contractor Registration Form</a></li>
-                                          </ul> -->
                                       </li>
                                   </ul>
                                 </div>

@@ -1,6 +1,9 @@
 
 @mixin common-padding{
-    padding: 4% 0;;
+    padding: 4% 0;
+    @include breakpoints(480px){
+        padding: 8% 0;
+    }
 }
 @mixin common-heading{
 	font-size: 32px;
@@ -29,6 +32,9 @@
                 top: -15px;
                 height: 78px;
                 width: 66px;
+                @include breakpoints(480px){
+                    top: -18px;
+                }
             }
             &:after{
                 position: absolute;
@@ -41,6 +47,9 @@
                 top: -15px;
                 height: 78px;
                 width: 66px;
+                @include breakpoints(480px){
+                    top: -20px;
+                }
             }
         }
 }
@@ -93,6 +102,15 @@ box-shadow:$top $left $blur $shadow;
             }
         }
     }
+    @include breakpoints(1440px){
+		height: 450px;
+	}
+    @include breakpoints(1366px){
+		height: 400px;
+	}
+    @include breakpoints(1024px){
+		height: 325px;
+	}
 }
 
 @mixin about-para{

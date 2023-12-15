@@ -79,10 +79,12 @@ $("#client-slider").owlCarousel({
   navText: ["<img src='svg/home-banner-arrow.svg'>","<img src='svg/home-banner-arrow.svg'>"],
   responsive: {
     0: {
-      items: 1
+      items: 2,
+      margin:10
     },
     600: {
-      items: 6
+      items: 3,
+      margin:10
     },
     1024: {
       items: 4
