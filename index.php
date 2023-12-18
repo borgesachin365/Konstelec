@@ -25,7 +25,7 @@
         </div>
         <div class="carousel-item" data-bs-interval="2000">
         <img src="images/Home-Hero-Slider-Two.png" class="w-100 desktop-img" alt="home slider 2">
-        <img src="images/home-mobile-slider1.jpg" class="mobile-img" alt="home mobile slider 1">
+        <img src="images/home-mobile-slider2.jpg" class="mobile-img" alt="home mobile slider 1">
           <div class="carousel-caption d-none">
             <h5 class="animated fadeInUp">Engineered for optimal <br> <span>quality and safety</span></h5>
             <button class="cta-btn mt-4 animated fadeInUp" style="animation-delay: 2s">
@@ -37,7 +37,7 @@
         </div>
         <div class="carousel-item">
         <img src="images/Home-Hero-Slider-Three.png" class="w-100 desktop-img" alt="home slider 3">
-        <img src="images/home-mobile-slider1.jpg" class="mobile-img" alt="home mobile slider 1">
+        <img src="images/home-mobile-slider3.jpg" class="mobile-img" alt="home mobile slider 1">
           <div class="carousel-caption d-none">
             <h5 class="animated fadeInUp"> Accelerating toward <br> <span>a sustainable future</span></h5>
             <button class="cta-btn mt-4 animated fadeInUp" style="animation-delay: 2s">
@@ -61,7 +61,7 @@
     <section class="home-our-usps position-relative">
         <div class="auto-container">
             <h1 class="text-center" data-aos="fade-up" data-aos-duration="1000">An all-inclusive <br> engineering service provider</h1>
-            <div class="usps-main mt-lg-5 mt-sm-3">
+            <div class="usps-main">
                 <div class="usp-content" data-aos="fade-up">
                   <img src="svg/silhouette.svg" alt="">
                     <span class="mt-2 mb-2">27+ years of <br> experience</span>
@@ -90,7 +90,7 @@
     <section class="about-us">
         <div class="auto-container">
             <h1 class="text-center" data-aos="fade-down" data-aos-duration="500"> <span>About Us</span></h1>
-            <div class="row mt-md-4">
+            <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-4">
                   <div class="about__text mt-30">
                     <p data-aos="fade-down" data-aos-duration="700">Konstelec, a licensed electrical contractor, upholds a steadfast commitment to quality, safety, timely delivery, and cost-effectiveness.</p>
@@ -100,7 +100,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-5" data-aos="flip-left" data-aos-duration="1000">
                   <div class="about__img animated-img" id="lightgallery">
                     <img src="images/home-about-video-bg.png" alt="about" class="img-fluid">
-                    <a href="javascript:void(0)" class="btn btn__primary popup-youtube" alt="home video bg">
+                    <a class="popup-youtube btn btn__primary " href="https://www.youtube.com/watch?v=pBFQdxA-apI" alt="home video bg">
                       <i class="fa fa-play-circle" aria-hidden="true"></i><span>Watch Video!</span>
                     </a>
                   </div>
@@ -134,9 +134,9 @@
     <!--about us section end-->
     <!--our services section start-->
     <section class="market-section">
-    <h1 class="text-center"><span>Our Services</span></h1>
+    <h1 class="text-center" data-aos="fade-down" data-aos-duration="500"><span>Our Services</span></h1>
     	<div class="auto-container">
-        	<div class="row clearfix">
+        	<div class="row clearfix" data-aos="fade-up" data-aos-duration="1000">
                 <div class="title-column m-block col-lg-4 col-md-12 col-sm-12 col-xs-12">
                 	<div class="inner-column">
                     	<div class="sec-title light">
@@ -204,7 +204,7 @@
     <section class="our-key-projects common-padding">
         <div class="auto-container">
         <h1 class="common-heading text-center" data-aos="fade-down" data-aos-duration="500"><span>Our Key Projects</span></h1>
-          <div class="owl-slider mt-5 ">
+          <div class="owl-slider mt-5" data-aos="fade-up" data-aos-duration="500">
             <div id="owl-example-projects" class="owl-carousel tabs">
               <li class="active"><a href="#tab1">Hydrocarbon Oil & Gas</a></li>
               <li><a href="#tab2">Power</a></li>
@@ -214,7 +214,7 @@
               <li><a href="#tab6">International Projects</a></li>  
             </div>
           </div>
-          <section id="tab-contents">
+          <section id="tab-contents" data-aos="fade-up" data-aos-duration="500">
             <div id="tab1" class="tab-contents active">
               <div class="row g-0">
                 <div class="col-md-4 col-sm-12 col-xs-12">
@@ -306,8 +306,8 @@
     <!--our clients section start-->
     <section class="our-clients common-padding">
       <div class="auto-container">
-          <h1 class="common-heading text-center"><span>Our Clients</span></h1>
-          <div class="owl-slider mt-5">
+          <h1 class="common-heading text-center" data-aos="fade-down" data-aos-duration="500"><span>Our Clients</span></h1>
+          <div class="owl-slider" data-aos="fade-down" data-aos-duration="1000">
             <div id="client-slider" class="owl-carousel">
               <div class="item">
                 <img src="images/clients/acc-logo.png" alt="">
@@ -325,20 +325,20 @@
                 <img src="images/clients/cpl-logo.png" alt="">
               </div>
             </div>
-            </div>
+          </div>
       </div>
     </section>
     <!--our clients section end-->
     <!--precess section start-->
     <section class="know_the_process">
-    <h1 class="text-center"> <span>Know The Process</span></h1>
-      <div class="auto-container mt-5">
+    <h1 class="text-center" data-aos="fade-down" data-aos-duration="500"><span>Know The Process</span></h1>
+      <div class="auto-container">
         <div class="row">
           <div class="col-lg-9 col-md-12 col-sm-12">
             <div class="row">
               <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="process-2">
-                  <div class="process-box">
+                  <div class="process-box" data-aos="zoom-in" data-aos-duration="500">
                     <div class="clearfix">
                       <div class="iconset"> <img src="svg/concept-craftsmanship.svg"> </div>
                       <div class="processB-content">
@@ -347,7 +347,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="process-box">
+                  <div class="process-box" data-aos="zoom-in" data-aos-duration="700">
                     <div class="clearfix">
                       <div class="iconset"> <img src="svg/strategic-sourcing.svg">  </div>
                       <div class="processB-content">
@@ -356,7 +356,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="process-box">
+                  <div class="process-box" data-aos="zoom-in" data-aos-duration="900">
                     <div class="clearfix">
                       <div class="iconset"> <img src="svg/elevating.svg">  </div>
                       <div class="processB-content">
@@ -369,7 +369,7 @@
               </div>
               <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="process-2">
-                  <div class="process-box">
+                  <div class="process-box" data-aos="zoom-in" data-aos-duration="500">
                     <div class="clearfix">
                       <div class="iconset"> <img src="svg/construction.svg"> </div>
                       <div class="processB-content">
@@ -378,7 +378,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="process-box">
+                  <div class="process-box" data-aos="zoom-in" data-aos-duration="700">
                     <div class="clearfix">
                       <div class="iconset"> <img src="svg/integrated-innovation.svg">  </div>
                       <div class="processB-content">
@@ -387,7 +387,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="process-box">
+                  <div class="process-box" data-aos="zoom-in" data-aos-duration="900">
                     <div class="clearfix">
                       <div class="iconset"> <img src="svg/communication-and-beyond.svg">  </div>
                       <div class="processB-content">
@@ -411,12 +411,12 @@
           <div class="eltd-text-wrapper eltd-call-to-action-column1 eltd-call-to-action-cell">
             <div class="eltd-call-to-action-text" style="font-size: 45px">
               <p></p>
-                <h3>Need a quote? Get in touch
+                <h3 data-aos="fade-up" data-aos-duration="500">Need a quote? Get in touch
                 </h3>
               <p></p>
             </div>
           </div>
-          <div class="eltd-button-wrapper eltd-call-to-action-column2 eltd-call-to-action-cell" style="text-align: left ;">
+          <div class="eltd-button-wrapper eltd-call-to-action-column2 eltd-call-to-action-cell" style="text-align: left ;" data-aos="fade-up" data-aos-duration="500">
             <a href="contact-us.php" target="" class="eltd-btn eltd-btn-medium eltd-btn-solid">    <span class="eltd-btn-text">Contact Us</span></a>
           </div>
         </div>
@@ -426,9 +426,9 @@
     <!--our blogs section start-->
     <section class="home-blog-section">
       <div class="auto-container">
-        <h1 class="sm-mb-3 lg-mb-5 text-center"><span>Our Blogs</span></h1>
+        <h1 class="sm-mb-3 lg-mb-5 text-center" data-aos="fade-down" data-aos-duration="500"><span>Our Blogs</span></h1>
         <div class="home-bolgs-main">
-        <div class="news-block-two">
+        <div class="news-block-two" data-aos="fade-up" data-aos-duration="1000">
             <div class="inner-box">
                 <div class="image">
                     <a href="blog-detail.html"><img src="images/blogs/news-1.png" alt=""></a>
@@ -441,7 +441,7 @@
                   </div>
               </div>
           </div>
-          <div class="news-block-two">
+          <div class="news-block-two" data-aos="fade-up" data-aos-duration="1500">
             <div class="inner-box">
                 <div class="image">
                     <a href="blog-detail.html"><img src="images/blogs/news-2.png" alt=""></a>
@@ -454,7 +454,7 @@
                   </div>
               </div>
           </div>
-          <div class="news-block-two">
+          <div class="news-block-two" data-aos="fade-up" data-aos-duration="2000">
             <div class="inner-box">
                 <div class="image">
                     <a href="blog-detail.html"><img src="images/blogs/news-3.jpg" alt=""></a>

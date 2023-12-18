@@ -1,3 +1,16 @@
+//Youtube popup video
+$(function() {
+  $('.popup-youtube, .popup-vimeo').magnificPopup({
+      disableOn: 700,
+      type: 'iframe',
+      mainClass: 'mfp-fade',
+      removalDelay: 160,
+      preloader: false,
+      fixedContentPos: false
+  });
+});
+
+
 $( document ).ready(function() {
   //Blog Paragraph Text Truncate Js
 let strlength = 80;
@@ -87,7 +100,8 @@ $("#client-slider").owlCarousel({
       margin:10
     },
     1024: {
-      items: 4
+      items: 3,
+      margin:10
     },
     1366: {
       items: 4

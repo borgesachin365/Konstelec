@@ -17,7 +17,7 @@
     <!--awards and Achievements top banner end-->
         <section class="awards-and-achievements">
             <div class="auto-container">
-                <h1 class="text-center"><span>Awards / Achievements</span></h1>
+                <h1 class="text-center" data-aos="fade-down" data-aos-duration="500"><span>Awards / Achievements</span></h1>
                 <div class="awards-achievents-main">
                 <div class="awards-achievements-box">
                     <img src="images/awards-achievements/Awards1.png" alt="">

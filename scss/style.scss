@@ -9,7 +9,6 @@
 
 body {
 	font-size: 15px;
-	line-height: 1.8em;
 	font-weight: 400;
 	background: #ffffff;
 	-webkit-font-smoothing: antialiased;
@@ -25,6 +24,9 @@ body {
 	@include breakpoints(768px){
 		padding: 0px 30px;
 	}
+	// @include breakpoints(1101px){
+	// 	width: 1050px;
+	// }
 }
 .main-header {
 	position: absolute;
@@ -789,8 +791,8 @@ body {
 			font-size: 13px;
 			font-weight: 600;
 			color: $secondary-color;
-			opacity: 0;
-			visibility: hidden;
+			opacity: 1;
+			visibility: visible;
 			transition: all 300ms ease;
 			-moz-transition: all 300ms ease;
 			-webkit-transition: all 300ms ease;
@@ -798,7 +800,7 @@ body {
 			-o-transition: all 300ms ease;
 			font-family: $heading-font;
 			background-color: #5ca3fb;
-			padding: 3px 7px;
+			padding: 6px 7px;
 			border-radius: 58px;
 			transition: all 0.5s;
 			&:hover{
@@ -817,6 +819,10 @@ body {
 			img{
 				width: 14%;
 				margin-bottom: 20px;
+				@include breakpoints(1440px){
+					width: 12%;
+					margin-bottom: 30px;
+				}
 				@include breakpoints(768px){
 					width: 26%;
 				}
@@ -840,13 +846,10 @@ body {
 	grid-auto-rows: minmax(400px, auto);
 	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 	grid-gap: 50px;
-	margin-top: 80px;
 	@include breakpoints(768px){
 		grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
-		margin-top: 60px;
 	}
 	@include breakpoints(768px){
-		margin-top: 40px;
 		grid-gap: 30px;
 	}
 	.news-block-two {
@@ -952,9 +955,22 @@ body {
 	width: 100%;
 	.contract-vendor-main {
 		display: grid;
-		grid-auto-rows: 280px;
+		grid-auto-rows: 330px;
 		grid-template-columns: repeat(auto-fill, minmax(640px, 1fr));
 		grid-gap: 0em;
+		@include breakpoints(1440px){
+			grid-auto-rows: 230px;
+		}
+		@include breakpoints(1101px){
+			grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+		}
+		@include breakpoints(768px){
+			grid-auto-rows: 170px;
+		}
+		@include breakpoints(480px){
+			grid-auto-rows: 140px;
+			grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+		}
 		.contract-vendor-box{
 			background-color: #4496c8;
 			text-align: center;
@@ -962,19 +978,79 @@ body {
 			justify-content: center;
 			align-items: center;
 			flex-direction: column;
+			position: relative;
+			&::after{
+				position: absolute;
+				content: url("../images/vendors-vectors.png");
+				transform: scale(0.7);
+				left: -70px;
+				top: -30px;
+				@include breakpoints(1280px){
+					transform: scale(0.5);
+				}
+				@include breakpoints(768px){
+					transform: scale(0.4);
+					left: -150px;
+					top: -80px;
+				}
+				@include breakpoints(480px){
+					left: 125px;
+					display: none;
+				}
+			}
 			&:nth-child(1){
 				background-color: $primary-color;
+				&::after{
+					position: absolute;
+					content: url("../images/contractor-vectors.png");
+					transform: scale(0.7);
+					left: -35px;
+					top: 0;
+					@include breakpoints(1280px){
+						transform: scale(0.6);
+					}
+					@include breakpoints(480px){
+						left: -90px;
+    					top: -25px;
+						display: none;
+					}
+				}
 			}
 			svg{
 				width: 13%;
+				@include breakpoints(1440px){
+					width: 12%;
+				}
+				@include breakpoints(480px){
+					width: 18%;
+				}
 			}
 			h2{
 				font-size: 45px;
 				font-family: $heading-font;
 				color: $secondary-color;
 				line-height: 40px;
+				@include breakpoints(1440px){
+					font-size: 40px;
+					line-height: 36px;
+				}
+				@include breakpoints(768px){
+					font-size: 34px;
+					line-height: 28px;
+				}
+				@include breakpoints(480px){
+					font-size: 26px;
+					line-height: 24px;
+					margin-top: 10px!important;
+				}
 				span{
 					font-size: 30px;
+					@include breakpoints(1440px){
+						font-size: 25px;
+					}
+					@include breakpoints(768px){
+						font-size: 20px;
+					}
 				}
 			}
 		}
@@ -983,6 +1059,9 @@ body {
 
 .mt-30{
 	margin-top: 32px;
+	@include breakpoints(1024px){
+		margin-top: 25px;
+	}
 	@include breakpoints(768px){
 		margin-top: 10px;
 	}
@@ -994,9 +1073,26 @@ body {
 		grid-auto-rows: 630px;
 		grid-template-columns: repeat(auto-fill, minmax(640px, 1fr));
 		grid-gap: 0em;
+		@include breakpoints(1101px){
+			grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+			grid-auto-rows: 480px;
+		}
+		@include breakpoints(768px){
+			grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+			grid-auto-rows: 435px;
+		}
+		@include breakpoints(480px){
+			display: block;
+		}
 		.form-address-box{
 			background-color: $primary-color;
 			padding: 100px;
+			@include breakpoints(1101px){
+				padding: 50px;
+			}
+			@include breakpoints(768px){
+				padding: 30px;
+			}
 			&:nth-child(1){
 				background-color: $secondary-color;
 			}
@@ -1005,6 +1101,16 @@ body {
 				text-transform: uppercase;
 				font-family: $heading-font;
 				font-weight: 700;
+				margin-bottom: 45px;
+				@include breakpoints(1440px){
+					margin-bottom: 35px;
+				}
+				@include breakpoints(1101px){
+					margin-bottom: 30px;
+				}
+				@include breakpoints(480px){
+					margin-bottom: 20px;
+				}
 			}
 			.address-content{
 				.icon-div{
@@ -1012,6 +1118,9 @@ body {
 					float: left;
 					img{
 						width: 100%;
+					}
+					@include breakpoints(480px){
+						width: 5%;
 					}
 				}
 				p{
@@ -1021,6 +1130,13 @@ body {
 					font-family: $paragraph-font;
 					margin-left: 35px;
 					margin-bottom: 35px;
+					@include breakpoints(1440px){
+						margin-bottom: 30px;
+					}
+					@include breakpoints(480px){
+						margin-bottom: 20px;
+						margin-left: 25px;
+					}
 					a{
 						text-decoration: none;
 						color: $text-color;
@@ -1038,6 +1154,9 @@ body {
 				background-color: transparent;
 				font-size: 16px;
 				color: $secondary-color;
+				@include breakpoints(1024px){
+					font-size: 14px
+				}
 				@include border-radius(0px);
 				padding: 8px;
 
@@ -1058,13 +1177,17 @@ body {
 				border: none;
 				outline: none;
 				font-family: $paragraph-font;
-				font-size: 17px;
+				font-size: 16px;
 				font-weight: 500!important;
 				text-transform: uppercase;
 				@include border-radius(50px);
 				height: auto;
-				line-height: 40px;
+				width: 100px;
+				line-height: 38px;
 				transition: all 0.5s;
+				float: left;
+				letter-spacing: 0;
+				margin-top: 30px;
 				&:hover{
 					background-color: $secondary-color;
 					color: $primary-color;
@@ -1079,6 +1202,26 @@ body {
 				-webkit-appearance: none;
 				margin: 0;
 			  }
+			  form{
+				margin-top: 1px;
+				@include breakpoints(1440px){
+					margin-top: 5px;
+				}
+			  }
+			  textarea{
+				@include breakpoints(1024px){
+					height: 110px;
+				}
+			  }
+			  .mt-30{
+				margin-top: 32px;
+				@include breakpoints(1024px){
+					margin-top: 25px;
+				}
+				@include breakpoints(768px){
+					margin-top: 25px;
+				}
+			}
 		}
 	}
 }
@@ -1090,22 +1233,87 @@ body {
 		grid-auto-rows: 630px;
 		grid-template-columns: repeat(auto-fill, minmax(640px, 1fr));
 		grid-gap: 0em;
+		@include breakpoints(1440px){
+			grid-auto-rows: 450px;
+		}
+		@include breakpoints(1101px){
+			grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+			grid-auto-rows: 480px;
+		}
+		@include breakpoints(768px){
+			grid-auto-rows: 375px;
+		}
+		@include breakpoints(480px){
+			grid-auto-rows: 275px;
+		}
 		.location-map-box{
 			background-color: $primary-color;
+			position: relative;
 			&:nth-child(1){
 				background-color: #4496c8;
-				padding-left: 100px;
 				padding-left: 100px;
 				display: flex;
 				align-items: baseline;
 				flex-direction: column;
 				justify-content: center;
+				@include breakpoints(1101px){
+					padding-left: 50px;
+				}
+				@include breakpoints(768px){
+					padding-left: 30px;
+				}
+				&::after{
+					position: absolute;
+					content: url("../images/reach-out-us.png");
+					transform: scale(0.9);
+					left: -30px;
+					top: 40px;
+					z-index: 0;
+					@include breakpoints(1440px){
+						transform: scale(0.7);
+						left: -100px;
+						top: -40px;
+					}
+				}
 			}
 			h1{
 				font-family: $heading-font;
 				color: $secondary-color;
 				font-size: 70px;
 				font-weight: 600;
+				z-index: 1;
+				position: relative;
+				&::after{
+					content: ' ';
+					position: absolute;
+					padding-left: 30px;
+					color: $secondary-color;
+					animation: textrotate 5s linear infinite;
+					-webkit-animation: textrotate 5s linear infinite;
+					@include breakpoints(480px){
+						padding-left: 10px;
+					}
+				  }
+				@include breakpoints(1440px){
+					font-size: 55px;
+				}
+				@include breakpoints(1024px){
+					font-size: 45px
+				}
+				@include breakpoints(480px){
+					font-size: 35px;
+				}
+				@keyframes textrotate{
+					0%{
+					  content: 'Reality!';
+					}
+					50%{
+					  content: 'Designer!';
+					}
+					100%{
+					  content: 'Animator!';
+					}
+				  }
 			}
 			p {
 				display: block;
@@ -1127,6 +1335,9 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	@include common-padding;
+	@include breakpoints(768px){
+		background-image: none;
+	}
 	h1{
 		@include common-heading;
 	}
@@ -1138,8 +1349,14 @@ body {
 		}
 		@include breakpoints(1024px){
 			font-size: 16px;
-			line-height:30px;
-			
+			line-height:30px;	
+		}
+		@include breakpoints(768px){
+			text-align: center;
+		}
+		@include breakpoints(480px){
+			font-size: 14px;
+			line-height: 28px;
 		}
 	}
 }
@@ -1165,6 +1382,9 @@ body {
 		@include breakpoints(1024px){
 			height: 200px;
 		}
+		@include breakpoints(480px){
+			height: 130px;
+		}
 		h4{
 			font-family: $heading-font;
 			color: $primary-color;
@@ -1172,6 +1392,9 @@ body {
 			font-weight: 600;
 			@include breakpoints(1024px){
 				font-size: 22px;
+			}
+			@include breakpoints(480px){
+				margin-bottom: 10px!important;
 			}
 		}
 		p{
@@ -1198,7 +1421,7 @@ body {
 	.main-mission-vision-value {
 		width: 100%;
 		display: grid;
-		grid-auto-rows: minmax(400px, auto);
+		grid-auto-rows: minmax(370px, auto);
 		grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 		grid-gap: 50px;
 		margin-top: 140px;
@@ -1209,12 +1432,17 @@ body {
 			grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 			grid-gap: 30px;
 			margin-top: 80px;
-			grid-auto-rows: minmax(425px, auto);
+			grid-auto-rows: minmax(400px, auto);
+		}
+		@include breakpoints(768px){
+			grid-auto-rows: minmax(430px, auto);
+			margin-top: 50px;
 		}
 		.mission-vision-value-box{
 			text-align: center;
 			background-color: #0f3693d6;
 			padding: 0px 30px 0;
+			position: relative;
 			@include breakpoints(1024px){
 				padding: 0px 15px 0px;
 			}
@@ -1223,11 +1451,16 @@ body {
 				font-family: $heading-font;
 				font-size: 30px;
 				font-weight: 600;
+				margin-top: 85px;
+				@include breakpoints(768px){
+					margin-top: 145px;
+				}
 			}
 			p{
 				@include common-paragraph;
 				color: $secondary-color;
 				font-weight: 300;
+				margin-top: 15px;
 			}
 			.icons-box{
 				width: 110px;
@@ -1238,13 +1471,14 @@ body {
 					height: 100px;
 					width: 100px;
 				}
-				margin: 0 auto;
-				top: -50px;
-				position: relative;
-				border: 5px solid #a7d3f1;
-				@include breakpoints(1440px){
-					top: -45px;
+				@include breakpoints(768px){
+					transform: translate(-50%, 20%);
 				}
+				margin: 0 auto;
+				position: absolute;
+				border: 5px solid #a7d3f1;
+				left: 50%;
+				transform: translate(-50%,-50%);
 				img{
 					width: 60%;
 					position: absolute;
@@ -1262,11 +1496,19 @@ body {
 .directors-desk{
 	width: 100%;
 	background-image: url("../images/cmd-desk-bg-min.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100vh;
     background-position: center;
 	@include common-padding;
+	@include breakpoints(1024px){
+		height: 70vh;
+	}
+	@include breakpoints(480px){
+		height: auto;
+		background-image: none;
+		background-color: #4496c8;
+	}
 	h1{
 		@include common-heading;
 		color: $secondary-color;
@@ -1274,7 +1516,16 @@ body {
 	p{
 		@include about-para;
 		color: $secondary-color;
-		margin-top: 100px;
+		// margin-top: 50px;
+		@include breakpoints(1366px){
+			font-size: 17px;
+			font-weight: 500;
+		}
+		@include breakpoints(1024px){
+			font-size: 15px;
+			font-weight: 500;
+			line-height: 30px;
+		}
 	}
 }
 .desktop-img{
@@ -1289,7 +1540,14 @@ body {
 		display: block;
 	}
 }
-
+.deskimg{
+	display: none;
+	@include breakpoints(480px){
+		display: block;
+		width: 100%;
+		margin-bottom: 25px;
+	}
+}
 .awards-and-achievements{
 	width: 100%;
 	@include common-padding;
@@ -1301,7 +1559,6 @@ body {
 		grid-auto-rows: 230px;
 		grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
 		grid-gap: 2em;
-		margin-top: 80px;
 		.awards-achievements-box{
 			background: #ededed;
 			box-sizing: border-box;

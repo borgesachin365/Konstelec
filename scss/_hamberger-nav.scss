@@ -146,6 +146,7 @@
 					}
 					@include breakpoints(1440px){
 						font-size: 20px;
+						line-height: 32px;
 					}
 					@include breakpoints(1280px){
 						font-size: 19px;
@@ -513,7 +514,7 @@ label {
 .cta-btn {
 	padding: 7px;
 	@include border-radius(50px);
-	width: 115px;
+	width: 105px;
 	background-color: $primary-color;
 	transition: all 0.5s;
 	@include breakpoints(1366px){
@@ -683,8 +684,9 @@ label {
 	margin: 0;
 	font-family: $heading-font;
 	@include breakpoints(768px){
-		font-size: 15px;
+		font-size: 14px;
 	}
+
 }
 
 
@@ -1008,6 +1010,9 @@ label {
 		@include breakpoints(768px){
 			margin-bottom: 55px;
 		}
+		@include breakpoints(480px){
+			margin-bottom: 25px;
+		}
 	}
 	.dots {
 		font-size: 22px;
@@ -1325,6 +1330,9 @@ footer {
 			font-weight: 500;
 			margin-left: 10px;
 			position: relative;
+		}
+		@include breakpoints(768px){
+			font-size: 14px;
 		}
 	}
 }
