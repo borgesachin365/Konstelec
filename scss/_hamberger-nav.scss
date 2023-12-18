@@ -354,12 +354,27 @@ label {
 }
 .home-banner-section {
 	width: 100%;
+	height: 100vh;
+	@include breakpoints(768px){
+		height: auto;
+	}
 	.carousel-item {
 		transition: -webkit-transform 1s ease;
 		transition: transform 1s ease;
 		transition: transform 1s ease, -webkit-transform 1s ease;
+		&.home-slides{
+			background-size: cover;
+			background-repeat: no-repeat;
+    		background-size: cover;
+			height: 100vh;
+			@include breakpoints(768px){
+				background-image: none;
+				height: auto;
+			}
+		}
 		img {
 			width: 100%;
+			height: 100%;
 		}
 	}
 	.carousel-caption {
@@ -372,6 +387,9 @@ label {
 		animation-duration: 1s;
 		animation-delay: 1.2s;
 		position: absolute;
+		@include breakpoints(1440px){
+			top: 57%;
+		}
 		@include breakpoints(1024px){
 			top: 50%;
 		}
@@ -429,15 +447,15 @@ label {
 	}
 	.carousel-indicators [data-bs-target]{
 		display: none;
-		@include breakpoints(480px){
-			display: block;
-			background-color: $secondary-color;
-			height: 18px;
-			width: 18px;
-			border-radius: -23px;
-			border-radius: 50px;
-			border: none;
-		}
+		// @include breakpoints(480px){
+		// 	display: block;
+		// 	background-color: $secondary-color;
+		// 	height: 18px;
+		// 	width: 18px;
+		// 	border-radius: -23px;
+		// 	border-radius: 50px;
+		// 	border: none;
+		// }
 	}
 	.carousel-control-next {
 		position: absolute;
@@ -490,17 +508,93 @@ label {
 		}
 	}
 	.carousel-control-prev-icon {
-		background-image: url("../svg/home-banner-arrow.svg");
-		transform: rotate(180deg) scale(1.3);
+		// background-image: url("../svg/home-banner-arrow.svg");
+		background-image:none;
+		transform: rotate(180deg);
 		filter: unset;
+		.link {
+			color: $primary-color;
+			cursor: pointer;
+			font-weight: 400;
+			text-decoration: none;
+		}
+		.link--arrowed {
+			display: inline-block;
+			height: 2rem;
+			line-height: 2rem;
+			
+			.arrow-icon {
+				position: relative;
+				width: 52px;
+    			height: 60px;
+				-webkit-transition: -webkit-transform 0.3s ease;
+				transition: -webkit-transform 0.3s ease;
+				transition: transform 0.3s ease;
+				transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+				vertical-align: middle;
+			}
+			.arrow-icon--circle {
+				transition: stroke-dashoffset .3s ease;
+				stroke-dasharray: 95;
+				stroke-dashoffset: 95;
+			}
+			
+			&:hover {
+				.arrow-icon {
+					transform: translate3d(5px, 0, 0);
+				}
+				
+				.arrow-icon--circle {
+					stroke-dashoffset: 0;
+				}
+			}
+		}
 		@include breakpoints(1440px){
 			transform: rotate(180deg) scale(1.2);
 		}
 	}
 	.carousel-control-next-icon {
-		background-image: url("../svg/home-banner-arrow.svg");
-		transform: rotate(0deg) scale(1.3);
+		// background-image: url("../svg/home-banner-arrow.svg");
+		// transform: rotate(0deg) scale(1.3);
 		filter: unset;
+		background-image: none;
+		.link {
+			color: $primary-color;
+			cursor: pointer;
+			font-weight: 400;
+			text-decoration: none;
+		}
+		.link--arrowed {
+			display: inline-block;
+			height: 2rem;
+			line-height: 2rem;
+			
+			.arrow-icon {
+				position: relative;
+				width: 52px;
+    			height: 60px;
+				-webkit-transition: -webkit-transform 0.3s ease;
+				transition: -webkit-transform 0.3s ease;
+				transition: transform 0.3s ease;
+				transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+				vertical-align: middle;
+			}
+			.arrow-icon--circle {
+				transition: stroke-dashoffset .3s ease;
+				stroke-dasharray: 95;
+				stroke-dashoffset: 95;
+			}
+			
+			&:hover {
+				.arrow-icon {
+					transform: translate3d(5px, 0, 0);
+				}
+				
+				.arrow-icon--circle {
+					stroke-dashoffset: 0;
+				}
+			}
+		}
 		@include breakpoints(1440px){
 			transform: rotate(0deg) scale(1.2);
 		}
@@ -567,10 +661,8 @@ label {
 		left: -45px;
 		top: -15px;
 		transform: scale(0.7);
-		@include breakpoints(480px){
-			left: -180px;
-			top: 10px;
-			transform: scale(0.4);
+		@include breakpoints(768px){
+			display: none;
 		}
 	}
 	&::after{
@@ -584,6 +676,9 @@ label {
 			bottom: -110px;
 			transform: rotate(180deg) scale(0.5);
 		
+		}
+		@include breakpoints(768px){
+			display: none;
 		}
 	}
 }
@@ -1470,7 +1565,7 @@ footer {
 .more_category {
 	color: $secondary-color;
 	background-color: $primary-color;
-	padding: 6px 7px;
+	padding: 7px 7px;
 	font-size: 14px;
 	width: 100px;
 	text-align: center;

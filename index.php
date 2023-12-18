@@ -11,8 +11,8 @@
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img src="images/Home-Hero-Slider-One.png" class="w-100 desktop-img" alt="home slider 1">
+        <div class="carousel-item home-slides active" data-bs-interval="10000" style="background-image:url('images/Home-Hero-Slider-One.png');">
+          <!-- <img src="images/Home-Hero-Slider-One.png" class="w-100 desktop-img" alt="home slider 1"> -->
           <img src="images/home-mobile-slider1.jpg" class="mobile-img" alt="home mobile slider 1">
           <div class="carousel-caption d-none" >
             <h5 class="animated fadeInUp">Committed to delivering <br> <span>comprehensive solutions</span></h5>
@@ -23,8 +23,8 @@
             </button>
           </div>
         </div>
-        <div class="carousel-item" data-bs-interval="2000">
-        <img src="images/Home-Hero-Slider-Two.png" class="w-100 desktop-img" alt="home slider 2">
+        <div class="carousel-item home-slides" data-bs-interval="2000" style="background-image:url('images/Home-Hero-Slider-Two.png');">
+        <!-- <img src="images/Home-Hero-Slider-Two.png" class="w-100 desktop-img" alt="home slider 2"> -->
         <img src="images/home-mobile-slider2.jpg" class="mobile-img" alt="home mobile slider 1">
           <div class="carousel-caption d-none">
             <h5 class="animated fadeInUp">Engineered for optimal <br> <span>quality and safety</span></h5>
@@ -35,8 +35,8 @@
             </button>
           </div>
         </div>
-        <div class="carousel-item">
-        <img src="images/Home-Hero-Slider-Three.png" class="w-100 desktop-img" alt="home slider 3">
+        <div class="carousel-item home-slides" style="background-image:url('images/Home-Hero-Slider-Three.png');">
+        <!-- <img src="images/Home-Hero-Slider-Three.png" class="w-100 desktop-img" alt="home slider 3"> -->
         <img src="images/home-mobile-slider3.jpg" class="mobile-img" alt="home mobile slider 1">
           <div class="carousel-caption d-none">
             <h5 class="animated fadeInUp"> Accelerating toward <br> <span>a sustainable future</span></h5>
@@ -49,10 +49,18 @@
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="carousel-control-prev-icon">
+          <a class="link link--arrowed" href="#">
+            <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 32 32"><g fill="none" stroke="#fff" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10"><circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle><path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path></g></svg>
+          </a>
+        </span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="carousel-control-next-icon">
+          <a class="link link--arrowed" href="#">
+            <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 32 32"><g fill="none" stroke="#fff" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10"><circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle><path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path></g></svg>
+          </a>
+        </span>
       </button>
     </div>
     </section>
@@ -73,12 +81,12 @@
                     <p>A trusted industry leader with operational prowess in EPC services</p>
                 </div>
                 <div class="usp-content" data-aos="fade-up" data-aos-duration="1000">
-                    <img src="svg/services.svg" alt="">
+                    <img src="svg/diverse-project.svg" alt="">
                     <span class="mt-2 mb-2">Diverse <br> projects</span>
                     <p>Tailoring solutions for a wide range of project <br> requirements</p>
                 </div>
                 <div class="usp-content" data-aos="fade-up" data-aos-duration="1500">
-                    <img src="svg/silhouette.svg" alt="">
+                    <img src="svg/services.svg" alt="">
                     <span class="mt-2 mb-2">Technically competent workforce</span>
                     <p>A highly skilled personnel that excels in cutting-edge engineering</p>
                 </div>
@@ -431,39 +439,39 @@
         <div class="news-block-two" data-aos="fade-up" data-aos-duration="1000">
             <div class="inner-box">
                 <div class="image">
-                    <a href="blog-detail.html"><img src="images/blogs/news-1.png" alt=""></a>
+                    <a href="javascript:void(0)"><img src="images/blogs/news-1.png" alt=""></a>
                   </div>
                   <div class="lower-content">
-                    <h3><a href="blog-detail.html" class="common-heading-text">We are best for any industrial &amp; business solution.</a></h3>
+                    <h3><a href="javascript:void(0)" class="common-heading-text">We are best for any industrial &amp; business solution.</a></h3>
                       <div class="post-date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> 13th August 2017</div>
                       <div class="text truncate-text">Great explorer of the truth, that master builder of human happiness Great explorer of the truth, that master builder of human happiness</div>
-                      <a href="blog-detail.html" class="read-more">Read More <span class="fa fa-long-arrow-right"></span></a>
+                      <a href="javascript:void(0)" class="read-more">Read More <span class="fa fa-long-arrow-right"></span></a>
                   </div>
               </div>
           </div>
           <div class="news-block-two" data-aos="fade-up" data-aos-duration="1500">
             <div class="inner-box">
                 <div class="image">
-                    <a href="blog-detail.html"><img src="images/blogs/news-2.png" alt=""></a>
+                    <a href="javascript:void(0)"><img src="images/blogs/news-2.png" alt=""></a>
                   </div>
                   <div class="lower-content">
-                    <h3><a href="blog-detail.html" class="common-heading-text">10 reason why should choose our industry.</a></h3>
+                    <h3><a href="javascript:void(0)" class="common-heading-text">10 reason why should choose our industry.</a></h3>
                       <div class="post-date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> 13th August 2017</div>
                       <div class="text truncate-text">Great explorer of the truth, that master builder of human happiness Great explorer of the truth, that master builder of human happiness</div>
-                      <a href="blog-detail.html" class="read-more">Read More <span class="fa fa-long-arrow-right"></span></a>
+                      <a href="javascript:void(0)" class="read-more">Read More <span class="fa fa-long-arrow-right"></span></a>
                   </div>
               </div>
           </div>
           <div class="news-block-two" data-aos="fade-up" data-aos-duration="2000">
             <div class="inner-box">
                 <div class="image">
-                    <a href="blog-detail.html"><img src="images/blogs/news-3.jpg" alt=""></a>
+                    <a href="javascript:void(0)"><img src="images/blogs/news-3.jpg" alt=""></a>
                   </div>
                   <div class="lower-content">
-                    <h3><a href="blog-detail.html" class="common-heading-text">We won best factory award of the year 2015 &amp; 16.</a></h3>
+                    <h3><a href="javascript:void(0)" class="common-heading-text">We won best factory award of the year 2015 &amp; 16.</a></h3>
                       <div class="post-date"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> 05th July 2017</div>
                       <div class="text truncate-text">To take a trivial example, which of us ever undertakes laborious physical To take a trivial example, which of us ever undertakes laborious physical</div>
-                      <a href="blog-detail.html" class="read-more">Read More <span class="fa fa-long-arrow-right"></span></a>
+                      <a href="javascript:void(0)" class="read-more">Read More <span class="fa fa-long-arrow-right"></span></a>
                   </div>
               </div>
           </div> 

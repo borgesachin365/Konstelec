@@ -800,7 +800,7 @@ body {
 			-o-transition: all 300ms ease;
 			font-family: $heading-font;
 			background-color: #5ca3fb;
-			padding: 6px 7px;
+			padding: 7px 7px;
 			border-radius: 58px;
 			transition: all 0.5s;
 			&:hover{
@@ -854,6 +854,17 @@ body {
 	}
 	.news-block-two {
 		position: relative;
+		&:hover{
+			img{
+				transform:scale(1.1);
+				transition: all 500ms ease;
+				-moz-transition: all 500ms ease;
+				-webkit-transition: all 500ms ease;
+				-ms-transition: all 500ms ease;
+				-o-transition: all 500ms ease;
+				filter: grayscale(100%);
+			}
+		}
 		.inner-box {
 			position: relative;
 			background-color: $secondary-color;
@@ -871,6 +882,7 @@ body {
 				-o-transition: all 500ms ease;
 				border-top-left-radius: 10px;
 				border-top-right-radius: 10px;
+				overflow: hidden;
 				img {
 					position: relative;
 					width: 100%;
@@ -896,7 +908,7 @@ body {
 					font-size: 19px;
 					font-weight: 600;
 					line-height: 28px;
-					padding-bottom: 5px;
+					padding-bottom: 10px;
 					a {
 						position: relative;
 						color: $primary-color;
@@ -1278,7 +1290,7 @@ body {
 			}
 			h1{
 				font-family: $heading-font;
-				color: $secondary-color;
+				color: #012881;
 				font-size: 70px;
 				font-weight: 600;
 				z-index: 1;
@@ -1308,10 +1320,10 @@ body {
 					  content: 'Reality!';
 					}
 					50%{
-					  content: 'Designer!';
+					  content: 'Action!';
 					}
 					100%{
-					  content: 'Animator!';
+					  content: 'Success!';
 					}
 				  }
 			}
