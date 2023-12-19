@@ -68,27 +68,27 @@
     <!--our USP section start-->
     <section class="home-our-usps position-relative">
         <div class="auto-container">
-            <h1 class="text-center" data-aos="fade-up" data-aos-duration="1000">An all-inclusive <br> engineering service provider</h1>
+            <h1 class="text-center" data-aos="fade-up" data-aos-duration="1000"><span>Our Solutions</span></h1>
             <div class="usps-main">
                 <div class="usp-content" data-aos="fade-up">
                   <img src="svg/silhouette.svg" alt="">
-                    <span class="mt-2 mb-2">27+ years of <br> experience</span>
-                    <p>Expertise through decades of successfully delivering <br> complex projects</p>
+                    <span class="mt-2 mb-2">27+ <br> years of <br> experience</span>
+                    <!-- <p>Expertise through decades of successfully delivering <br> complex projects</p> -->
                 </div>
                 <div class="usp-content" data-aos="fade-up" data-aos-duration="500">
                     <img src="svg/leadership.svg" alt="">
-                    <span class="mt-2 mb-2">Renowned EPC service contractor</span>
-                    <p>A trusted industry leader with operational prowess in EPC services</p>
+                    <span class="mt-2 mb-2">Renowned <br> EPC service <br>contractor</span>
+                    <!-- <p>A trusted industry leader with operational prowess in EPC services</p> -->
                 </div>
                 <div class="usp-content" data-aos="fade-up" data-aos-duration="1000">
                     <img src="svg/diverse-project.svg" alt="">
                     <span class="mt-2 mb-2">Diverse <br> projects</span>
-                    <p>Tailoring solutions for a wide range of project <br> requirements</p>
+                    <!-- <p>Tailoring solutions for a wide range of project <br> requirements</p> -->
                 </div>
                 <div class="usp-content" data-aos="fade-up" data-aos-duration="1500">
                     <img src="svg/services.svg" alt="">
-                    <span class="mt-2 mb-2">Technically competent workforce</span>
-                    <p>A highly skilled personnel that excels in cutting-edge engineering</p>
+                    <span class="mt-2 mb-2">Technically<br> competent<br> workforce</span>
+                    <!-- <p>A highly skilled personnel that excels in cutting-edge engineering</p> -->
                 </div>
             </div>
         </div>
@@ -212,7 +212,7 @@
     <section class="our-key-projects common-padding">
         <div class="auto-container">
         <h1 class="common-heading text-center" data-aos="fade-down" data-aos-duration="500"><span>Our Key Projects</span></h1>
-          <div class="owl-slider mt-5" data-aos="fade-up" data-aos-duration="500">
+          <div class="owl-slider mt-5 home-projects-slider" data-aos="fade-up" data-aos-duration="500">
             <div id="owl-example-projects" class="owl-carousel tabs">
               <li class="active"><a href="#tab1">Hydrocarbon Oil & Gas</a></li>
               <li><a href="#tab2">Power</a></li>

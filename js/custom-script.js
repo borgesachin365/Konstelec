@@ -89,7 +89,7 @@ $("#client-slider").owlCarousel({
   autoplayTimeout: 7000,
   smartSpeed: 800,
   nav: true,
-  navText: ["<img src='svg/home-banner-arrow.svg'>","<img src='svg/home-banner-arrow.svg'>"],
+  navText: ["<img src='images/prev__arrow.png'>","<img src='images/next__arrow.png'>"],
   responsive: {
     0: {
       items: 2,
@@ -130,11 +130,11 @@ $("#owl-example-projects").owlCarousel({
     },
     1024: {
       items: 3,
-      margin: 10
+      margin: 20
     },
     1101: {
       items: 3,
-      margin: 10
+      margin: 20
     },
     1366: {
       items: 4

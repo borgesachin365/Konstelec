@@ -365,7 +365,6 @@ label {
 		&.home-slides{
 			background-size: cover;
 			background-repeat: no-repeat;
-    		background-size: cover;
 			height: 100vh;
 			@include breakpoints(768px){
 				background-image: none;
@@ -390,8 +389,14 @@ label {
 		@include breakpoints(1440px){
 			top: 57%;
 		}
+		@include breakpoints(1101px){
+			top: 41%;
+		}
 		@include breakpoints(1024px){
-			top: 50%;
+			top: 40%;
+		}
+		@include breakpoints(768px){
+			top: 48%;
 		}
 		@include breakpoints(480px){
 			top: 5%;
@@ -459,7 +464,7 @@ label {
 	}
 	.carousel-control-next {
 		position: absolute;
-		top: 54%;
+		top: 51%;
 		right: 115px;
 		z-index: 1;
 		display: flex;
@@ -474,8 +479,18 @@ label {
 		opacity: 1;
 		transition: opacity 0.15s ease;
 		height: 5%;
+		@include breakpoints(1440px){
+			top: 53%;
+		}
+		@include breakpoints(1101px){
+			top: 37%;
+		}
 		@include breakpoints(1024px){
-			top:44%;
+			top:36%;
+			right: 50px;
+		}
+		@include breakpoints(768px){
+			top:43%;
 			right: 50px;
 		}
 		@include breakpoints(480px){
@@ -499,8 +514,15 @@ label {
 		opacity: 1;
 		transition: opacity 0.15s ease;
 		height: 5%;
+		@include breakpoints(1101px){
+			top:38%;
+		}
 		@include breakpoints(1024px){
-			top:44%;
+			top:37%;
+			left: 50px;
+		}
+		@include breakpoints(768px){
+			top:45%;
 			left: 50px;
 		}
 		@include breakpoints(480px){
@@ -532,6 +554,15 @@ label {
 				transition: transform 0.3s ease;
 				transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 				vertical-align: middle;
+				@include breakpoints(1536px){
+					height: 56px;
+				}
+				@include breakpoints(1440px){
+					height: 40px;
+				}
+				@include breakpoints(1101px){
+					height: 37px;
+				}
 			}
 			.arrow-icon--circle {
 				transition: stroke-dashoffset .3s ease;
@@ -578,6 +609,9 @@ label {
 				transition: transform 0.3s ease;
 				transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 				vertical-align: middle;
+				@include breakpoints(1440px){
+					height: 40px;
+				}
 			}
 			.arrow-icon--circle {
 				transition: stroke-dashoffset .3s ease;
@@ -642,6 +676,7 @@ label {
 }
 
 .home-our-usps{
+	background-color: #d6dded;
 	@include common-padding;
 	h1{
 		@include common-heading;
@@ -686,6 +721,7 @@ label {
 	display: grid;
 	grid-auto-rows: auto;
 	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-gap: 30px;
 	@include breakpoints(1024px){
 	    grid-auto-rows: 325px;
 	}
@@ -698,17 +734,17 @@ label {
 	}
 }
 .usp-content {
-	text-align: center;
-	padding: 35px;
-	background: transparent;
-	background-image: url("../svg/hexagon-shape.svg");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	height: 253px;
-	display: flex;
+    text-align: center;
+
+    height: 200px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+	background-color: $secondary-color;
 	@include breakpoints(1024px){
 	   height:320px;
 	   padding: 53px;
@@ -731,9 +767,10 @@ label {
 	span {
 		display: block;
 		font-size: 18px;
-		font-weight: 700;
+		font-weight: 600;
 		color: $primary-color;
 		font-family: $heading-font;
+		line-height: 24px;
 		@include breakpoints(1101px){
 			font-size: 17px;
 		}
@@ -775,7 +812,7 @@ label {
 	font-size: 14px;
 	color: $text-color;
 	line-height: 25px;
-	font-weight: 500;
+	font-weight: 400;
 	margin: 0;
 	font-family: $heading-font;
 	@include breakpoints(768px){
@@ -983,6 +1020,12 @@ label {
 }
 .our-key-projects {
 	background-color: $bg-gray;
+	.home-projects-slider{
+		@include breakpoints(1101px){
+			width: 80%;
+			margin: 0 auto;
+		}
+	}
 	@include common-padding;
 	h1{
 		@include common-heading;
@@ -1294,9 +1337,9 @@ label {
 		position: absolute;
 	}
 	.owl-next {
-		right: -18px;
-		top: 30px;
-		width: 3.3%;
+		right: -65px;
+		top: 29px;
+		width: 2.7%;
 		// @include breakpoints(1280px){
 		// 	right: -20px;
 		// }
@@ -1315,15 +1358,15 @@ label {
 		}
 	}
 	.owl-prev {
-		left: -18px;
-		top: 30px;
-		width: 3.3%;
+		left: -65px;
+		top: 29px;
+		width: 2.7%;
 		// @include breakpoints(1280px){
 		// 	left: -20px;
 		// }
 		 img {
 			width: 100%;
-			transform: rotate(180deg);
+			// transform: rotate(180deg);
 		}
 		@include breakpoints(768px){
 			left: -10px;
@@ -1380,19 +1423,26 @@ footer {
 			width: 30%;
 		}
 	}
-}
+	.footer-social-strip{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 40px;
+	}
+	}
+
 .social-style-one {
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	display: -webkit-inline-box;
 	display: -ms-inline-flexbox;
 	display: inline-flex;
-	margin-right: -10px;
+    margin-left: 10px;
 	a {
 		color: $secondary-color;
 		background: #5ca3fb;
-		width: 33px;
-		height: 33px;
+		width: 40px;
+		height: 40px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -1409,7 +1459,7 @@ footer {
 .footer-title {
 	font-size: 18px;
 	color: $secondary-color;
-	font-weight: 600;
+	font-weight: 500;
 	margin-bottom: 15px;
 	font-family: $heading-font;
 	text-transform: uppercase;
@@ -1422,8 +1472,7 @@ footer {
 			font-size: 15px;
 			margin: 3px 0;
 			display: block;
-			font-weight: 500;
-			margin-left: 10px;
+			font-weight: 400;
 			position: relative;
 		}
 		@include breakpoints(768px){
@@ -1433,13 +1482,19 @@ footer {
 }
 .copyright-strip {
 	padding: 10px 0;
-	background-color: $black-color;
+	background-color: #001850;
 	text-align: center;
 	width: 100%;
 	float: left;
 	.common-para {
 		color: $secondary-color;
-		font-size: 14px;
+		font-size: 13px;
+		font-weight: 400;
+		font-family: $paragraph-font;
+		a{
+			color: $secondary-color;
+			text-decoration: underline;
+		}
 	}
 }
 #top-btn {
