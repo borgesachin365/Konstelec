@@ -377,7 +377,7 @@ label {
 		}
 	}
 	.carousel-caption {
-		top: 55%;
+		top: 59%;
 		left: 41%;
 		transform: translate(-50%, -50%);
 		display: flex !important;
@@ -396,7 +396,10 @@ label {
 			top: 40%;
 		}
 		@include breakpoints(768px){
-			top: 48%;
+			top: 52%;
+			width: 100%;
+			transform: translate(20%, -50%);
+			left: 0;
 		}
 		@include breakpoints(480px){
 			top: 5%;
@@ -410,44 +413,62 @@ label {
 			transition: all 0.3s;
 		}
 		h5 {
-			font-family: $heading-font;
-			color: $secondary-color;
-			font-size: 31px;
+			font-family: "Teko", sans-serif;
+			color: #9edaff;
+			font-size: 80px;
 			animation-duration: 1s;
 			animation-delay: 1.8s;
 			text-align: left;
 			font-weight: 500;
-			text-transform: uppercase;
-			line-height: 65px;
+			line-height: 72px;
+			position: relative;
+			&::before{
+				position: absolute;
+				content: "";
+				width: 120px;
+				height: 3px;
+				left: 0;
+				top: -35px;
+				background-color: #9edaff;
+				@include breakpoints(1440px){
+					top: -30px;
+				}
+				@include breakpoints(1101px){
+					top: -25px;
+				}
+			}
 			@include breakpoints(1440px){
-				font-size: 28px;
-				line-height: 55px;
+				font-size: 65px;
+				line-height: 60px;
+			}
+			@include breakpoints(1101px){
+				font-size: 60px;
+				line-height: 60px;
 			}
 			@include breakpoints(1024px){
-				font-size: 24px;
+				font-size: 55px;
 				line-height: 47px;
 			}
 			@include breakpoints(768px){
-				font-size: 22px;
+				font-size: 50px;
 			}
 			@include breakpoints(480px){
-				font-size: 18px;
+				font-size: 35px;
 				line-height: 31px;
 			}
-			span {
-				font-size: 55px;
-				color: $secondary-color;
-				font-weight: 700;
-				@include breakpoints(1440px){
-					font-size: 45px;
-				}
-				@include breakpoints(1024px){
-					font-size: 40px;
-				}
-				@include breakpoints(480px){
-					font-size: 28px;
-				}
-			}
+			// span {
+			// 	font-size: 55px;
+			// 	font-weight: 700;
+			// 	@include breakpoints(1440px){
+			// 		font-size: 45px;
+			// 	}
+			// 	@include breakpoints(1024px){
+			// 		font-size: 40px;
+			// 	}
+			// 	@include breakpoints(480px){
+			// 		font-size: 28px;
+			// 	}
+			// }
 		}
 	}
 	.carousel-indicators [data-bs-target]{
@@ -641,19 +662,20 @@ label {
 }
 .cta-btn {
 	padding: 7px;
-	@include border-radius(50px);
+	// @include border-radius(50px);
 	width: 105px;
-	background-color: $primary-color;
+	background-color: #4496c8;
 	transition: all 0.5s;
+	margin-top: 30px;
 	@include breakpoints(1366px){
 		width: 100px;
-		padding: 5px;
+		padding: 7px;
 	}
 	@include breakpoints(480px){
-		margin-top: 8px!important;
+		margin-top: 20px!important;
 	}
 	a {
-		background-color: $primary-color;
+		background-color: #4496c8;
 		color: $secondary-color;
 		font-family: $paragraph-font;
 		font-weight: 500;
@@ -690,6 +712,14 @@ label {
 			line-height: 32px;
 		}
 	}
+	.auto-container{
+		@include breakpoints(1366px){
+			max-width: 1100px;
+		}
+		@include breakpoints(1101px){
+			max-width: 970px;
+		}
+	}
 	&::before{
 		position: absolute;
 		content: url(../images/hexagon-vectors.png);
@@ -722,37 +752,82 @@ label {
 	grid-auto-rows: auto;
 	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 	grid-gap: 30px;
+	@include breakpoints(1366px){
+		grid-template-columns: repeat(auto-fill, minmax(235px, 1fr));
+		grid-gap: 0;
+	}
+	@include breakpoints(1101px){
+	    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+	}
 	@include breakpoints(1024px){
-	    grid-auto-rows: 325px;
+	
 	}
 	@include breakpoints(768px){
-	    grid-auto-rows: 240px;
+	   
 	}
 	@include breakpoints(480px){
-		margin-top: 10px!important;
-		grid-auto-rows: 220px;
+		grid-gap: 30px;
 	}
 }
 .usp-content {
-    text-align: center;
+	height: 260px;
+	width: 260px;
+	z-index: 5;
+	background-color:#e9ecf5f0;
+	text-align: center;
+	border-radius:50%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border: 5px solid #ebf1ff;
+    box-shadow: 0 0 0 0px #ebf1ffde inset;
+	box-shadow: -1px 16px 34px -20px rgba(0,0,0,0.75);
+	-webkit-box-shadow: -1px 16px 34px -20px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 16px 34px -20px rgba(0,0,0,0.75);
+	&:nth-last-child(1){
+		@include breakpoints(768px){
+	   margin-top: 30px;
+		}
+		@include breakpoints(480px){
+			margin-top: 0px;
+			 }
+	}
+		&::before{
+			content: '';
+			height: 220px;
+			width: 220px;
+			background-color:$secondary-color;
+			position:absolute;
+			z-index: -2;
+			border-radius: 100%;
+			border: 2px solid #e5eaf5;
+			box-shadow: 0 0 0 5px #ebf1ffde inset;
+			@include breakpoints(1366px){
+				height: 200px;
+				width: 200px;
+				}	
+				@media (max-width: 1101px){
+					height: 170px;
+					width: 170px;
+				}  
+		  }
 
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    border-radius: 50%;
-    margin: 0 auto;
-	background-color: $secondary-color;
+	@include breakpoints(1366px){
+		width: 230px;
+		height: 230px;
+		}	
+		@media (max-width: 1101px){
+			width: 200px;
+			height: 200px;
+		}  
 	@include breakpoints(1024px){
-	   height:320px;
 	   padding: 53px;
 	}
 	@include breakpoints(768px){
 		font-size: 18px;
 		background-image: none;
-		height: auto;
 		padding:0 40px;
 	}
 	@include breakpoints(480px){
@@ -809,14 +884,14 @@ label {
 	}
 }
 .common-para {
-	font-size: 14px;
+	font-size: 16px;
 	color: $text-color;
 	line-height: 25px;
 	font-weight: 400;
 	margin: 0;
 	font-family: $heading-font;
 	@include breakpoints(768px){
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 }
@@ -855,7 +930,7 @@ label {
 	p {
 		&:first-of-type {
 			color: $primary-color;
-			font-size: 18px !important;
+			font-size: 20px !important;
 			font-size: 26px;
 			font-weight: 600;
 			margin-bottom: 28px;
@@ -1142,6 +1217,11 @@ label {
 	background-repeat: no-repeat;
 	background-size: cover;
     background-attachment: fixed;
+	.second-grid{
+		@include breakpoints(480px){
+			margin-top: 30px;
+		}
+	}
 	h1{
 		@include common-heading;
 		margin-bottom: 80px;
@@ -1222,6 +1302,11 @@ label {
 }
 .our-clients {
 	background-color: $secondary-color;
+	.auto-container{
+		@include breakpoints(1101px){
+			max-width:970px ;
+		}
+	}
 	@include common-padding;
 	h1{
 		@include common-heading;
@@ -1234,7 +1319,8 @@ label {
 	width: 100%;
 	float: left;
 	padding: 20px 0px;
-	background-color: $primary-color;
+	background-image: url(../images/contact-us-strip.png);
+	background-size: 100%;
 	@include breakpoints(991px){
 		padding: 10px 0;
 	}
@@ -1296,7 +1382,7 @@ label {
 .eltd-call-to-action-text {
 	h3 {
 		color: $secondary-color;
-		font-size: 28px;
+		font-size: 24px;
 		font-family: $heading-font;
 		font-weight: 500;
 		@include breakpoints(1280px){
@@ -1335,14 +1421,17 @@ label {
 #client-slider {
 	button {
 		position: absolute;
+		@include breakpoints(1024px){
+			display: none;
+		}
 	}
 	.owl-next {
 		right: -65px;
 		top: 29px;
 		width: 2.7%;
-		// @include breakpoints(1280px){
-		// 	right: -20px;
-		// }
+		@include breakpoints(1280px){
+			right: -45px;
+		}
 		 img {
 			width: 100%;
 		}
@@ -1361,9 +1450,9 @@ label {
 		left: -65px;
 		top: 29px;
 		width: 2.7%;
-		// @include breakpoints(1280px){
-		// 	left: -20px;
-		// }
+		@include breakpoints(1280px){
+			left: -45px;
+		}
 		 img {
 			width: 100%;
 			// transform: rotate(180deg);
@@ -1437,12 +1526,12 @@ footer {
 	display: -webkit-inline-box;
 	display: -ms-inline-flexbox;
 	display: inline-flex;
-    margin-left: 10px;
+    // margin-left: 10px;
 	a {
 		color: $secondary-color;
 		background: #5ca3fb;
-		width: 40px;
-		height: 40px;
+		width: 38px;
+		height: 38px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -1482,13 +1571,13 @@ footer {
 }
 .copyright-strip {
 	padding: 10px 0;
-	background-color: #001850;
+	background-color: $primary-color;
 	text-align: center;
 	width: 100%;
 	float: left;
 	.common-para {
 		color: $secondary-color;
-		font-size: 13px;
+		font-size: 14px;
 		font-weight: 400;
 		font-family: $paragraph-font;
 		a{

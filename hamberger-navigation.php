@@ -2,7 +2,7 @@
             <div class="header-top">
                 <div class="auto-container">
                     <div class="top-outer clearfix">
-                        <div class="top-left">
+                        <!-- <div class="top-left">
                             <ul class="links clearfix">
                                 <li><a href="javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                                 </li>
@@ -13,7 +13,7 @@
                                 <li><a href="javascript:void(0)"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> -->
                         <div class="top-right clearfix">
                             <ul class="clearfix">
                                 <li><a href="#">BSE India : Konstelec Engineers Limited</a></li>

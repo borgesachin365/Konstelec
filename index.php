@@ -16,7 +16,7 @@
           <img src="images/home-mobile-slider1.jpg" class="mobile-img" alt="home mobile slider 1">
           <div class="carousel-caption d-none" >
             <h5 class="animated fadeInUp">Committed to delivering <br> <span>comprehensive solutions</span></h5>
-            <button class="cta-btn mt-4 animated fadeInUp" style="animation-delay: 2s">
+            <button class="cta-btn animated fadeInUp" style="animation-delay: 2s">
                 <a href="javascript:vooid(0)">
                     Know More
                 </a>
@@ -28,7 +28,7 @@
         <img src="images/home-mobile-slider2.jpg" class="mobile-img" alt="home mobile slider 1">
           <div class="carousel-caption d-none">
             <h5 class="animated fadeInUp">Engineered for optimal <br> <span>quality and safety</span></h5>
-            <button class="cta-btn mt-4 animated fadeInUp" style="animation-delay: 2s">
+            <button class="cta-btn animated fadeInUp" style="animation-delay: 2s">
                 <a href="javascript:vooid(0)">
                     Know More
                 </a>
@@ -40,7 +40,7 @@
         <img src="images/home-mobile-slider3.jpg" class="mobile-img" alt="home mobile slider 1">
           <div class="carousel-caption d-none">
             <h5 class="animated fadeInUp"> Accelerating toward <br> <span>a sustainable future</span></h5>
-            <button class="cta-btn mt-4 animated fadeInUp" style="animation-delay: 2s">
+            <button class="cta-btn animated fadeInUp" style="animation-delay: 2s">
                 <a href="javascript:vooid(0)">
                     Know More
                 </a>
@@ -73,22 +73,18 @@
                 <div class="usp-content" data-aos="fade-up">
                   <img src="svg/silhouette.svg" alt="">
                     <span class="mt-2 mb-2">27+ <br> years of <br> experience</span>
-                    <!-- <p>Expertise through decades of successfully delivering <br> complex projects</p> -->
                 </div>
                 <div class="usp-content" data-aos="fade-up" data-aos-duration="500">
                     <img src="svg/leadership.svg" alt="">
                     <span class="mt-2 mb-2">Renowned <br> EPC service <br>contractor</span>
-                    <!-- <p>A trusted industry leader with operational prowess in EPC services</p> -->
                 </div>
                 <div class="usp-content" data-aos="fade-up" data-aos-duration="1000">
                     <img src="svg/diverse-project.svg" alt="">
                     <span class="mt-2 mb-2">Diverse <br> projects</span>
-                    <!-- <p>Tailoring solutions for a wide range of project <br> requirements</p> -->
                 </div>
                 <div class="usp-content" data-aos="fade-up" data-aos-duration="1500">
                     <img src="svg/services.svg" alt="">
                     <span class="mt-2 mb-2">Technically<br> competent<br> workforce</span>
-                    <!-- <p>A highly skilled personnel that excels in cutting-edge engineering</p> -->
                 </div>
             </div>
         </div>
@@ -145,7 +141,7 @@
     <h1 class="text-center" data-aos="fade-down" data-aos-duration="500"><span>Our Services</span></h1>
     	<div class="auto-container">
         	<div class="row clearfix" data-aos="fade-up" data-aos-duration="1000">
-                <div class="title-column m-block col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <div class="title-column m-block col-lg-4 col-md-12 col-sm-12 col-xs-12 services-left-content">
                 	<div class="inner-column">
                     	<div class="sec-title light">
                         	<h2>Our Services</h2>
@@ -160,7 +156,7 @@
                         <img src="svg/engineering-design.svg" alt="">
                         </div>
                     	<h3><a href="javascript:void(0)">Engineering Design</a></h3>
-                        <div class="text">Innovative solutions, engineered with precision</div>
+                        <div class="text">Cutting-edge solutions crafted with precision for optimal  performance.</div>
                         <a href="javascript:void(0)" class="view_all">Know More <span class="icon flaticon-right-arrow-1"></span></a>
                     </div>
                 </div>
@@ -170,7 +166,7 @@
                         	<img src="svg/procurement.svg" alt="">
                         </div>
                     	<h3><a href="javascript:void(0)">Procurement</a></h3>
-                        <div class="text">Empowering supply chain success</div>
+                        <div class="text">Empowering supply chain success through optimized sourcing strategies.</div>
                         <a href="javascript:void(0)" class="view_all">Know More <span class="icon flaticon-right-arrow-1"></span></a>
                     </div>
                 </div>
@@ -180,7 +176,7 @@
                         	<img src="svg/operation-maintanance.svg" alt="">
                         </div>
                     	<h3><a href="javascript:void(0)">Operation &amp; Maintenance</a></h3>
-                        <div class="text">Reliable, responsive, result-driven</div>
+                        <div class="text">Responsive to the dynamic nature of modern operations, we adapt to evolving challenges.</div>
                         <a href="javascript:void(0)" class="view_all">Know More <span class="icon flaticon-right-arrow-1"></span></a>
                     </div>
                 </div>
@@ -190,7 +186,7 @@
                         	<img src="svg/construction-commissioning.svg" alt="">
                         </div>
                     	<h3><a href="javascript:void(0)">Construction &amp; Comisisonning</a></h3>
-                        <div class="text">Crafting quality structures and solutions</div>
+                        <div class="text">Crafting quality structures and innovative solutions for seamless construction.</div>
                         <a href="javascript:void(0)" class="view_all">Know More <span class="icon flaticon-right-arrow-1"></span></a>
                     </div>
                 </div>
@@ -200,7 +196,7 @@
                         	<img src="svg/project-management.svg" alt="">
                         </div>
                     	<h3><a href="javascript:void(0)">Project Management</a></h3>
-                        <div class="text">From concept to completion, we manage it all</div>
+                        <div class="text">Managing projects comprehensively, from concept inception to successful completion.</div>
                         <a href="javascript:void(0)" class="view_all">Know More <span class="icon flaticon-right-arrow-1"></span></a>
                     </div>
                 </div>
@@ -375,7 +371,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-sm-6 col-xs-12">
+              <div class="col-md-6 col-sm-6 col-xs-12 second-grid">
                 <div class="process-2">
                   <div class="process-box" data-aos="zoom-in" data-aos-duration="500">
                     <div class="clearfix">
@@ -435,7 +431,7 @@
     <section class="home-blog-section">
       <div class="auto-container">
         <h1 class="sm-mb-3 lg-mb-5 text-center" data-aos="fade-down" data-aos-duration="500"><span>Our Blogs</span></h1>
-        <div class="home-bolgs-main">
+        <div class="home-bolgs-main"> 
         <div class="news-block-two" data-aos="fade-up" data-aos-duration="1000">
             <div class="inner-box">
                 <div class="image">
@@ -475,7 +471,7 @@
                   </div>
               </div>
           </div> 
-        </div>         
+        </div>       
       </div>
     </section>
     <!--our blogs section end-->

@@ -100,8 +100,11 @@ $("#client-slider").owlCarousel({
       margin:10
     },
     1024: {
-      items: 3,
+      items: 4,
       margin:10
+    },
+    1280: {
+      items: 4
     },
     1366: {
       items: 4
@@ -179,4 +182,8 @@ window.addEventListener("scroll", () => {
     headertop.style.display = "block"
   }
 });
+
+
+
+
 

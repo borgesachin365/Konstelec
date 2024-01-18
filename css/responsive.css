@@ -28,9 +28,9 @@
 		margin-left:20px;	
 	}
 	
-	.sec-title h2{
+	/* .sec-title h2{
 		font-size:30px;
-	}
+	} */
 	
 	.main-header .header-top .top-left ul li:last-child{
 		top:0px;
@@ -181,9 +181,9 @@
 		padding:0px 15px;
 	} */
 	
-	.market-block .inner-box{
+	/* .market-block .inner-box{
 		padding:0px 20px;	
-	}
+	} */
 	
 	.market-section .market-block .inner-box:before{
 		left:0px;
